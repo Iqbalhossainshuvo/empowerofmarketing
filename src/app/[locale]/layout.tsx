@@ -4,6 +4,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { isRtl, routing, type Locale } from "@/i18n/routing";
 import { fontStylesheetFor } from "@/lib/fonts";
 import { MotionProvider } from "@/components/ui/MotionProvider";
+import { RevealObserver } from "@/components/ui/RevealObserver";
 import "../globals.css";
 
 export const dynamicParams = false;
@@ -25,10 +26,15 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={isRtl(locale as Locale) ? "rtl" : "ltr"}>
-      <head>{fontCss ? <link rel="stylesheet" href={fontCss} /> : null}</head>
+      <head>
+        {/* Marks JS as available so entrance animations can start hidden; without JS everything shows. */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+        {fontCss ? <link rel="stylesheet" href={fontCss} /> : null}
+      </head>
       <body>
         <NextIntlClientProvider>
           <MotionProvider>{children}</MotionProvider>
+          <RevealObserver />
         </NextIntlClientProvider>
       </body>
     </html>
