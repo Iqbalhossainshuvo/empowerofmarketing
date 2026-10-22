@@ -12,7 +12,8 @@
     "typecheck": "tsc --noEmit",
     "test:unit": "node --import tsx --test tests/unit/*.test.ts",
     "test:e2e": "playwright test",
-    "test": "npm run test:unit && npm run test:e2e"
+    "test": "npm run test:unit && npm run test:e2e",
+    "postbuild": "node scripts/make-404.mjs"
   },
   "dependencies": {
     "@fontsource-variable/alexandria": "^5.3.0",
