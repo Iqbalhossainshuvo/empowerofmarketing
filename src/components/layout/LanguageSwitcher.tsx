@@ -41,12 +41,12 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
         type="button"
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label={`${t("language")}: ${localeLabels[locale]}`}
         onClick={() => setOpen((v) => !v)}
         className="inline-flex h-11 items-center gap-1.5 rounded-full px-3 text-sm font-medium text-fg/90 transition-colors hover:bg-white/5"
       >
         <Globe aria-hidden className="size-4" />
-        {compact ? null : <span>{locale.toUpperCase()}</span>}
+        <span className="sr-only">{t("language")}:</span>
+        {compact ? <span className="sr-only">{localeLabels[locale]}</span> : <span>{locale.toUpperCase()}</span>}
         <ChevronDown aria-hidden className={`size-3.5 transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open ? (

@@ -84,12 +84,12 @@ export function Hero() {
       </div>
       <div className="container-x grid items-center gap-12 lg:grid-cols-[1.05fr_1fr] lg:gap-8">
         <div className="relative z-10">
-          <Reveal variant="scale">
+          <Reveal immediate variant="scale">
             <Badge>{t("badge")}</Badge>
           </Reveal>
           <h1
             id="hero-title"
-            data-words
+            data-words-intro
             className="mt-7 text-[clamp(2.6rem,6.4vw,5.4rem)] leading-[1.02] font-semibold text-white"
           >
             <Words text={t("titleA")} />
@@ -97,10 +97,10 @@ export function Hero() {
             {/\s/.test(t("titleA")) ? " " : null}
             <Words text={t("titleHighlight")} offset={t("titleA").split(/\s+/).length} wordClassName="text-gradient" />
           </h1>
-          <Reveal delay={350}>
+          <Reveal immediate delay={350}>
             <p className="mt-6 max-w-xl text-lg text-muted md:text-xl">{t("subtitle")}</p>
           </Reveal>
-          <Reveal delay={480} className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <Reveal immediate delay={480} className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
             <BookCallButton />
             <GlowAnchor
               variant="ghost"
@@ -112,11 +112,11 @@ export function Hero() {
               {tc("whatsapp")}
             </GlowAnchor>
           </Reveal>
-          <Reveal delay={600}>
+          <Reveal immediate delay={600}>
             <p className="mt-5 text-sm text-muted">{t("note")}</p>
           </Reveal>
         </div>
-        <Reveal variant="scale" delay={200} className="relative">
+        <Reveal immediate variant="scale" delay={200} className="relative">
           <Orb cards={cards} />
         </Reveal>
       </div>

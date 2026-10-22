@@ -3,17 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "fonts": "node scripts/copy-fonts.mjs",
-    "predev": "npm run fonts",
     "dev": "next dev",
-    "prebuild": "npm run fonts",
     "build": "next build",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test:unit": "node --import tsx --test tests/unit/*.test.ts",
     "test:e2e": "playwright test",
     "test": "npm run test:unit && npm run test:e2e",
-    "postbuild": "node scripts/make-404.mjs"
+    "postbuild": "node scripts/make-404.mjs",
+    "og": "node scripts/make-og.mjs"
   },
   "dependencies": {
     "@fontsource-variable/alexandria": "^5.3.0",
@@ -22,7 +20,6 @@
     "@fontsource-variable/sora": "^5.3.0",
     "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
     "lucide-react": "^1.61.0",
-    "motion": "^14.6.0",
     "next": "16.4.2",
     "next-intl": "^4.14.9",
     "react": "19.3.0",

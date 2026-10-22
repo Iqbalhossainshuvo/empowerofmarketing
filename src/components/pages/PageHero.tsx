@@ -28,20 +28,20 @@ export function PageHero({
       <div className={`container-x grid items-center gap-14 ${visual ? "lg:grid-cols-[1.1fr_0.9fr]" : ""}`}>
         <div className={visual ? "" : "max-w-4xl"}>
           <Eyebrow>{eyebrow}</Eyebrow>
-          <h1 id="page-title" data-words className="text-[clamp(2.4rem,5.6vw,4.6rem)] leading-[1.04] font-semibold text-white">
+          <h1 id="page-title" data-words-intro className="text-[clamp(2.4rem,5.6vw,4.6rem)] leading-[1.04] font-semibold text-white">
             <Words text={title} />
           </h1>
-          <Reveal delay={260}>
+          <Reveal immediate delay={260}>
             <p className="mt-6 max-w-2xl text-lg text-muted md:text-xl">{subtitle}</p>
           </Reveal>
           {actions ? (
-            <Reveal delay={380} className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Reveal immediate delay={380} className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
               {actions}
             </Reveal>
           ) : null}
         </div>
         {visual ? (
-          <Reveal variant="scale" delay={200}>
+          <Reveal immediate variant="scale" delay={200}>
             {visual}
           </Reveal>
         ) : null}

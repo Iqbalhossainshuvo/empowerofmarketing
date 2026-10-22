@@ -84,7 +84,7 @@ export function Footer() {
       </div>
 
       <div className="container-x">
-        <p aria-hidden className="pointer-events-none select-none bg-gradient-to-b from-white/[0.08] to-transparent bg-clip-text text-center font-display text-[clamp(1.3rem,6vw,5.3rem)] leading-none font-bold tracking-tight whitespace-nowrap text-transparent" dir="ltr">
+        <p aria-hidden className="pointer-events-none select-none bg-gradient-to-b from-white/[0.08] to-transparent bg-clip-text text-center font-display text-[clamp(1.3rem,6vw,5.3rem)] leading-none font-bold tracking-tight whitespace-nowrap text-transparent" dir="ltr" translate="no">
           EMPOWER OF MARKETING
         </p>
       </div>

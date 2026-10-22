@@ -18,9 +18,6 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
   const pathname = usePathname();
   const ref = useRef<HTMLDivElement>(null);
   const [expanded, setExpanded] = useState<"services" | "solutions" | null>(null);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
   useEffect(() => {
     if (open) onClose();
     // close after navigating
@@ -65,7 +62,8 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
     };
   }, [open, onClose]);
 
-  if (!mounted || !open) return null;
+  // Only ever opened by a tap after the page has loaded, so `document` is available here.
+  if (!open) return null;
 
   const group = (key: "services" | "solutions") => {
     const items = key === "services" ? services : solutions;
@@ -109,7 +107,7 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
       role="dialog"
       aria-modal="true"
       aria-label={tc("menu")}
-      className="fixed inset-0 z-[60] flex flex-col overflow-y-auto bg-ink-950/98 backdrop-blur-xl lg:hidden"
+      className="fixed inset-0 z-[60] flex flex-col overflow-y-auto overscroll-contain pb-[env(safe-area-inset-bottom)] bg-ink-950/98 backdrop-blur-xl lg:hidden"
     >
       <div className="container-x flex h-[72px] shrink-0 items-center justify-between">
         <Logo />

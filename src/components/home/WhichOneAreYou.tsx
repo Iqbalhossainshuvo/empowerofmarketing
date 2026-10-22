@@ -60,7 +60,7 @@ export function WhichOneAreYou() {
               tabIndex={selected ? 0 : -1}
               onClick={() => setActive(i)}
               onKeyDown={(e) => onKey(e, i)}
-              className={`group flex items-center gap-4 rounded-2xl border px-5 py-4 text-start transition-all duration-300 ${
+              className={`group flex items-center gap-4 rounded-2xl border px-5 py-4 text-start transition-[border-color,background-color,box-shadow] duration-300 ${
                 selected
                   ? "border-mint/50 bg-mint/[0.07] shadow-[0_0_40px_-12px_rgb(124_245_180/0.6)]"
                   : "border-white/10 bg-white/[0.025] hover:border-white/25 hover:bg-white/[0.05]"
@@ -76,7 +76,7 @@ export function WhichOneAreYou() {
               <span className="text-[1.05rem] font-semibold text-white">{t(`items.${it.key}.title`)}</span>
               <ArrowRight
                 aria-hidden
-                className={`flip-rtl ms-auto size-5 shrink-0 transition-all ${selected ? "text-mint" : "text-white/20 group-hover:text-white/50"}`}
+                className={`flip-rtl ms-auto size-5 shrink-0 transition-colors ${selected ? "text-mint" : "text-white/20 group-hover:text-white/50"}`}
               />
             </button>
           );

@@ -18,6 +18,7 @@ export default function PricingPage() {
       <PageHero eyebrow={t("eyebrow")} title={t("title")} subtitle={t("subtitle")} />
       <section aria-label={t("eyebrow")} className="pb-16">
         <div className="container-x">
+          <h2 className="sr-only">{t("eyebrow")}</h2>
           <PricingTable />
           <ul className="mt-14 grid gap-3 md:grid-cols-3">
             {notes.map((n, i) => (

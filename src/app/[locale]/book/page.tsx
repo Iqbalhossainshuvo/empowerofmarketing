@@ -48,21 +48,21 @@ export default function BookPage() {
         <div className="container-x grid items-center gap-16 lg:grid-cols-[1fr_0.85fr]">
           <div>
             <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
-            <h1 id="page-title" data-words className="text-[clamp(2.8rem,7vw,5.6rem)] leading-[1] font-semibold text-white">
+            <h1 id="page-title" data-words-intro className="text-[clamp(2.8rem,7vw,5.6rem)] leading-[1] font-semibold text-white">
               <Words text={book.title} />
             </h1>
-            <Reveal delay={250}>
+            <Reveal immediate delay={250}>
               <p className="mt-6 max-w-xl text-lg text-muted md:text-xl">{t("hero.subtitle")}</p>
               <p className="mt-5 inline-flex items-center gap-2 text-fg">
                 <User aria-hidden className="size-4 text-mint" />
                 {t("hero.by")} <strong className="font-semibold text-white">{book.author}</strong>
               </p>
             </Reveal>
-            <Reveal delay={380} className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <Reveal immediate delay={380} className="mt-9 flex flex-col gap-3 sm:flex-row">
               {amazon()}
             </Reveal>
           </div>
-          <Reveal variant="tilt" delay={200} className="flex justify-center">
+          <Reveal immediate variant="tilt" delay={200} className="flex justify-center">
             <BookMockup title={book.title} author={book.author} size="lg" />
           </Reveal>
         </div>

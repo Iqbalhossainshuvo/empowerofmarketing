@@ -32,7 +32,7 @@ export default function FounderPage() {
           <div className="aura -top-40 start-1/3 size-[40rem] bg-blue/30" />
         </div>
         <div className="container-x grid items-center gap-14 lg:grid-cols-[0.8fr_1.2fr]">
-          <Reveal variant="scale" className="flex justify-center">
+          <Reveal immediate variant="scale" className="flex justify-center">
             <div className="relative grid aspect-square w-[min(320px,70vw)] place-items-center">
               <div aria-hidden className="absolute inset-0 rounded-full bg-gradient-to-br from-mint/40 via-blue/40 to-violet/50 blur-2xl" />
               <div aria-hidden className="absolute inset-0 rounded-full border border-white/15 motion-safe:animate-[spin-slow_40s_linear_infinite] [background:conic-gradient(from_0deg,transparent,rgba(124,245,180,0.5),transparent_30%)]" />
@@ -43,14 +43,14 @@ export default function FounderPage() {
           </Reveal>
           <div>
             <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
-            <h1 id="page-title" data-words className="text-[clamp(2.6rem,6vw,4.8rem)] leading-[1.02] font-semibold text-white">
+            <h1 id="page-title" data-words-intro className="text-[clamp(2.6rem,6vw,4.8rem)] leading-[1.02] font-semibold text-white">
               <Words text={t("hero.name")} />
             </h1>
-            <Reveal delay={200}>
+            <Reveal immediate delay={200}>
               <p className="mt-4 text-lg text-mint">{t("hero.role")}</p>
               <p className="mt-6 max-w-xl font-display text-[clamp(1.3rem,2.4vw,1.75rem)] leading-snug text-white">{t("hero.intro")}</p>
             </Reveal>
-            <Reveal delay={320} className="mt-8 flex flex-wrap gap-3">
+            <Reveal immediate delay={320} className="mt-8 flex flex-wrap gap-3">
               {links.map((l) => (
                 <GlowAnchor key={l.label} variant="ghost" href={l.href} target="_blank" rel="noopener" icon={<ArrowUpRight aria-hidden className="size-4" />}>
                   {l.label}

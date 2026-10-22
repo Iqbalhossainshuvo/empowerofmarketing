@@ -23,7 +23,7 @@ export function AZGrid() {
               onClick={() => setActive(i)}
               onMouseEnter={() => setActive(i)}
               onFocus={() => setActive(i)}
-              className={`grid aspect-square place-items-center rounded-xl border font-display text-lg font-semibold transition-all duration-300 md:text-xl ${
+              className={`grid aspect-square place-items-center rounded-xl border font-display text-lg font-semibold transition-[transform,border-color,background-color,color,box-shadow] duration-300 md:text-xl ${
                 on
                   ? "scale-110 border-mint/60 bg-mint/15 text-mint shadow-[0_0_30px_-4px_rgb(124_245_180/0.8)]"
                   : "border-white/10 bg-white/[0.03] text-white/70 hover:border-white/30 hover:text-white"

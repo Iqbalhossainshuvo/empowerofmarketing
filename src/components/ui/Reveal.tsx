@@ -8,16 +8,20 @@ export function Reveal({
   delay = 0,
   as: Tag = "div",
   className,
+  immediate = false,
   children,
 }: {
   variant?: RevealVariant;
   delay?: number;
   as?: ElementType;
   className?: string;
+  /** For the first screen: animate on page load with CSS only, without waiting for JavaScript. */
+  immediate?: boolean;
   children: ReactNode;
 }) {
+  const attrs = immediate ? { "data-intro": variant } : { "data-reveal": variant };
   return (
-    <Tag data-reveal={variant} className={className} style={{ "--d": delay } as CSSProperties}>
+    <Tag {...attrs} className={className} style={{ "--d": delay } as CSSProperties}>
       {children}
     </Tag>
   );

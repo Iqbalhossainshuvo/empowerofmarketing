@@ -20,6 +20,8 @@ test.describe("without JavaScript", () => {
   test.use({ javaScriptEnabled: false });
   test("headline and content are readable", async ({ page }) => {
     await page.goto("/en/");
+    // First-screen intro animations are pure CSS and still play without JS; let them finish.
+    await page.waitForTimeout(1600);
     const h1 = page.locator("h1");
     await expect(h1).toBeVisible();
     expect(Number(await h1.evaluate((el) => getComputedStyle(el.querySelector(".w") ?? el).opacity))).toBe(1);

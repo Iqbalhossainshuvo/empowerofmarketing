@@ -18,7 +18,7 @@ export function LogoMark({ className = "size-9" }: { className?: string }) {
 
 export function Logo({ withText = true }: { withText?: boolean }) {
   return (
-    <span className="inline-flex items-center gap-2.5" dir="ltr">
+    <span className="inline-flex items-center gap-2.5" dir="ltr" translate="no">
       <LogoMark />
       {withText ? (
         <span className="font-display text-[0.95rem] leading-none font-bold tracking-wide text-white">

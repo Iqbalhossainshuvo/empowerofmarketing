@@ -7,7 +7,8 @@ import { resolve } from "node:path";
 
 const exe = ["/opt/pw-browsers/chromium-1194/chrome-linux/chrome", "/opt/google/chrome/chrome"].find(existsSync);
 const font = (p) => `url(file://${resolve("node_modules", p)})`;
-const jpCss = readFileSync("public/fonts/noto-sans-jp/index.css", "utf8").replace(/url\(\.\/files\//g, `url(file://${resolve("public/fonts/noto-sans-jp/files")}/`);
+const jpDir = resolve("node_modules/@fontsource-variable/noto-sans-jp");
+const jpCss = readFileSync(`${jpDir}/index.css`, "utf8").replace(/url\(\.\/files\//g, `url(file://${jpDir}/files/`);
 const msgs = Object.fromEntries(["en", "ar", "ja"].map((l) => [l, JSON.parse(readFileSync(`messages/${l}.json`, "utf8"))]));
 
 const html = (l) => {

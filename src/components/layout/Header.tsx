@@ -34,7 +34,12 @@ export function Header() {
   }, []);
 
   // Close menus on navigation, outside click and Escape.
-  useEffect(() => setOpenGroup(null), [pathname]);
+  const [lastPath, setLastPath] = useState(pathname);
+  if (lastPath !== pathname) {
+    // navigated: close any open dropdown
+    setLastPath(pathname);
+    setOpenGroup(null);
+  }
   useEffect(() => {
     if (!openGroup) return;
     const onDoc = (e: MouseEvent) => {
@@ -62,12 +67,12 @@ export function Header() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-40 transition-all duration-500 ${
+      className={`fixed inset-x-0 top-0 z-40 transition-[background-color,border-color,backdrop-filter] duration-500 ${
         scrolled ? "border-b border-white/[0.06] bg-ink-950/75 backdrop-blur-xl" : "bg-transparent"
       }`}
     >
       <div className="container-x flex h-[72px] items-center justify-between gap-4">
-        <Link href="/" data-testid="logo-link" aria-label={t("home")} className="shrink-0">
+        <Link href="/" data-testid="logo-link" aria-label={`Empower of Marketing — ${t("home")}`} className="shrink-0">
           <Logo />
         </Link>
 
