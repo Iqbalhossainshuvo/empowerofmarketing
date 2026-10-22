@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Empower of Marketing</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="/en/" />
+    <link rel="alternate" hreflang="en" href="/en/" />
+    <link rel="alternate" hreflang="ar" href="/ar/" />
+    <link rel="alternate" hreflang="ja" href="/ja/" />
+    <link rel="alternate" hreflang="x-default" href="/en/" />
+    <script>
+      (function () {
+        var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+        var pick = "en";
+        for (var i = 0; i < langs.length; i++) {
+          var l = String(langs[i]).toLowerCase();
+          if (l.indexOf("ar") === 0) { pick = "ar"; break; }
+          if (l.indexOf("ja") === 0) { pick = "ja"; break; }
+          if (l.indexOf("en") === 0) { pick = "en"; break; }
+        }
+        location.replace("/" + pick + "/" + location.search + location.hash);
+      })();
+    </script>
+    <noscript><meta http-equiv="refresh" content="0;url=/en/" /></noscript>
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #05070d; color: #e8ecf5; font-family: system-ui, sans-serif; }
+      a { color: #7cf5b4; margin: 0 .75rem; }
+    </style>
+  </head>
+  <body>
+    <p>
+      <a href="/en/">English</a>
+      <a href="/ar/" lang="ar">العربية</a>
+      <a href="/ja/" lang="ja">日本語</a>
+    </p>
+  </body>
+</html>
