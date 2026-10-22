@@ -1,6 +1,6 @@
 import type { CSSProperties, ElementType, ReactNode } from "react";
 
-export type RevealVariant = "rise" | "scale" | "blur" | "slide" | "tilt";
+export type RevealVariant = "rise" | "scale" | "blur" | "slide" | "tilt" | "draw";
 
 /** Entrance animation wrapper. Works without JS (content simply shows). */
 export function Reveal({

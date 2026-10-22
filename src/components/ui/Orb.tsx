@@ -39,9 +39,9 @@ export function Orb({ cards = [] }: { cards?: ReactNode[] }) {
         className="absolute inset-[24%] rounded-full"
         style={{
           background:
-            "radial-gradient(circle at 32% 28%, rgba(255,255,255,0.95) 0%, rgba(167,243,208,0.55) 8%, rgba(96,165,250,0.55) 28%, rgba(59,130,246,0.35) 48%, rgba(139,92,246,0.45) 70%, rgba(10,15,30,0.9) 100%)",
+            "radial-gradient(circle at 34% 28%, #ffffff 0%, #c7f9e2 6%, #7dd3fc 18%, #3b82f6 42%, #6d4fe0 68%, #1e1b4b 88%, #0a0f1e 100%)",
           boxShadow:
-            "0 0 80px 10px rgba(96,165,250,0.35), 0 0 160px 40px rgba(139,92,246,0.2), inset -20px -30px 60px rgba(5,7,13,0.65), inset 10px 10px 40px rgba(255,255,255,0.15)",
+            "0 0 90px 18px rgba(96,165,250,0.45), 0 0 180px 60px rgba(139,92,246,0.25), inset -24px -34px 60px rgba(5,7,13,0.55), inset 12px 12px 40px rgba(255,255,255,0.25)",
           animation: "pulse-glow 6s ease-in-out infinite",
         }}
       />
