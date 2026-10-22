@@ -1,9 +1,14 @@
+import { metaFor } from "@/lib/metadata";
 import { useTranslations } from "next-intl";
 import { services } from "@/content/services";
 import { PageHero } from "@/components/pages/PageHero";
 import { IndexGrid } from "@/components/pages/IndexGrid";
 import { ProcessSteps } from "@/components/home/sections";
 import { CtaBand } from "@/components/layout/CtaBand";
+
+export function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  return metaFor(params, "services", "services/");
+}
 
 export default function ServicesIndexPage() {
   const t = useTranslations("ServicesIndex");

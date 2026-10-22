@@ -1,3 +1,4 @@
+import { metaFor } from "@/lib/metadata";
 import { useTranslations } from "next-intl";
 import { Eye, Globe2, Handshake, Lightbulb, Ruler, ShieldCheck, Target, Users } from "lucide-react";
 import { PageHero } from "@/components/pages/PageHero";
@@ -5,6 +6,10 @@ import { Reveal } from "@/components/ui/Reveal";
 import { IconTile, SectionHeading } from "@/components/ui/primitives";
 import { GlowLink } from "@/components/ui/GlowButton";
 import { CtaBand } from "@/components/layout/CtaBand";
+
+export function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  return metaFor(params, "about", "about/");
+}
 
 export default function AboutPage() {
   const t = useTranslations("About");

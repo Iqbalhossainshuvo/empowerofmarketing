@@ -1,3 +1,4 @@
+import { metaFor } from "@/lib/metadata";
 import { useTranslations } from "next-intl";
 import { ArrowUpRight } from "lucide-react";
 import { site } from "@/content/site";
@@ -5,6 +6,11 @@ import { Reveal, Words } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/primitives";
 import { GlowAnchor, GlowLink } from "@/components/ui/GlowButton";
 import { CtaBand } from "@/components/layout/CtaBand";
+import { JsonLd } from "@/components/JsonLd";
+
+export function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  return metaFor(params, "founder", "founder/");
+}
 
 export default function FounderPage() {
   const t = useTranslations("Founder");
@@ -94,6 +100,16 @@ export default function FounderPage() {
         </div>
       </section>
       <CtaBand />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Md. Iqbal Hossain",
+          jobTitle: "Founder",
+          worksFor: { "@type": "Organization", name: site.name },
+          sameAs: links.map((l) => l.href),
+        }}
+      />
     </>
   );
 }

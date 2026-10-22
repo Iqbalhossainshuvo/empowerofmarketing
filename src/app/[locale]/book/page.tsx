@@ -1,3 +1,4 @@
+import { metaFor } from "@/lib/metadata";
 import { useTranslations } from "next-intl";
 import { ArrowUpRight, BookOpen, Check, User } from "lucide-react";
 import { book } from "@/content/book";
@@ -10,6 +11,11 @@ import { Reveal, Words } from "@/components/ui/Reveal";
 import { Eyebrow, SectionHeading } from "@/components/ui/primitives";
 import { BookCallButton } from "@/components/booking/BookCallButton";
 import { CtaBand } from "@/components/layout/CtaBand";
+import { JsonLd } from "@/components/JsonLd";
+
+export function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  return metaFor(params, "book", "book/");
+}
 
 export default function BookPage() {
   const t = useTranslations("Book");
@@ -140,6 +146,18 @@ export default function BookPage() {
         </div>
       </section>
       <CtaBand />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Book",
+          name: book.title,
+          alternativeHeadline: book.subtitle,
+          author: { "@type": "Person", name: book.author },
+          bookEdition: book.edition,
+          inLanguage: "en",
+          url: site.amazonUrl,
+        }}
+      />
     </>
   );
 }

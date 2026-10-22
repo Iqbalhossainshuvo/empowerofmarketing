@@ -1,9 +1,14 @@
+import { metaFor } from "@/lib/metadata";
 import { useTranslations } from "next-intl";
 import { Info } from "lucide-react";
 import { PageHero } from "@/components/pages/PageHero";
 import { PricingTable } from "@/components/pages/PricingTable";
 import { Faq } from "@/components/home/sections";
 import { CtaBand } from "@/components/layout/CtaBand";
+
+export function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  return metaFor(params, "pricing", "pricing/");
+}
 
 export default function PricingPage() {
   const t = useTranslations("Pricing");

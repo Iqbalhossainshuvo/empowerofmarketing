@@ -1,9 +1,14 @@
+import { metaFor } from "@/lib/metadata";
 import { useTranslations } from "next-intl";
 import { solutions } from "@/content/solutions";
 import { PageHero } from "@/components/pages/PageHero";
 import { IndexGrid } from "@/components/pages/IndexGrid";
 import { SolutionSteps } from "@/components/pages/SolutionSteps";
 import { CtaBand } from "@/components/layout/CtaBand";
+
+export function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  return metaFor(params, "solutions", "solutions/");
+}
 
 export default function SolutionsIndexPage() {
   const t = useTranslations("SolutionsIndex");
