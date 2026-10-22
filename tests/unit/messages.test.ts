@@ -44,6 +44,23 @@ for (const locale of ["en", "ar", "ja"] as const) {
   });
 }
 
+// Brand names and other text that legitimately stays the same in every language.
+const sameEverywhere = new Set(["Empower of Marketing", "Md. Iqbal Hossain"]);
+
+for (const locale of ["ar", "ja"] as const) {
+  test(`${locale} copy is actually translated`, () => {
+    const untranslated = Object.entries(flat.en)
+      .filter(([k, v]) => typeof v === "string" && v.length > 20 && !sameEverywhere.has(v) && flat[locale][k] === v)
+      .map(([k]) => k);
+    assert.deepEqual(untranslated, []);
+  });
+}
+
+test("Arabic copy is written in Arabic script, Japanese in Japanese script", () => {
+  assert.ok(/[؀-ۿ]/.test(String(flat.ar["Home.hero.subtitle"])), "ar hero subtitle not Arabic");
+  assert.ok(/[぀-ヿ一-鿿]/.test(String(flat.ja["Home.hero.subtitle"])), "ja hero subtitle not Japanese");
+});
+
 test("every service slug has its page copy", () => {
   for (const { slug } of services) {
     for (const part of ["title", "short", "hero", "pains", "deliverables", "outcomes", "forWho", "faq"]) {

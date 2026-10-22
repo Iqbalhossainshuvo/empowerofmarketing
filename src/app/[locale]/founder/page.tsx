@@ -67,7 +67,7 @@ export default function FounderPage() {
           <ul className="grid grid-cols-3 gap-px overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06]">
             {facts.map((f) => (
               <li key={f.label} className="bg-ink-950 px-4 py-8 text-center">
-                <p className="font-display text-[clamp(2rem,4vw,3rem)] font-semibold text-white">{f.value}</p>
+                <p dir="ltr" className="font-display text-[clamp(2rem,4vw,3rem)] font-semibold text-white">{f.value}</p>
                 <p className="mt-1 text-sm text-muted">{f.label}</p>
               </li>
             ))}

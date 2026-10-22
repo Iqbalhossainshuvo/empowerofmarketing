@@ -96,7 +96,7 @@ export function WhyUs() {
   const items = t.raw("items") as { title: string; text: string }[];
   const icons = [Layers, Compass, Workflow, Globe2];
   return (
-    <section aria-labelledby="why-title" className="section relative isolate">
+    <section aria-labelledby="why-title" className="section relative isolate overflow-x-clip">
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div className="aura bottom-0 end-[-10%] size-[30rem] bg-blue/20" />
       </div>

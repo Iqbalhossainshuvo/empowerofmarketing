@@ -23,17 +23,25 @@ export function Reveal({
   );
 }
 
-/** Splits text into words that rise in one after another. */
-export function Words({ text, offset = 0 }: { text: string; offset?: number }) {
-  const words = text.split(/(\s+)/);
+/**
+ * Splits text into words that rise in one after another. Languages written without
+ * spaces (Japanese) are split into natural word segments so lines can still wrap.
+ * `wordClassName` is applied to every word (e.g. a gradient, which must sit on each word).
+ */
+export function Words({ text, offset = 0, wordClassName = "" }: { text: string; offset?: number; wordClassName?: string }) {
+  const hasSpaces = /\s/.test(text.trim());
+  const parts =
+    hasSpaces || typeof Intl === "undefined" || !("Segmenter" in Intl)
+      ? text.split(/(\s+)/)
+      : Array.from(new Intl.Segmenter("ja", { granularity: "word" }).segment(text), (s) => s.segment);
   let i = offset;
   return (
     <>
-      {words.map((w, idx) =>
+      {parts.map((w, idx) =>
         /^\s+$/.test(w) ? (
           w
         ) : (
-          <span key={idx} className="w" style={{ "--i": i++ } as CSSProperties}>
+          <span key={idx} className={`w ${wordClassName}`} style={{ "--i": i++ } as CSSProperties}>
             {w}
           </span>
         ),

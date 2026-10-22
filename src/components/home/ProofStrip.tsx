@@ -18,7 +18,7 @@ export function ProofStrip() {
         <ul className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06] md:grid-cols-4">
           {items.map((it, i) => (
             <Reveal as="li" key={i} variant="scale" delay={i * 90} className="bg-ink-950 px-6 py-8 text-center md:py-10">
-              <p className="flex h-12 items-center justify-center font-display text-[clamp(2.2rem,4vw,3.2rem)] font-semibold text-white">
+              <p dir="ltr" className="flex h-12 items-center justify-center font-display text-[clamp(2.2rem,4vw,3.2rem)] font-semibold text-white">
                 {it.value}
               </p>
               <p className="mt-2 text-sm text-muted">{it.label}</p>

@@ -1,1370 +1,790 @@
 {
   "Common": {
     "brand": "Empower of Marketing",
-    "bookCall": "Book a Free Call",
-    "bookCallLong": "Book a free 1:1 video call",
-    "whatsapp": "Chat on WhatsApp",
-    "email": "Email us",
-    "learnMore": "Learn more",
-    "viewAll": "View all",
-    "explore": "Explore",
-    "mostPopular": "Most popular",
-    "perMonth": "/ month",
-    "oneTime": "one-time",
-    "startingFrom": "from",
-    "letsTalk": "Let's talk",
-    "free": "Free",
-    "related": "You may also need",
-    "skipToContent": "Skip to content",
-    "menu": "Menu",
-    "close": "Close",
-    "language": "Language",
-    "opensNewTab": "(opens in a new tab)",
-    "whatsappPrefill": "Hello Empower of Marketing! I'd like to talk about growing my business.",
-    "emailSubject": "Business enquiry from your website",
-    "buyOnAmazon": "Get it on Amazon",
-    "callNote": "30 minutes · Free · No obligation",
-    "backHome": "Back to home"
+    "bookCall": "احجز مكالمة مجانية",
+    "bookCallLong": "احجز مكالمة فيديو مجانية فردية",
+    "whatsapp": "تواصل عبر واتساب",
+    "email": "راسلنا بالبريد",
+    "learnMore": "اعرف المزيد",
+    "viewAll": "عرض الكل",
+    "explore": "استكشف",
+    "mostPopular": "الأكثر طلبًا",
+    "perMonth": "/ شهريًا",
+    "oneTime": "مرة واحدة",
+    "startingFrom": "يبدأ من",
+    "letsTalk": "لنتحدث",
+    "free": "مجانًا",
+    "related": "قد تحتاج أيضًا",
+    "skipToContent": "انتقل إلى المحتوى",
+    "menu": "القائمة",
+    "close": "إغلاق",
+    "language": "اللغة",
+    "opensNewTab": "(يفتح في علامة تبويب جديدة)",
+    "whatsappPrefill": "مرحبًا Empower of Marketing! أرغب في الحديث عن تنمية أعمالي.",
+    "emailSubject": "استفسار عمل من موقعكم",
+    "buyOnAmazon": "احصل عليه من أمازون",
+    "callNote": "٣٠ دقيقة · مجانًا · دون أي التزام",
+    "backHome": "العودة إلى الرئيسية"
   },
   "Nav": {
-    "home": "Home",
-    "services": "Services",
-    "solutions": "Solutions",
-    "pricing": "Pricing",
-    "about": "About Us",
-    "book": "Book",
-    "allServices": "All growth services",
-    "allSolutions": "All solutions",
-    "servicesIntro": "Marketing & growth systems that bring in customers.",
-    "solutionsIntro": "Everyday business services, done right."
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "solutions": "الحلول",
+    "pricing": "الأسعار",
+    "about": "من نحن",
+    "book": "الكتاب",
+    "allServices": "جميع خدمات النمو",
+    "allSolutions": "جميع الحلول",
+    "servicesIntro": "أنظمة تسويق ونمو تجلب لك العملاء.",
+    "solutionsIntro": "خدمات أعمال يومية، تُنجَز باحتراف."
   },
   "Footer": {
-    "tagline": "We build the marketing and business systems that turn effort into customers, sales and steady growth.",
-    "servicesTitle": "Growth services",
-    "solutionsTitle": "Solutions",
-    "companyTitle": "Company",
-    "contactTitle": "Contact",
-    "founder": "Founder",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
-    "location": "Dammam, Saudi Arabia · Serving clients worldwide",
-    "rights": "All rights reserved.",
-    "followUs": "Follow us"
+    "tagline": "نبني أنظمة التسويق والأعمال التي تحوّل جهدك إلى عملاء ومبيعات ونمو مستمر.",
+    "servicesTitle": "خدمات النمو",
+    "solutionsTitle": "الحلول",
+    "companyTitle": "الشركة",
+    "contactTitle": "تواصل معنا",
+    "founder": "المؤسس",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "location": "الدمام، المملكة العربية السعودية · نخدم العملاء حول العالم",
+    "rights": "جميع الحقوق محفوظة.",
+    "followUs": "تابعنا"
   },
   "CtaBand": {
-    "eyebrow": "Your next step",
-    "title": "Your growth starts with one conversation.",
-    "subtitle": "Tell us where your business is stuck. In 30 minutes you'll leave with clear next steps, whether you work with us or not.",
-    "or": "or reach us directly"
+    "eyebrow": "خطوتك التالية",
+    "title": "نموّك يبدأ بمحادثة واحدة.",
+    "subtitle": "أخبرنا أين تتعثر أعمالك. خلال ٣٠ دقيقة ستخرج بخطوات واضحة، سواء عملت معنا أم لا.",
+    "or": "أو تواصل معنا مباشرة"
   },
   "Home": {
     "hero": {
-      "badge": "Marketing · Growth · AI — for businesses worldwide",
-      "titleA": "Turn your business into a",
-      "titleHighlight": "sales machine.",
-      "subtitle": "Strategy, marketing, AI automation and content — built as one system that brings you customers, organizes your business and keeps it growing.",
-      "note": "Free 30-minute strategy call · Reply on WhatsApp within hours",
+      "badge": "تسويق · نمو · ذكاء اصطناعي — للأعمال حول العالم",
+      "titleA": "حوّل أعمالك إلى",
+      "titleHighlight": "آلة مبيعات.",
+      "subtitle": "استراتيجية وتسويق وأتمتة بالذكاء الاصطناعي ومحتوى — مبنية كنظام واحد يجلب لك العملاء، وينظّم أعمالك، ويحافظ على نموّها.",
+      "note": "مكالمة استراتيجية مجانية لمدة ٣٠ دقيقة · رد عبر واتساب خلال ساعات",
       "cards": {
-        "ads": "Ad ROI",
-        "adsDelta": "+ smarter spend",
-        "ai": "AI workflow",
-        "aiSteps": "Lead → Reply → Follow-up",
-        "roadmap": "Growth roadmap",
-        "roadmapItems": "Offer · Funnel · Sales",
-        "video": "Video content",
-        "videoMeta": "Reels · Ads · Shorts"
+        "ads": "عائد الإعلانات",
+        "adsDelta": "+ إنفاق أذكى",
+        "ai": "سير عمل ذكي",
+        "aiSteps": "عميل محتمل ← رد ← متابعة",
+        "roadmap": "خارطة النمو",
+        "roadmapItems": "العرض · القمع · المبيعات",
+        "video": "محتوى الفيديو",
+        "videoMeta": "ريلز · إعلانات · شورتس"
       }
     },
     "proof": {
-      "years": "Years of marketing experience",
-      "clients": "Global clients served",
-      "languages": "Languages we work in",
-      "author": "Published marketing author",
-      "title": "Proof, not promises"
+      "years": "سنوات من الخبرة التسويقية",
+      "clients": "عميلًا حول العالم",
+      "languages": "لغات نعمل بها",
+      "author": "مؤلف كتاب في التسويق",
+      "title": "حقائق لا وعود"
     },
     "which": {
-      "eyebrow": "Which one are you?",
-      "title": "Every business gets stuck somewhere. Find yours.",
-      "subtitle": "Pick the situation that sounds like you — we'll show you exactly how we fix it.",
+      "eyebrow": "أيّهم أنت؟",
+      "title": "كل عمل يتعثر في مكان ما. اكتشف مكانك.",
+      "subtitle": "اختر الحالة التي تشبه وضعك — وسنريك بالضبط كيف نعالجها.",
       "items": {
         "start": {
-          "title": "I want to start a business",
-          "pain": "You have an idea (or the money) but no clear plan, and you're scared of wasting both.",
-          "promise": "Get a step-by-step launch roadmap and someone in your corner for every step.",
-          "cta": "Plan my launch"
+          "title": "أريد أن أبدأ مشروعًا",
+          "pain": "لديك فكرة (أو رأس مال) لكن لا توجد خطة واضحة، وتخشى أن تضيّع الاثنين.",
+          "promise": "احصل على خارطة إطلاق خطوة بخطوة، وشريك يرافقك في كل خطوة.",
+          "cta": "خطّط لإطلاقي"
         },
         "nosales": {
-          "title": "My business has no sales",
-          "pain": "The shop is open, the page is live — but customers aren't coming, and ads feel like burning money.",
-          "promise": "We fix the offer, the message and the funnel, then bring in buyers.",
-          "cta": "Get me customers"
+          "title": "مشروعي بلا مبيعات",
+          "pain": "المتجر مفتوح والصفحة تعمل — لكن العملاء لا يأتون، والإعلانات تبدو كحرق للمال.",
+          "promise": "نصلح العرض والرسالة والقمع التسويقي، ثم نجلب لك المشترين.",
+          "cta": "أريد عملاء"
         },
         "messy": {
-          "title": "My business is a mess",
-          "pain": "Everything depends on you, nothing is tracked, and every day is firefighting.",
-          "promise": "We put simple systems, numbers and routines in place so it runs without chaos.",
-          "cta": "Organize my business"
+          "title": "عملي غير منظّم",
+          "pain": "كل شيء يعتمد عليك، ولا شيء يُقاس، وكل يوم إطفاء حرائق.",
+          "promise": "نضع أنظمة وأرقامًا وروتينًا بسيطًا ليعمل مشروعك دون فوضى.",
+          "cta": "نظّم عملي"
         },
         "ai": {
-          "title": "I want AI automation",
-          "pain": "Leads wait hours for a reply and your team repeats the same tasks all day.",
-          "promise": "We set up AI that replies, follows up, reports and saves you hours every week.",
-          "cta": "Automate my work"
+          "title": "أريد أتمتة بالذكاء الاصطناعي",
+          "pain": "العملاء المحتملون ينتظرون الرد لساعات، وفريقك يكرر المهام نفسها طوال اليوم.",
+          "promise": "نجهّز ذكاءً اصطناعيًا يرد ويتابع ويعدّ التقارير ويوفّر عليك ساعات كل أسبوع.",
+          "cta": "أتمت عملي"
         }
       },
-      "recommended": "Where we'd start",
-      "package": "Suggested package",
-      "hint": "Tap the situation that fits you best"
+      "recommended": "من أين نبدأ",
+      "package": "الباقة المقترحة",
+      "hint": "اختر الحالة الأقرب إليك"
     },
     "servicesSection": {
-      "eyebrow": "Growth services",
-      "title": "Everything your business needs to grow — under one roof.",
-      "subtitle": "Digital and traditional marketing, business strategy, AI and video. One team, one plan, one direction."
+      "eyebrow": "خدمات النمو",
+      "title": "كل ما يحتاجه عملك لينمو — تحت سقف واحد.",
+      "subtitle": "تسويق رقمي وتقليدي، واستراتيجية أعمال، وذكاء اصطناعي، وفيديو. فريق واحد، وخطة واحدة، واتجاه واحد."
     },
     "process": {
-      "eyebrow": "How it works",
-      "title": "From first call to steady growth in four clear steps.",
-      "subtitle": "No long contracts, no confusing jargon. You always know what we're doing and why.",
+      "eyebrow": "كيف نعمل",
+      "title": "من أول مكالمة إلى نمو ثابت في أربع خطوات واضحة.",
+      "subtitle": "بلا عقود طويلة وبلا مصطلحات معقّدة. تعرف دائمًا ماذا نفعل ولماذا.",
       "steps": [
-        {
-          "title": "Free strategy call",
-          "text": "We listen to your goals and problems, and you get honest first advice in 30 minutes."
-        },
-        {
-          "title": "Diagnosis & roadmap",
-          "text": "We study your market, offer and numbers, then map the fastest path to results."
-        },
-        {
-          "title": "Build & execute",
-          "text": "We launch the campaigns, content, systems and automations — and keep you updated."
-        },
-        {
-          "title": "Track & scale",
-          "text": "We measure what works, cut what doesn't, and grow what's bringing you money."
-        }
+        { "title": "مكالمة استراتيجية مجانية", "text": "نستمع إلى أهدافك ومشكلاتك، وتحصل على نصيحة أولية صادقة خلال ٣٠ دقيقة." },
+        { "title": "تشخيص وخارطة طريق", "text": "ندرس سوقك وعرضك وأرقامك، ثم نرسم أسرع طريق إلى النتائج." },
+        { "title": "البناء والتنفيذ", "text": "نطلق الحملات والمحتوى والأنظمة والأتمتة — ونبقيك على اطلاع دائم." },
+        { "title": "القياس والتوسّع", "text": "نقيس ما ينجح، ونوقف ما لا ينجح، وننمّي ما يجلب لك المال." }
       ]
     },
     "why": {
-      "eyebrow": "Why Empower of Marketing",
-      "title": "Not just another marketing agency.",
+      "eyebrow": "لماذا Empower of Marketing",
+      "title": "لسنا مجرد وكالة تسويق أخرى.",
       "items": [
-        {
-          "title": "Digital and traditional",
-          "text": "Online ads and SEO, plus offline, local and field marketing — because customers live in both worlds."
-        },
-        {
-          "title": "One partner, start to scale",
-          "text": "From business setup to marketing, AI and video, you don't have to juggle five different freelancers."
-        },
-        {
-          "title": "Systems, not one-off campaigns",
-          "text": "We build repeatable systems that keep bringing results after the campaign ends."
-        },
-        {
-          "title": "Global experience",
-          "text": "We work with clients across Asia, the Middle East and beyond, in English, Arabic and Japanese."
-        }
+        { "title": "رقمي وتقليدي", "text": "إعلانات وتحسين محركات البحث، إلى جانب التسويق الميداني والمحلي — لأن عملاءك يعيشون في العالمين." },
+        { "title": "شريك واحد من البداية إلى التوسّع", "text": "من تأسيس المشروع إلى التسويق والذكاء الاصطناعي والفيديو، دون الحاجة إلى التنسيق بين خمسة مستقلين." },
+        { "title": "أنظمة لا حملات عابرة", "text": "نبني أنظمة قابلة للتكرار تستمر في تحقيق النتائج بعد انتهاء الحملة." },
+        { "title": "خبرة عالمية", "text": "نعمل مع عملاء في آسيا والشرق الأوسط وخارجهما، بالعربية والإنجليزية واليابانية." }
       ]
     },
     "bookTeaser": {
-      "eyebrow": "From our founder",
-      "title": "The playbook behind our work.",
-      "text": "Empire of Marketing is our founder's A–Z field guide that connects strategy, psychology, attention, conversion and growth into one marketing system.",
-      "learn": "Explore the book"
+      "eyebrow": "من مؤسسنا",
+      "title": "الدليل الذي يقوم عليه عملنا.",
+      "text": "Empire of Marketing هو دليل مؤسسنا العملي من الألف إلى الياء، يربط الاستراتيجية وعلم النفس والانتباه والتحويل والنمو في نظام تسويقي واحد.",
+      "learn": "تعرّف على الكتاب"
     },
     "faq": {
-      "eyebrow": "Questions",
-      "title": "Answers before you ask.",
+      "eyebrow": "أسئلة",
+      "title": "إجابات قبل أن تسأل.",
       "items": [
-        {
-          "q": "Is the first call really free?",
-          "a": "Yes. The 30-minute video call is free and there's no obligation. You'll get honest advice on your situation even if we're not the right fit."
-        },
-        {
-          "q": "Which countries do you work with?",
-          "a": "We work online with businesses worldwide, with a focus on the USA, Canada, Europe, Saudi Arabia and Japan. Local and field marketing is planned around your market."
-        },
-        {
-          "q": "How much do your services cost?",
-          "a": "Packages start from $99, and monthly growth packages start from $299. Every plan is tailored on the call, and you'll see the price before anything starts."
-        },
-        {
-          "q": "Do you work in Arabic and Japanese?",
-          "a": "Yes. Our website, calls and materials can be in English, Arabic or Japanese."
-        },
-        {
-          "q": "How soon will I see results?",
-          "a": "Quick wins like a clearer offer or faster lead replies often show within weeks. Bigger growth comes from consistent work over months. We'll set realistic milestones together."
-        },
-        {
-          "q": "What should I prepare for the call?",
-          "a": "Just tell us about your business, your goal and what you've tried so far. If you have numbers like sales or ad spend, bring them — they help us give better advice."
-        }
+        { "q": "هل المكالمة الأولى مجانية فعلًا؟", "a": "نعم. مكالمة الفيديو لمدة ٣٠ دقيقة مجانية ودون أي التزام. ستحصل على نصيحة صادقة حول وضعك حتى لو لم نكن الخيار المناسب لك." },
+        { "q": "مع أي دول تعملون؟", "a": "نعمل عبر الإنترنت مع الأعمال حول العالم، مع تركيز على الولايات المتحدة وكندا وأوروبا والمملكة العربية السعودية واليابان. ونخطط للتسويق المحلي والميداني حسب سوقك." },
+        { "q": "كم تكلفة خدماتكم؟", "a": "تبدأ الباقات من ٩٩ دولارًا، وباقات النمو الشهرية من ٢٩٩ دولارًا. كل خطة تُصمَّم لك خلال المكالمة، وترى السعر قبل بدء أي عمل." },
+        { "q": "هل تعملون بالعربية واليابانية؟", "a": "نعم. يمكن أن يكون الموقع والمكالمات والمواد بالعربية أو الإنجليزية أو اليابانية." },
+        { "q": "متى سأرى النتائج؟", "a": "المكاسب السريعة مثل عرض أوضح أو ردود أسرع على العملاء تظهر غالبًا خلال أسابيع. أما النمو الأكبر فيأتي من عمل مستمر على مدى أشهر، وسنحدد معًا مراحل واقعية." },
+        { "q": "ماذا أجهّز للمكالمة؟", "a": "فقط حدّثنا عن عملك وهدفك وما جربته حتى الآن. وإن كانت لديك أرقام مثل المبيعات أو الإنفاق الإعلاني فأحضرها — فهي تساعدنا على تقديم نصيحة أدق." }
       ]
     }
   },
   "ServicesIndex": {
-    "eyebrow": "Growth services",
-    "title": "Six ways we help businesses grow.",
-    "subtitle": "Choose a starting point, or let us combine them into one plan built around your goals."
+    "eyebrow": "خدمات النمو",
+    "title": "ست طرق نساعد بها الأعمال على النمو.",
+    "subtitle": "اختر نقطة البداية، أو دعنا ندمجها في خطة واحدة مبنية على أهدافك."
   },
   "Service": {
     "digital-marketing": {
-      "title": "Digital Marketing",
-      "short": "Paid ads, SEO, analytics and conversion optimization that turn clicks into customers.",
+      "title": "التسويق الرقمي",
+      "short": "إعلانات مدفوعة وتحسين لمحركات البحث وتحليلات وتحسين للتحويل تحوّل النقرات إلى عملاء.",
       "hero": {
-        "eyebrow": "Digital Marketing",
-        "title": "Stop paying for clicks that never buy.",
-        "subtitle": "We run Google, Meta and TikTok ads, SEO and analytics as one system — so every dollar you spend is tracked, tested and pushed toward real sales."
+        "eyebrow": "التسويق الرقمي",
+        "title": "توقف عن الدفع مقابل نقرات لا تشتري.",
+        "subtitle": "ندير إعلانات Google وMeta وTikTok وتحسين محركات البحث والتحليلات كنظام واحد — ليُقاس كل دولار تنفقه ويُختبر ويُوجَّه نحو مبيعات حقيقية."
       },
       "pains": [
-        "You're spending on ads but can't tell what's actually working.",
-        "Your website gets visits but almost nobody contacts you or buys.",
-        "Competitors show up on Google and you don't.",
-        "Your social pages are active but don't bring in customers."
+        "تنفق على الإعلانات لكنك لا تعرف ما الذي ينجح فعلًا.",
+        "موقعك يحصل على زيارات لكن لا أحد تقريبًا يتواصل أو يشتري.",
+        "منافسوك يظهرون على Google وأنت لا تظهر.",
+        "صفحاتك على وسائل التواصل نشطة لكنها لا تجلب عملاء."
       ],
       "deliverables": [
-        {
-          "title": "Google Ads",
-          "text": "Search, Performance Max and YouTube campaigns built around buying intent."
-        },
-        {
-          "title": "Meta & TikTok Ads",
-          "text": "Creative-led campaigns on Facebook, Instagram and TikTok that reach the right people."
-        },
-        {
-          "title": "SEO",
-          "text": "Technical fixes, content and local SEO so customers find you without paying per click."
-        },
-        {
-          "title": "Analytics & tracking",
-          "text": "GA4, Google Tag Manager and dashboards so you see exactly where sales come from."
-        },
-        {
-          "title": "Conversion optimization",
-          "text": "Landing pages and funnels improved step by step to turn more visitors into leads."
-        },
-        {
-          "title": "Monthly reporting",
-          "text": "Clear reports in plain language, with the next actions — not just numbers."
-        }
+        { "title": "إعلانات Google", "text": "حملات البحث وPerformance Max ويوتيوب مبنية على نية الشراء." },
+        { "title": "إعلانات Meta وTikTok", "text": "حملات قائمة على الإبداع في فيسبوك وإنستغرام وتيك توك تصل إلى الأشخاص المناسبين." },
+        { "title": "تحسين محركات البحث (SEO)", "text": "إصلاحات تقنية ومحتوى وSEO محلي ليجدك العملاء دون أن تدفع مقابل كل نقرة." },
+        { "title": "التحليلات والتتبع", "text": "GA4 وGoogle Tag Manager ولوحات بيانات لترى بالضبط من أين تأتي المبيعات." },
+        { "title": "تحسين معدل التحويل", "text": "تحسين صفحات الهبوط والقمع خطوة بخطوة لتحويل مزيد من الزوار إلى عملاء محتملين." },
+        { "title": "تقارير شهرية", "text": "تقارير واضحة بلغة بسيطة مع الخطوات التالية — لا مجرد أرقام." }
       ],
       "outcomes": [
-        "Know your cost per lead and cost per sale",
-        "Ad budget moved to what actually converts",
-        "More qualified leads from search and social",
-        "A website that works as a sales tool"
+        "معرفة تكلفة العميل المحتمل وتكلفة البيع",
+        "توجيه ميزانية الإعلانات إلى ما يحقق التحويل فعلًا",
+        "مزيد من العملاء المؤهلين من البحث ووسائل التواصل",
+        "موقع يعمل كأداة مبيعات"
       ],
       "forWho": {
-        "yes": [
-          "Businesses ready to invest in ads and wanting better returns",
-          "Online stores and service businesses that need steady leads",
-          "Brands entering a new country or city"
-        ],
-        "no": [
-          "Anyone looking for overnight results without a budget",
-          "Businesses that don't want to track results"
-        ]
+        "yes": ["أعمال مستعدة للاستثمار في الإعلانات وتريد عائدًا أفضل", "متاجر إلكترونية وأعمال خدمية تحتاج إلى عملاء باستمرار", "علامات تجارية تدخل دولة أو مدينة جديدة"],
+        "no": ["من يبحث عن نتائج بين ليلة وضحاها دون ميزانية", "أعمال لا تريد قياس النتائج"]
       },
       "faq": [
-        {
-          "q": "What ad budget do I need?",
-          "a": "It depends on your market and goal. We'll recommend a sensible starting budget on the call. Ad spend is paid directly to the platforms, separate from our fee."
-        },
-        {
-          "q": "Can you take over my existing ad accounts?",
-          "a": "Yes. We start with an audit of your current accounts and keep what works."
-        },
-        {
-          "q": "How long does SEO take?",
-          "a": "SEO builds over time. Technical fixes help quickly; strong rankings usually take several months of steady work."
-        }
+        { "q": "ما الميزانية الإعلانية التي أحتاجها؟", "a": "يعتمد ذلك على سوقك وهدفك. سنقترح ميزانية بداية منطقية خلال المكالمة. يُدفع الإنفاق الإعلاني مباشرة للمنصات، منفصلًا عن أتعابنا." },
+        { "q": "هل يمكنكم إدارة حساباتي الإعلانية الحالية؟", "a": "نعم. نبدأ بمراجعة حساباتك الحالية ونحتفظ بما ينجح." },
+        { "q": "كم يستغرق تحسين محركات البحث؟", "a": "تحسين محركات البحث يتراكم مع الوقت. الإصلاحات التقنية تساعد بسرعة، أما الترتيب القوي فيحتاج عادةً عدة أشهر من العمل المنتظم." }
       ]
     },
     "traditional-marketing": {
-      "title": "Traditional Marketing",
-      "short": "Print, outdoor, local, field and WhatsApp marketing that wins customers in the real world.",
+      "title": "التسويق التقليدي",
+      "short": "مطبوعات ولوحات خارجية وتسويق محلي وميداني وعبر واتساب يكسب العملاء في الواقع.",
       "hero": {
-        "eyebrow": "Traditional Marketing",
-        "title": "Own your street, your city and your community.",
-        "subtitle": "Not every customer scrolls. We plan print, outdoor, events, field sales and WhatsApp campaigns that put your business in front of people where they live and shop."
+        "eyebrow": "التسويق التقليدي",
+        "title": "امتلك شارعك ومدينتك ومجتمعك.",
+        "subtitle": "ليس كل عميل يتصفح هاتفه. نخطط للمطبوعات واللوحات والفعاليات والمبيعات الميدانية وحملات واتساب لنضع عملك أمام الناس حيث يعيشون ويتسوقون."
       },
       "pains": [
-        "Local customers walk past your shop without knowing what you offer.",
-        "Your flyers and posters look like everyone else's.",
-        "Events and promotions cost money but bring few buyers.",
-        "You don't know how to measure offline marketing."
+        "العملاء القريبون يمرون بمتجرك دون أن يعرفوا ما تقدمه.",
+        "منشوراتك وملصقاتك تشبه ما لدى الجميع.",
+        "الفعاليات والعروض تكلّف مالًا لكنها تجلب قليلًا من المشترين.",
+        "لا تعرف كيف تقيس التسويق خارج الإنترنت."
       ],
       "deliverables": [
-        {
-          "title": "Print & outdoor",
-          "text": "Posters, flyers, banners and signage designed to stop people and drive action."
-        },
-        {
-          "title": "Local & community marketing",
-          "text": "Neighborhood campaigns, partnerships with nearby businesses and community presence."
-        },
-        {
-          "title": "Events & activations",
-          "text": "Launches, in-store promotions and pop-ups that create real buzz."
-        },
-        {
-          "title": "Field & direct sales support",
-          "text": "Scripts, materials and routes for teams that sell face to face."
-        },
-        {
-          "title": "WhatsApp marketing",
-          "text": "Broadcast lists, catalogs and offers sent in your customers' language."
-        },
-        {
-          "title": "Offline tracking",
-          "text": "QR codes, offer codes and simple counts so you know what's working."
-        }
+        { "title": "مطبوعات ولوحات خارجية", "text": "ملصقات ومنشورات ولافتات مصممة لتلفت الانتباه وتدفع إلى الفعل." },
+        { "title": "التسويق المحلي والمجتمعي", "text": "حملات في الأحياء، وشراكات مع الأعمال المجاورة، وحضور في المجتمع." },
+        { "title": "الفعاليات والتنشيط", "text": "حفلات إطلاق وعروض داخل المتجر وأركان مؤقتة تصنع ضجة حقيقية." },
+        { "title": "دعم المبيعات الميدانية والمباشرة", "text": "نصوص ومواد ومسارات لفرق البيع وجهًا لوجه." },
+        { "title": "التسويق عبر واتساب", "text": "قوائم بث وكتالوجات وعروض تُرسل بلغة عملائك." },
+        { "title": "قياس التسويق الميداني", "text": "رموز QR وأكواد عروض وعدّ بسيط لتعرف ما الذي ينجح." }
       ],
       "outcomes": [
-        "More walk-in and local customers",
-        "Materials that look premium and consistent",
-        "Promotions with clear, measured results",
-        "Stronger name in your neighborhood"
+        "مزيد من العملاء المحليين والزوار",
+        "مواد بمظهر راقٍ ومتّسق",
+        "عروض بنتائج واضحة ومقاسة",
+        "اسم أقوى في حيّك"
       ],
       "forWho": {
-        "yes": [
-          "Shops, restaurants, clinics, salons and hotels",
-          "Businesses serving a city or region",
-          "Companies with sales teams in the field"
-        ],
-        "no": [
-          "Purely online businesses with no local customers",
-          "Anyone wanting design only, without a plan (see Graphic Design)"
-        ]
+        "yes": ["المتاجر والمطاعم والعيادات والصالونات والفنادق", "الأعمال التي تخدم مدينة أو منطقة", "الشركات التي لديها فرق مبيعات ميدانية"],
+        "no": ["الأعمال الإلكترونية فقط التي لا عملاء محليين لها", "من يريد تصميمًا فقط دون خطة (راجع التصميم الجرافيكي)"]
       },
       "faq": [
-        {
-          "q": "Do you handle printing?",
-          "a": "We design and plan everything and can coordinate with your local printer, or recommend one."
-        },
-        {
-          "q": "Can you run multilingual campaigns?",
-          "a": "Yes. We create materials and WhatsApp messages in English, Arabic, Japanese and other languages your customers speak."
-        },
-        {
-          "q": "How do you measure offline results?",
-          "a": "With QR codes, unique offer codes, call tracking and simple in-store counts."
-        }
+        { "q": "هل تتولون الطباعة؟", "a": "نصمم ونخطط لكل شيء، ويمكننا التنسيق مع مطبعتك المحلية أو ترشيح واحدة." },
+        { "q": "هل يمكنكم تنفيذ حملات متعددة اللغات؟", "a": "نعم. نُعدّ المواد ورسائل واتساب بالعربية والإنجليزية واليابانية ولغات أخرى يتحدثها عملاؤك." },
+        { "q": "كيف تقيسون نتائج التسويق خارج الإنترنت؟", "a": "برموز QR وأكواد عروض فريدة وتتبع المكالمات وعدّ بسيط داخل المتجر." }
       ]
     },
     "business-growth": {
-      "title": "Business Growth",
-      "short": "For businesses with no sales or no system: offer, funnel, sales process and operations, fixed.",
+      "title": "نمو الأعمال",
+      "short": "للأعمال بلا مبيعات أو بلا نظام: العرض والقمع وعملية البيع والتشغيل، بعد الإصلاح.",
       "hero": {
-        "eyebrow": "Business Growth",
-        "title": "Your business is open. Now let's make it profitable.",
-        "subtitle": "When sales are low or everything feels messy, more ads aren't the answer. We fix the foundation — your offer, your funnel, your sales process and your daily operations — then scale what works."
+        "eyebrow": "نمو الأعمال",
+        "title": "عملك مفتوح. لنجعله الآن مربحًا.",
+        "subtitle": "حين تكون المبيعات ضعيفة أو يبدو كل شيء فوضويًا، فالحل ليس مزيدًا من الإعلانات. نصلح الأساس — العرض والقمع وعملية البيع والتشغيل اليومي — ثم نوسّع ما ينجح."
       },
       "pains": [
-        "You have a product or service, but sales are slow or unpredictable.",
-        "Everything depends on you and nothing runs without you.",
-        "You don't know your real numbers: margins, costs, customer value.",
-        "You've tried many tactics, but none of them stick."
+        "لديك منتج أو خدمة، لكن المبيعات بطيئة أو غير منتظمة.",
+        "كل شيء يعتمد عليك ولا شيء يسير دونك.",
+        "لا تعرف أرقامك الحقيقية: الهوامش والتكاليف وقيمة العميل.",
+        "جربت أساليب كثيرة، لكن لا شيء منها يستمر."
       ],
       "deliverables": [
-        {
-          "title": "Business diagnosis",
-          "text": "A clear look at your offer, market, pricing, numbers and bottlenecks."
-        },
-        {
-          "title": "Offer & pricing redesign",
-          "text": "An offer customers understand, value and say yes to."
-        },
-        {
-          "title": "Sales funnel & process",
-          "text": "A simple path from first contact to paid order, with scripts and follow-ups."
-        },
-        {
-          "title": "KPI dashboard",
-          "text": "The few numbers that matter, tracked weekly so you can decide fast."
-        },
-        {
-          "title": "Operations clean-up",
-          "text": "Roles, routines and checklists so the business runs without daily chaos."
-        },
-        {
-          "title": "Growth coaching",
-          "text": "Regular sessions to review numbers, remove blockers and plan the next move."
-        }
+        { "title": "تشخيص الأعمال", "text": "نظرة واضحة على عرضك وسوقك وتسعيرك وأرقامك ونقاط الاختناق." },
+        { "title": "إعادة تصميم العرض والتسعير", "text": "عرض يفهمه العملاء ويقدّرونه ويقولون له نعم." },
+        { "title": "قمع المبيعات والعملية", "text": "مسار بسيط من أول تواصل إلى طلب مدفوع، مع نصوص ومتابعات." },
+        { "title": "لوحة مؤشرات الأداء", "text": "الأرقام القليلة المهمة، تُتابَع أسبوعيًا لتقرر بسرعة." },
+        { "title": "تنظيم التشغيل", "text": "أدوار وروتين وقوائم مراجعة ليعمل المشروع دون فوضى يومية." },
+        { "title": "إرشاد النمو", "text": "جلسات منتظمة لمراجعة الأرقام وإزالة العوائق وتخطيط الخطوة التالية." }
       ],
       "outcomes": [
-        "A clear offer and a steady flow of leads",
-        "A sales process your team can follow",
-        "Weekly numbers you actually understand",
-        "More time for you to lead, not firefight"
+        "عرض واضح وتدفق مستمر من العملاء المحتملين",
+        "عملية بيع يستطيع فريقك اتباعها",
+        "أرقام أسبوعية تفهمها فعلًا",
+        "وقت أكبر لتقود بدل أن تطفئ الحرائق"
       ],
       "forWho": {
-        "yes": [
-          "Businesses with low or unpredictable sales",
-          "Owners who feel the business is disorganized",
-          "Teams ready to change how they work"
-        ],
-        "no": [
-          "Anyone looking for a magic trick instead of a system",
-          "Businesses not willing to share their numbers"
-        ]
+        "yes": ["أعمال مبيعاتها ضعيفة أو غير منتظمة", "أصحاب أعمال يشعرون بأن مشروعهم غير منظّم", "فرق مستعدة لتغيير طريقة عملها"],
+        "no": ["من يبحث عن حيلة سحرية بدل نظام", "أعمال لا تريد مشاركة أرقامها"]
       },
       "faq": [
-        {
-          "q": "Do I need a big team for this?",
-          "a": "No. Most of our clients are small and medium businesses. We design systems that fit the team you have."
-        },
-        {
-          "q": "Will you work with my existing staff?",
-          "a": "Yes. We train and guide your team so the new systems keep working after we step back."
-        },
-        {
-          "q": "How fast will sales improve?",
-          "a": "Fixing the offer and follow-up often shows results within weeks. Lasting growth comes from steady work over a few months."
-        }
+        { "q": "هل أحتاج إلى فريق كبير لذلك؟", "a": "لا. معظم عملائنا أعمال صغيرة ومتوسطة، ونصمم أنظمة تناسب فريقك الحالي." },
+        { "q": "هل ستعملون مع موظفيّ الحاليين؟", "a": "نعم. ندرب فريقك ونرشده لتستمر الأنظمة الجديدة في العمل بعد انسحابنا." },
+        { "q": "متى ستتحسن المبيعات؟", "a": "إصلاح العرض والمتابعة يظهر أثره غالبًا خلال أسابيع، أما النمو الدائم فيأتي من عمل منتظم على مدى بضعة أشهر." }
       ]
     },
     "business-setup": {
-      "title": "Business Setup",
-      "short": "A step-by-step roadmap to start your business right — anywhere in the world.",
+      "title": "تأسيس الأعمال",
+      "short": "خارطة طريق خطوة بخطوة لتبدأ مشروعك بشكل صحيح — في أي مكان في العالم.",
       "hero": {
-        "eyebrow": "Business Setup",
-        "title": "Start your business with a map, not a guess.",
-        "subtitle": "From validating your idea to your first customers, we give you a step-by-step launch roadmap and stay with you in the field — so you avoid the expensive mistakes most new businesses make."
+        "eyebrow": "تأسيس الأعمال",
+        "title": "ابدأ مشروعك بخريطة، لا بالتخمين.",
+        "subtitle": "من التحقق من فكرتك إلى أول عملائك، نمنحك خارطة إطلاق خطوة بخطوة ونبقى معك في الميدان — لتتجنب الأخطاء المكلفة التي تقع فيها معظم المشاريع الجديدة."
       },
       "pains": [
-        "You have an idea or savings, but don't know where to begin.",
-        "You're afraid of choosing the wrong product, location or market.",
-        "Registration, branding and marketing all feel overwhelming.",
-        "You want to launch in a new country and don't know the market."
+        "لديك فكرة أو مدخرات، لكنك لا تعرف من أين تبدأ.",
+        "تخشى اختيار المنتج أو الموقع أو السوق الخطأ.",
+        "التسجيل والعلامة التجارية والتسويق كلها تبدو مرهقة.",
+        "تريد الانطلاق في دولة جديدة ولا تعرف سوقها."
       ],
       "deliverables": [
-        {
-          "title": "Idea validation",
-          "text": "Quick, low-cost tests to check real demand before you invest."
-        },
-        {
-          "title": "Market & competitor research",
-          "text": "Who your customers are, what they pay, and how to stand out."
-        },
-        {
-          "title": "Launch roadmap",
-          "text": "A step-by-step plan with priorities, timelines and a realistic budget."
-        },
-        {
-          "title": "Brand setup",
-          "text": "Name, logo, identity, website and social profiles that look professional from day one."
-        },
-        {
-          "title": "Go-to-market plan",
-          "text": "How you'll find your first 100 customers, online and offline."
-        },
-        {
-          "title": "Field guidance",
-          "text": "Ongoing support as you launch — so you never feel alone with a decision."
-        }
+        { "title": "التحقق من الفكرة", "text": "اختبارات سريعة ومنخفضة التكلفة لقياس الطلب الحقيقي قبل أن تستثمر." },
+        { "title": "دراسة السوق والمنافسين", "text": "من هم عملاؤك، وكم يدفعون، وكيف تتميز." },
+        { "title": "خارطة الإطلاق", "text": "خطة خطوة بخطوة بالأولويات والجداول الزمنية وميزانية واقعية." },
+        { "title": "تأسيس العلامة التجارية", "text": "اسم وشعار وهوية وموقع وحسابات تواصل تبدو احترافية من اليوم الأول." },
+        { "title": "خطة الدخول إلى السوق", "text": "كيف ستجد أول ١٠٠ عميل، عبر الإنترنت وخارجه." },
+        { "title": "إرشاد ميداني", "text": "دعم مستمر أثناء الإطلاق — كي لا تكون وحدك أمام أي قرار." }
       ],
       "outcomes": [
-        "Confidence that there's demand before you spend",
-        "A clear plan with steps, costs and timelines",
-        "A professional brand ready to sell",
-        "Your first customers, faster"
+        "ثقة بوجود طلب قبل أن تنفق",
+        "خطة واضحة بالخطوات والتكاليف والمواعيد",
+        "علامة تجارية احترافية جاهزة للبيع",
+        "أول عملائك، بشكل أسرع"
       ],
       "forWho": {
-        "yes": [
-          "First-time founders",
-          "Professionals turning a skill into a business",
-          "Investors entering a new market or country"
-        ],
-        "no": [
-          "Anyone looking only for company registration paperwork",
-          "Get-rich-quick schemes"
-        ]
+        "yes": ["رواد أعمال لأول مرة", "محترفون يحوّلون مهارتهم إلى مشروع", "مستثمرون يدخلون سوقًا أو دولة جديدة"],
+        "no": ["من يبحث عن أوراق تسجيل الشركة فقط", "مخططات الثراء السريع"]
       },
       "faq": [
-        {
-          "q": "Can you help me start a business in another country?",
-          "a": "Yes. We help with market research, positioning and launch planning for many markets. For legal registration we guide you to the right local providers."
-        },
-        {
-          "q": "I only have a small budget. Can I still start?",
-          "a": "Often yes. We'll design a lean launch that tests demand before larger spending."
-        },
-        {
-          "q": "Do you stay involved after the launch?",
-          "a": "If you want. Many clients continue with our growth or marketing packages."
-        }
+        { "q": "هل يمكنكم مساعدتي في بدء مشروع في دولة أخرى؟", "a": "نعم. نساعد في دراسة السوق والتموضع وتخطيط الإطلاق في أسواق كثيرة. أما التسجيل القانوني فنرشدك إلى الجهات المحلية المناسبة." },
+        { "q": "ميزانيتي صغيرة. هل يمكنني البدء؟", "a": "غالبًا نعم. سنصمم إطلاقًا خفيفًا يختبر الطلب قبل أي إنفاق أكبر." },
+        { "q": "هل تبقون معي بعد الإطلاق؟", "a": "إن رغبت. كثير من العملاء يواصلون معنا عبر باقات النمو أو التسويق." }
       ]
     },
     "ai-automation": {
-      "title": "AI Setup & Automation",
-      "short": "AI assistants and automated workflows that reply, follow up and report — while you focus on growth.",
+      "title": "تجهيز الذكاء الاصطناعي والأتمتة",
+      "short": "مساعدات ذكية وسير عمل مؤتمت يرد ويتابع ويعدّ التقارير — بينما تركز أنت على النمو.",
       "hero": {
-        "eyebrow": "AI Setup & Automation",
-        "title": "Let AI handle the busy work. You handle the growth.",
-        "subtitle": "We set up practical AI tools and automations for your business — instant lead replies, follow-ups, content workflows and reports — so your team saves hours every week and no customer waits."
+        "eyebrow": "الذكاء الاصطناعي والأتمتة",
+        "title": "دع الذكاء الاصطناعي يتولى الأعمال المتكررة. وتولَّ أنت النمو.",
+        "subtitle": "نجهّز أدوات ذكاء اصطناعي وأتمتة عملية لعملك — ردود فورية على العملاء ومتابعات وسير عمل للمحتوى وتقارير — ليوفّر فريقك ساعات كل أسبوع ولا ينتظر أي عميل."
       },
       "pains": [
-        "Leads message you and wait hours (or days) for a reply.",
-        "Your team copies the same data between apps every day.",
-        "Content, reports and follow-ups always fall behind.",
-        "You know AI could help but don't know where to start."
+        "العملاء المحتملون يراسلونك وينتظرون الرد ساعات (أو أيامًا).",
+        "فريقك ينسخ البيانات نفسها بين التطبيقات كل يوم.",
+        "المحتوى والتقارير والمتابعات تتأخر دائمًا.",
+        "تعرف أن الذكاء الاصطناعي قد يساعد لكنك لا تعرف من أين تبدأ."
       ],
       "deliverables": [
-        {
-          "title": "AI audit",
-          "text": "We find the tasks in your business that AI and automation can take over first."
-        },
-        {
-          "title": "Lead capture & instant reply",
-          "text": "Website, WhatsApp and social leads captured and answered in seconds."
-        },
-        {
-          "title": "AI assistants & chatbots",
-          "text": "Assistants trained on your services that answer common questions 24/7."
-        },
-        {
-          "title": "Workflow automation",
-          "text": "Connect your forms, CRM, sheets, email and calendar so work flows automatically."
-        },
-        {
-          "title": "AI content workflows",
-          "text": "Faster drafts for posts, ads, emails and product descriptions — reviewed by humans."
-        },
-        {
-          "title": "Training your team",
-          "text": "Simple guides and sessions so your team uses the tools with confidence."
-        }
+        { "title": "تدقيق الذكاء الاصطناعي", "text": "نحدد المهام في عملك التي يمكن للذكاء الاصطناعي والأتمتة توليها أولًا." },
+        { "title": "التقاط العملاء والرد الفوري", "text": "عملاء الموقع وواتساب ووسائل التواصل يُلتقطون ويُرد عليهم خلال ثوانٍ." },
+        { "title": "مساعدات ذكية وروبوتات محادثة", "text": "مساعدات مدرّبة على خدماتك تجيب عن الأسئلة الشائعة على مدار الساعة." },
+        { "title": "أتمتة سير العمل", "text": "اربط النماذج ونظام إدارة العملاء والجداول والبريد والتقويم ليتدفق العمل تلقائيًا." },
+        { "title": "سير عمل المحتوى بالذكاء الاصطناعي", "text": "مسودات أسرع للمنشورات والإعلانات والرسائل ووصف المنتجات — بمراجعة بشرية." },
+        { "title": "تدريب فريقك", "text": "أدلة وجلسات بسيطة ليستخدم فريقك الأدوات بثقة." }
       ],
       "outcomes": [
-        "Faster replies to every lead",
-        "Hours of repetitive work saved each week",
-        "Fewer missed follow-ups",
-        "A team that knows how to use AI safely"
+        "ردود أسرع على كل عميل محتمل",
+        "ساعات من العمل المتكرر تُوفَّر كل أسبوع",
+        "متابعات فائتة أقل",
+        "فريق يعرف كيف يستخدم الذكاء الاصطناعي بأمان"
       ],
       "forWho": {
-        "yes": [
-          "Businesses getting leads from many channels",
-          "Teams buried in repetitive admin work",
-          "Owners who want to use AI but need a guide"
-        ],
-        "no": [
-          "Anyone hoping AI will replace a real strategy",
-          "Businesses unwilling to change a single process"
-        ]
+        "yes": ["أعمال تصلها طلبات من قنوات كثيرة", "فرق غارقة في أعمال إدارية متكررة", "أصحاب أعمال يريدون استخدام الذكاء الاصطناعي لكنهم يحتاجون مرشدًا"],
+        "no": ["من يأمل أن يحل الذكاء الاصطناعي محل استراتيجية حقيقية", "أعمال لا تقبل تغيير أي عملية"]
       },
       "faq": [
-        {
-          "q": "Do I need technical skills?",
-          "a": "No. We set everything up, document it and train your team in plain language."
-        },
-        {
-          "q": "Which tools do you use?",
-          "a": "We choose tools that fit your budget and existing apps, from popular AI assistants to automation platforms and CRMs."
-        },
-        {
-          "q": "Is my customer data safe?",
-          "a": "We design automations with privacy in mind, use reputable tools and only connect the data each workflow needs."
-        }
+        { "q": "هل أحتاج إلى مهارات تقنية؟", "a": "لا. نجهّز كل شيء ونوثّقه وندرب فريقك بلغة بسيطة." },
+        { "q": "ما الأدوات التي تستخدمونها؟", "a": "نختار أدوات تناسب ميزانيتك وتطبيقاتك الحالية، من المساعدات الذكية الشائعة إلى منصات الأتمتة وأنظمة إدارة العملاء." },
+        { "q": "هل بيانات عملائي آمنة؟", "a": "نصمم الأتمتة مع مراعاة الخصوصية، ونستخدم أدوات موثوقة، ولا نربط إلا البيانات التي يحتاجها كل سير عمل." }
       ]
     },
     "video-editing": {
-      "title": "Marketing Video Editing",
-      "short": "Scroll-stopping ads, reels, shorts and explainer videos edited to sell.",
+      "title": "مونتاج فيديو تسويقي",
+      "short": "إعلانات وريلز وشورتس وفيديوهات تعريفية تلفت الانتباه، مُحرَّرة لتبيع.",
       "hero": {
-        "eyebrow": "Marketing Video Editing",
-        "title": "Videos that stop the scroll and start the sale.",
-        "subtitle": "We edit ads, reels, shorts and explainer videos with hooks, captions and motion graphics designed for one goal: getting people to take action."
+        "eyebrow": "مونتاج الفيديو التسويقي",
+        "title": "فيديوهات توقف التمرير وتبدأ البيع.",
+        "subtitle": "نحرّر الإعلانات والريلز والشورتس والفيديوهات التعريفية بافتتاحيات قوية وترجمات ورسومات متحركة مصممة لهدف واحد: أن يتخذ المشاهد خطوة."
       },
       "pains": [
-        "Your videos get views but no messages or sales.",
-        "People scroll past in the first two seconds.",
-        "Editing takes your team days and still looks amateur.",
-        "You need content every week but can't keep up."
+        "فيديوهاتك تحصد مشاهدات لكن لا رسائل ولا مبيعات.",
+        "الناس يتجاوزونها في أول ثانيتين.",
+        "المونتاج يستغرق من فريقك أيامًا ويبقى بمظهر هاوٍ.",
+        "تحتاج محتوى كل أسبوع لكنك لا تستطيع المواكبة."
       ],
       "deliverables": [
-        {
-          "title": "Ad creatives",
-          "text": "Short video ads built around a strong hook, clear offer and call to action."
-        },
-        {
-          "title": "Reels, Shorts & TikToks",
-          "text": "Vertical videos edited for each platform's style and pace."
-        },
-        {
-          "title": "Product & service explainers",
-          "text": "Simple videos that show what you do and why it matters."
-        },
-        {
-          "title": "Motion graphics & captions",
-          "text": "Animated text, icons and subtitles that keep viewers watching — even on mute."
-        },
-        {
-          "title": "Multilingual subtitles",
-          "text": "Captions in English, Arabic, Japanese and more."
-        },
-        {
-          "title": "Monthly content packs",
-          "text": "A steady batch of videos every month, planned with your marketing calendar."
-        }
+        { "title": "إعلانات فيديو", "text": "إعلانات قصيرة مبنية على افتتاحية قوية وعرض واضح ودعوة إلى الفعل." },
+        { "title": "ريلز وشورتس وتيك توك", "text": "فيديوهات عمودية محرّرة بأسلوب وإيقاع كل منصة." },
+        { "title": "فيديوهات تعريفية للمنتجات والخدمات", "text": "فيديوهات بسيطة تشرح ما تقدمه ولماذا يهم." },
+        { "title": "رسومات متحركة وترجمات", "text": "نصوص وأيقونات متحركة وترجمات تُبقي المشاهد متابعًا — حتى دون صوت." },
+        { "title": "ترجمات متعددة اللغات", "text": "ترجمات بالعربية والإنجليزية واليابانية وغيرها." },
+        { "title": "باقات محتوى شهرية", "text": "دفعة منتظمة من الفيديوهات كل شهر، مخطط لها مع تقويمك التسويقي." }
       ],
       "outcomes": [
-        "More people watching past the first seconds",
-        "Videos that clearly drive messages and clicks",
-        "A consistent, professional look",
-        "Fresh content without stress"
+        "مشاهدون أكثر يتابعون بعد الثواني الأولى",
+        "فيديوهات تقود بوضوح إلى الرسائل والنقرات",
+        "مظهر احترافي ومتسق",
+        "محتوى جديد دون ضغط"
       ],
       "forWho": {
-        "yes": [
-          "Brands running video ads",
-          "Businesses posting on Reels, TikTok or YouTube",
-          "Coaches, experts and founders who record themselves"
-        ],
-        "no": [
-          "Long films or wedding videos",
-          "Projects with no raw footage and no budget for filming"
-        ]
+        "yes": ["علامات تجارية تدير إعلانات فيديو", "أعمال تنشر على ريلز أو تيك توك أو يوتيوب", "مدربون وخبراء ومؤسسون يصورون أنفسهم"],
+        "no": ["الأفلام الطويلة أو فيديوهات الأعراس", "مشاريع بلا لقطات خام ولا ميزانية للتصوير"]
       },
       "faq": [
-        {
-          "q": "Do you film the videos?",
-          "a": "We focus on editing. You send the raw footage (even phone videos work), and we can guide you on how to film it."
-        },
-        {
-          "q": "How fast is delivery?",
-          "a": "Short videos are usually delivered within a few working days, depending on volume."
-        },
-        {
-          "q": "How many revisions do I get?",
-          "a": "Each package includes revisions so you're happy with the final result."
-        }
+        { "q": "هل تصورون الفيديوهات؟", "a": "نركز على المونتاج. ترسل لنا اللقطات الخام (حتى فيديوهات الهاتف مناسبة)، ويمكننا إرشادك إلى طريقة التصوير." },
+        { "q": "ما سرعة التسليم؟", "a": "تُسلَّم الفيديوهات القصيرة عادةً خلال بضعة أيام عمل، حسب الكمية." },
+        { "q": "كم مرة يمكنني طلب تعديلات؟", "a": "تشمل كل باقة جولات تعديل حتى ترضى عن النتيجة النهائية." }
       ]
     }
   },
   "SolutionsIndex": {
-    "eyebrow": "Solutions",
-    "title": "Business services you can count on.",
-    "subtitle": "Beyond marketing, we take care of the everyday work your business needs — from websites and design to documents, travel, training and manpower.",
-    "stepsTitle": "Simple from start to finish",
+    "eyebrow": "الحلول",
+    "title": "خدمات أعمال يمكنك الاعتماد عليها.",
+    "subtitle": "إلى جانب التسويق، نتولى الأعمال اليومية التي يحتاجها مشروعك — من المواقع والتصميم إلى المستندات والسفر والتدريب والقوى العاملة.",
+    "stepsTitle": "بسيط من البداية إلى النهاية",
     "steps": [
-      {
-        "title": "Tell us what you need",
-        "text": "Message us on WhatsApp or book a free call."
-      },
-      {
-        "title": "Get a clear quote",
-        "text": "You receive the scope, timeline and price before we start."
-      },
-      {
-        "title": "We deliver",
-        "text": "We handle the work and keep you updated until it's done."
-      }
+      { "title": "أخبرنا بما تحتاجه", "text": "راسلنا عبر واتساب أو احجز مكالمة مجانية." },
+      { "title": "احصل على عرض سعر واضح", "text": "تستلم النطاق والمدة والسعر قبل أن نبدأ." },
+      { "title": "ننفّذ ونسلّم", "text": "نتولى العمل ونبقيك على اطلاع حتى ينتهي." }
     ]
   },
   "Solution": {
     "web-development": {
-      "title": "Website Development",
-      "short": "Fast, modern business websites and landing pages built to convert.",
+      "title": "تطوير المواقع",
+      "short": "مواقع أعمال وصفحات هبوط سريعة وحديثة مبنية لتحقيق التحويل.",
       "hero": {
-        "eyebrow": "Website Development",
-        "title": "A website that works as hard as you do.",
-        "subtitle": "We build fast, mobile-first websites and landing pages that look premium, load in a blink and turn visitors into enquiries."
+        "eyebrow": "تطوير المواقع",
+        "title": "موقع يعمل بجدّ مثلك.",
+        "subtitle": "نبني مواقع وصفحات هبوط سريعة ومصممة للجوال أولًا، بمظهر راقٍ وتحميل لحظي، تحوّل الزوار إلى استفسارات."
       },
       "offer": [
-        {
-          "title": "Business websites",
-          "text": "Multi-page sites that explain what you do and build trust."
-        },
-        {
-          "title": "Landing pages",
-          "text": "Focused pages for ads and campaigns, built to convert."
-        },
-        {
-          "title": "Multilingual sites",
-          "text": "English, Arabic (right-to-left), Japanese and more."
-        },
-        {
-          "title": "SEO-ready & fast",
-          "text": "Clean code, good speed scores and search-friendly structure."
-        }
+        { "title": "مواقع الأعمال", "text": "مواقع متعددة الصفحات تشرح ما تقدمه وتبني الثقة." },
+        { "title": "صفحات الهبوط", "text": "صفحات مركّزة للإعلانات والحملات، مبنية للتحويل." },
+        { "title": "مواقع متعددة اللغات", "text": "العربية (من اليمين إلى اليسار) والإنجليزية واليابانية وغيرها." },
+        { "title": "جاهزة لمحركات البحث وسريعة", "text": "كود نظيف ونتائج سرعة جيدة وبنية صديقة لمحركات البحث." }
       ],
-      "why": [
-        "Built by marketers, so every page has a goal",
-        "Mobile-first and fast",
-        "Easy to update and move between hosts"
-      ],
+      "why": ["يبنيها مسوّقون، فلكل صفحة هدف", "مصممة للجوال أولًا وسريعة", "سهلة التحديث والنقل بين الاستضافات"],
       "faq": [
-        {
-          "q": "Do you provide hosting and a domain?",
-          "a": "We can guide you to buy them in your name and connect everything for you."
-        },
-        {
-          "q": "Can you redesign my current website?",
-          "a": "Yes. We keep what works, fix what doesn't and improve speed and conversions."
-        }
+        { "q": "هل توفرون الاستضافة والنطاق؟", "a": "نرشدك لشرائهما باسمك ونربط كل شيء لك." },
+        { "q": "هل يمكنكم إعادة تصميم موقعي الحالي؟", "a": "نعم. نحتفظ بما ينجح، ونصلح ما لا ينجح، ونحسّن السرعة والتحويل." }
       ]
     },
     "ui-ux-design": {
-      "title": "UI/UX Design",
-      "short": "Clean, modern app and web interfaces that are easy and pleasant to use.",
+      "title": "تصميم واجهات وتجربة المستخدم",
+      "short": "واجهات تطبيقات ومواقع نظيفة وحديثة سهلة وممتعة في الاستخدام.",
       "hero": {
-        "eyebrow": "UI/UX Design",
-        "title": "Design that people understand at first glance.",
-        "subtitle": "We design app and web interfaces that look modern, guide users naturally and make your product feel effortless."
+        "eyebrow": "تصميم UI/UX",
+        "title": "تصميم يفهمه الناس من النظرة الأولى.",
+        "subtitle": "نصمم واجهات تطبيقات ومواقع بمظهر حديث، توجّه المستخدم بشكل طبيعي وتجعل منتجك سهلًا بلا عناء."
       },
       "offer": [
-        {
-          "title": "User research & flows",
-          "text": "We map how your users think before drawing a single screen."
-        },
-        {
-          "title": "Wireframes & prototypes",
-          "text": "Clickable prototypes you can test before development."
-        },
-        {
-          "title": "UI design",
-          "text": "Polished screens with a consistent, premium look."
-        },
-        {
-          "title": "Design systems",
-          "text": "Reusable components so your product stays consistent as it grows."
-        }
+        { "title": "بحث المستخدمين والمسارات", "text": "نرسم طريقة تفكير مستخدميك قبل رسم أي شاشة." },
+        { "title": "مخططات ونماذج أولية", "text": "نماذج تفاعلية يمكنك اختبارها قبل التطوير." },
+        { "title": "تصميم الواجهات", "text": "شاشات مصقولة بمظهر راقٍ ومتسق." },
+        { "title": "أنظمة التصميم", "text": "مكونات قابلة لإعادة الاستخدام ليبقى منتجك متسقًا مع نموه." }
       ],
-      "why": [
-        "Design driven by conversion and usability",
-        "Ready-to-build files for developers",
-        "Right-to-left and multilingual layouts"
-      ],
+      "why": ["تصميم يقوده التحويل وسهولة الاستخدام", "ملفات جاهزة للمطورين", "تخطيطات من اليمين إلى اليسار ومتعددة اللغات"],
       "faq": [
-        {
-          "q": "Which tools do you use?",
-          "a": "Usually Figma, with files and prototypes shared so your team can review and comment."
-        },
-        {
-          "q": "Can you also build the design?",
-          "a": "Yes — see our Website Development solution."
-        }
+        { "q": "ما الأدوات التي تستخدمونها؟", "a": "عادةً Figma، مع مشاركة الملفات والنماذج ليتمكن فريقك من المراجعة والتعليق." },
+        { "q": "هل يمكنكم تنفيذ التصميم أيضًا؟", "a": "نعم — راجع حل تطوير المواقع." }
       ]
     },
     "graphic-design": {
-      "title": "Graphic Design",
-      "short": "Logos, branding, social posts, posters and print that look professional.",
+      "title": "التصميم الجرافيكي",
+      "short": "شعارات وهويات ومنشورات تواصل وملصقات ومطبوعات بمظهر احترافي.",
       "hero": {
-        "eyebrow": "Graphic Design",
-        "title": "Look like the brand customers already trust.",
-        "subtitle": "From logos and brand identity to social posts, posters and print, we create visuals that make your business look as good as it is."
+        "eyebrow": "التصميم الجرافيكي",
+        "title": "اظهر كعلامة يثق بها العملاء.",
+        "subtitle": "من الشعارات والهوية البصرية إلى منشورات التواصل والملصقات والمطبوعات، نصنع مرئيات تجعل عملك يبدو بقدر جودته الحقيقية."
       },
       "offer": [
-        {
-          "title": "Logo & brand identity",
-          "text": "Logo, colors, fonts and simple brand guidelines."
-        },
-        {
-          "title": "Social media designs",
-          "text": "Post and story templates that stay on-brand every week."
-        },
-        {
-          "title": "Posters & flyers",
-          "text": "Eye-catching print and digital promotions."
-        },
-        {
-          "title": "Business stationery",
-          "text": "Business cards, letterheads, menus and brochures."
-        }
+        { "title": "الشعار والهوية البصرية", "text": "شعار وألوان وخطوط ودليل هوية مبسط." },
+        { "title": "تصاميم وسائل التواصل", "text": "قوالب منشورات وقصص تحافظ على هويتك كل أسبوع." },
+        { "title": "ملصقات ومنشورات", "text": "عروض مطبوعة ورقمية لافتة للنظر." },
+        { "title": "مطبوعات الأعمال", "text": "بطاقات عمل وأوراق رسمية وقوائم طعام وكتيبات." }
       ],
-      "why": [
-        "Designs made to sell, not just to look nice",
-        "Consistent style across every channel",
-        "Multilingual layouts including Arabic"
-      ],
+      "why": ["تصاميم صُنعت لتبيع، لا لتبدو جميلة فقط", "أسلوب متسق في كل القنوات", "تخطيطات متعددة اللغات تشمل العربية"],
       "faq": [
-        {
-          "q": "Do I get the source files?",
-          "a": "Yes. You receive the final files and, for brand work, the editable source files."
-        },
-        {
-          "q": "How many revisions are included?",
-          "a": "Each project includes revision rounds agreed before we start."
-        }
+        { "q": "هل أحصل على الملفات المصدرية؟", "a": "نعم. تستلم الملفات النهائية، وفي أعمال الهوية الملفات المصدرية القابلة للتعديل." },
+        { "q": "كم عدد جولات التعديل المشمولة؟", "a": "يشمل كل مشروع جولات تعديل متفقًا عليها قبل البدء." }
       ]
     },
     "documents": {
-      "title": "Document Services",
-      "short": "Business documents, company profiles, proposals, CVs and document processing help.",
+      "title": "خدمات المستندات",
+      "short": "مستندات أعمال وملفات تعريفية للشركات وعروض وسير ذاتية ومساعدة في معالجة المستندات.",
       "hero": {
-        "eyebrow": "Document Services",
-        "title": "Professional documents, without the headache.",
-        "subtitle": "We prepare and organize the documents your business and career need — clear, well-designed and ready to send."
+        "eyebrow": "خدمات المستندات",
+        "title": "مستندات احترافية، دون عناء.",
+        "subtitle": "نُعدّ وننظم المستندات التي يحتاجها عملك ومسيرتك المهنية — واضحة ومصممة جيدًا وجاهزة للإرسال."
       },
       "offer": [
-        {
-          "title": "Company profiles",
-          "text": "Professional profiles that present your business with confidence."
-        },
-        {
-          "title": "Business proposals & plans",
-          "text": "Proposals, pitch documents and business plans that win approval."
-        },
-        {
-          "title": "CVs & cover letters",
-          "text": "Modern CVs tailored to your target country and role."
-        },
-        {
-          "title": "Forms & document processing",
-          "text": "Help filling forms, organizing files and preparing paperwork correctly."
-        }
+        { "title": "الملفات التعريفية للشركات", "text": "ملفات احترافية تقدّم عملك بثقة." },
+        { "title": "عروض وخطط الأعمال", "text": "عروض ومستندات تقديمية وخطط أعمال تنال الموافقة." },
+        { "title": "السير الذاتية وخطابات التقديم", "text": "سير ذاتية حديثة مصممة لبلدك ووظيفتك المستهدفة." },
+        { "title": "النماذج ومعالجة المستندات", "text": "مساعدة في تعبئة النماذج وتنظيم الملفات وإعداد الأوراق بشكل صحيح." }
       ],
-      "why": [
-        "Clear writing with a professional design",
-        "Formats for different countries and industries",
-        "Fast turnaround"
-      ],
+      "why": ["كتابة واضحة بتصميم احترافي", "صيغ لدول وقطاعات مختلفة", "تسليم سريع"],
       "faq": [
-        {
-          "q": "Can you translate documents?",
-          "a": "We can prepare documents in English, Arabic and other languages. For official certified translation we guide you to licensed providers."
-        },
-        {
-          "q": "Is my information kept private?",
-          "a": "Yes. We use your documents only for your project and don't share them."
-        }
+        { "q": "هل يمكنكم ترجمة المستندات؟", "a": "يمكننا إعداد المستندات بالعربية والإنجليزية ولغات أخرى. أما الترجمة الرسمية المعتمدة فنرشدك إلى جهات مرخّصة." },
+        { "q": "هل تبقى معلوماتي خاصة؟", "a": "نعم. نستخدم مستنداتك لمشروعك فقط ولا نشاركها." }
       ]
     },
     "travel-ticketing": {
-      "title": "Travel & Ticketing",
-      "short": "Flight tickets, hotel bookings, visa assistance and Umrah travel support.",
+      "title": "السفر والتذاكر",
+      "short": "تذاكر طيران وحجوزات فنادق ومساعدة في التأشيرات ودعم رحلات العمرة.",
       "hero": {
-        "eyebrow": "Travel & Ticketing",
-        "title": "Travel planned properly, from ticket to hotel.",
-        "subtitle": "Business trip, family travel or Umrah — we help you book flights and hotels and prepare your visa paperwork, so your journey starts stress-free."
+        "eyebrow": "السفر والتذاكر",
+        "title": "رحلة مخطط لها جيدًا، من التذكرة إلى الفندق.",
+        "subtitle": "رحلة عمل أو سفر عائلي أو عمرة — نساعدك في حجز الطيران والفنادق وتجهيز أوراق التأشيرة، لتبدأ رحلتك دون توتر."
       },
       "offer": [
-        {
-          "title": "Flight tickets",
-          "text": "Help finding and booking the right flights for your dates and budget."
-        },
-        {
-          "title": "Hotel bookings",
-          "text": "Accommodation options that fit your plans and location."
-        },
-        {
-          "title": "Visa assistance",
-          "text": "Guidance and document preparation for your visa application."
-        },
-        {
-          "title": "Umrah travel support",
-          "text": "Planning support for Umrah trips, with our experience in Hajj & Umrah operations."
-        }
+        { "title": "تذاكر الطيران", "text": "مساعدة في إيجاد وحجز الرحلات المناسبة لمواعيدك وميزانيتك." },
+        { "title": "حجوزات الفنادق", "text": "خيارات إقامة تناسب خططك وموقعك." },
+        { "title": "المساعدة في التأشيرات", "text": "إرشاد وتجهيز المستندات لطلب التأشيرة." },
+        { "title": "دعم رحلات العمرة", "text": "دعم التخطيط لرحلات العمرة، بخبرتنا في عمليات الحج والعمرة." }
       ],
-      "why": [
-        "Experience with travel in Saudi Arabia and the region",
-        "Clear options and honest advice",
-        "Support by WhatsApp when you need it"
-      ],
+      "why": ["خبرة في السفر داخل السعودية والمنطقة", "خيارات واضحة ونصيحة صادقة", "دعم عبر واتساب حين تحتاجه"],
       "faq": [
-        {
-          "q": "Do you issue visas?",
-          "a": "Visas are issued by the official authorities. We help you prepare the documents and follow the correct process."
-        },
-        {
-          "q": "Can you help groups and companies?",
-          "a": "Yes. We can coordinate travel for teams, families and groups."
-        }
+        { "q": "هل تُصدرون التأشيرات؟", "a": "تُصدر التأشيرات من الجهات الرسمية. نحن نساعدك في تجهيز المستندات واتباع الإجراءات الصحيحة." },
+        { "q": "هل يمكنكم مساعدة المجموعات والشركات؟", "a": "نعم. يمكننا تنسيق السفر للفرق والعائلات والمجموعات." }
       ]
     },
     "training": {
-      "title": "Training",
-      "short": "Practical marketing, sales, AI-tools and business training for owners and teams.",
+      "title": "التدريب",
+      "short": "تدريب عملي في التسويق والمبيعات وأدوات الذكاء الاصطناعي والإدارة لأصحاب الأعمال والفرق.",
       "hero": {
-        "eyebrow": "Training",
-        "title": "Skills your team can use on Monday morning.",
-        "subtitle": "Hands-on training in marketing, sales, AI tools and business management — practical, in your language, and built around your real work."
+        "eyebrow": "التدريب",
+        "title": "مهارات يستخدمها فريقك من صباح الغد.",
+        "subtitle": "تدريب تطبيقي في التسويق والمبيعات وأدوات الذكاء الاصطناعي وإدارة الأعمال — عملي، وبلغتك، ومبني على عملك الحقيقي."
       },
       "offer": [
-        {
-          "title": "Digital marketing training",
-          "text": "Ads, social media, SEO and analytics basics to advanced."
-        },
-        {
-          "title": "Sales & customer service",
-          "text": "Scripts, follow-ups and handling objections with confidence."
-        },
-        {
-          "title": "AI tools for business",
-          "text": "How to use AI safely to save time on daily tasks."
-        },
-        {
-          "title": "Business management",
-          "text": "Planning, KPIs and simple systems for owners and managers."
-        }
+        { "title": "تدريب التسويق الرقمي", "text": "الإعلانات ووسائل التواصل وتحسين محركات البحث والتحليلات من الأساسيات إلى المتقدم." },
+        { "title": "المبيعات وخدمة العملاء", "text": "نصوص ومتابعات والتعامل مع الاعتراضات بثقة." },
+        { "title": "أدوات الذكاء الاصطناعي للأعمال", "text": "كيف تستخدم الذكاء الاصطناعي بأمان لتوفير الوقت في المهام اليومية." },
+        { "title": "إدارة الأعمال", "text": "التخطيط ومؤشرات الأداء وأنظمة بسيطة للمالكين والمديرين." }
       ],
-      "why": [
-        "Taught by a practising marketer and author",
-        "Online or in person",
-        "Real examples from your business"
-      ],
+      "why": ["يقدّمه مسوّق ممارس ومؤلف", "عبر الإنترنت أو حضوريًا", "أمثلة حقيقية من عملك"],
       "faq": [
-        {
-          "q": "Is training online or in person?",
-          "a": "Both. Online sessions work worldwide; in-person training can be arranged depending on location."
-        },
-        {
-          "q": "Can training be customized for my team?",
-          "a": "Yes. We build each program around your goals and your team's level."
-        }
+        { "q": "هل التدريب عبر الإنترنت أم حضوري؟", "a": "كلاهما. الجلسات عبر الإنترنت متاحة عالميًا، والتدريب الحضوري يُرتّب حسب الموقع." },
+        { "q": "هل يمكن تخصيص التدريب لفريقي؟", "a": "نعم. نبني كل برنامج حول أهدافك ومستوى فريقك." }
       ]
     },
     "manpower": {
-      "title": "Manpower Services",
-      "short": "Manpower supply and recruitment support so your business has the right people.",
+      "title": "خدمات القوى العاملة",
+      "short": "توفير القوى العاملة ودعم التوظيف ليحظى عملك بالأشخاص المناسبين.",
       "hero": {
-        "eyebrow": "Manpower Services",
-        "title": "The right people, when your business needs them.",
-        "subtitle": "We help businesses find and organize reliable staff — from skilled workers to office support — so you can keep growing without hiring headaches."
+        "eyebrow": "خدمات القوى العاملة",
+        "title": "الأشخاص المناسبون، حين يحتاجهم عملك.",
+        "subtitle": "نساعد الأعمال في إيجاد وتنظيم موظفين موثوقين — من العمالة الماهرة إلى الدعم المكتبي — لتواصل النمو دون صداع التوظيف."
       },
       "offer": [
-        {
-          "title": "Manpower supply",
-          "text": "Support finding workers for projects, operations and seasonal demand."
-        },
-        {
-          "title": "Recruitment support",
-          "text": "Job posts, screening and shortlisting candidates for your roles."
-        },
-        {
-          "title": "Workforce organization",
-          "text": "Simple systems for timesheets, rosters and staff records."
-        },
-        {
-          "title": "Onboarding materials",
-          "text": "Clear guides so new staff become productive faster."
-        }
+        { "title": "توفير القوى العاملة", "text": "دعم في إيجاد عمالة للمشاريع والتشغيل والطلب الموسمي." },
+        { "title": "دعم التوظيف", "text": "إعلانات الوظائف والفرز واختيار المرشحين لوظائفك." },
+        { "title": "تنظيم القوى العاملة", "text": "أنظمة بسيطة لسجلات الدوام والمناوبات وملفات الموظفين." },
+        { "title": "مواد التهيئة", "text": "أدلة واضحة ليصبح الموظفون الجدد منتجين بسرعة أكبر." }
       ],
-      "why": [
-        "Experience working with manpower companies",
-        "Practical systems, not just CVs",
-        "Support in multiple languages"
-      ],
+      "why": ["خبرة في العمل مع شركات القوى العاملة", "أنظمة عملية لا مجرد سير ذاتية", "دعم بعدة لغات"],
       "faq": [
-        {
-          "q": "Which countries do you support?",
-          "a": "Tell us your location and needs on a call — we'll explain what we can arrange for your market."
-        },
-        {
-          "q": "Can you set up staff management systems?",
-          "a": "Yes. We can organize employee, timesheet and payroll records in simple tools your team can use."
-        }
+        { "q": "ما الدول التي تدعمونها؟", "a": "أخبرنا بموقعك واحتياجاتك في مكالمة — وسنوضح ما يمكننا ترتيبه في سوقك." },
+        { "q": "هل يمكنكم إعداد أنظمة لإدارة الموظفين؟", "a": "نعم. يمكننا تنظيم سجلات الموظفين والدوام والرواتب في أدوات بسيطة يستخدمها فريقك." }
       ]
     }
   },
   "Pricing": {
-    "eyebrow": "Pricing",
-    "title": "Simple packages. Start free.",
-    "subtitle": "Begin with a free call. Choose a package when you're ready — every plan is tailored to your business on the call.",
+    "eyebrow": "الأسعار",
+    "title": "باقات بسيطة. ابدأ مجانًا.",
+    "subtitle": "ابدأ بمكالمة مجانية، واختر باقة حين تكون جاهزًا — كل خطة تُفصَّل لعملك خلال المكالمة.",
     "packages": {
       "free": {
-        "name": "Free Growth Call",
-        "tagline": "The best place to start.",
-        "features": [
-          "30-minute 1:1 video call",
-          "Quick diagnosis of your business",
-          "Your top 3 quick wins",
-          "No obligation"
-        ],
-        "cta": "Book free call"
+        "name": "مكالمة النمو المجانية",
+        "tagline": "أفضل نقطة للبداية.",
+        "features": ["مكالمة فيديو فردية لمدة ٣٠ دقيقة", "تشخيص سريع لعملك", "أهم ٣ مكاسب سريعة لك", "دون أي التزام"],
+        "cta": "احجز المكالمة المجانية"
       },
       "starter": {
-        "name": "Starter Audit",
-        "tagline": "A clear plan for your next 30 days.",
-        "features": [
-          "Full marketing & business audit",
-          "Competitor snapshot",
-          "30-day action plan (PDF)",
-          "Follow-up call to walk through it"
-        ],
-        "cta": "Get my audit"
+        "name": "تدقيق البداية",
+        "tagline": "خطة واضحة لأيامك الثلاثين القادمة.",
+        "features": ["تدقيق تسويقي وتجاري كامل", "لمحة عن المنافسين", "خطة عمل لمدة ٣٠ يومًا (PDF)", "مكالمة متابعة لشرحها"],
+        "cta": "أريد التدقيق"
       },
       "growth": {
-        "name": "Growth",
-        "tagline": "Steady marketing that brings customers.",
-        "features": [
-          "Ads on 1–2 platforms",
-          "Monthly content plan",
-          "Basic SEO",
-          "Monthly report & strategy call",
-          "WhatsApp support"
-        ],
-        "cta": "Start growing"
+        "name": "النمو",
+        "tagline": "تسويق منتظم يجلب العملاء.",
+        "features": ["إعلانات على منصة أو منصتين", "خطة محتوى شهرية", "تحسين أساسي لمحركات البحث", "تقرير شهري ومكالمة استراتيجية", "دعم عبر واتساب"],
+        "cta": "ابدأ النمو"
       },
       "scale": {
-        "name": "Scale",
-        "tagline": "A full growth engine for ambitious teams.",
-        "features": [
-          "Multi-platform ads",
-          "Funnel & conversion optimization",
-          "AI automation setup",
-          "4 marketing videos per month",
-          "Bi-weekly strategy calls"
-        ],
-        "cta": "Scale my business"
+        "name": "التوسّع",
+        "tagline": "محرك نمو كامل للفرق الطموحة.",
+        "features": ["إعلانات على منصات متعددة", "تحسين القمع ومعدل التحويل", "تجهيز أتمتة بالذكاء الاصطناعي", "٤ فيديوهات تسويقية شهريًا", "مكالمات استراتيجية كل أسبوعين"],
+        "cta": "وسّع عملي"
       },
       "custom": {
-        "name": "Custom & Business Setup",
-        "tagline": "Built around your exact needs.",
-        "features": [
-          "Business launch roadmap",
-          "Market entry planning",
-          "Websites, design & documents",
-          "Travel, training & manpower support"
-        ],
-        "cta": "Let's talk"
+        "name": "مخصّص وتأسيس الأعمال",
+        "tagline": "مبني حول احتياجاتك بالضبط.",
+        "features": ["خارطة إطلاق المشروع", "تخطيط دخول السوق", "مواقع وتصميم ومستندات", "دعم السفر والتدريب والقوى العاملة"],
+        "cta": "لنتحدث"
       }
     },
     "notes": [
-      "Ad spend is paid directly to the ad platforms and is not included in our fees.",
-      "No long-term lock-in. Monthly packages can be paused or changed.",
-      "Prices are starting points in USD. You'll get a clear quote before any work begins."
+      "يُدفع الإنفاق الإعلاني مباشرة لمنصات الإعلان ولا يدخل ضمن أتعابنا.",
+      "لا التزام طويل الأمد. يمكن إيقاف الباقات الشهرية مؤقتًا أو تغييرها.",
+      "الأسعار نقاط بداية بالدولار الأمريكي، وستحصل على عرض سعر واضح قبل بدء أي عمل."
     ]
   },
   "About": {
     "hero": {
-      "eyebrow": "About us",
-      "title": "We help businesses grow with systems, not luck.",
-      "subtitle": "Empower of Marketing brings strategy, marketing, AI and creative work together so business owners can stop guessing and start growing."
+      "eyebrow": "من نحن",
+      "title": "نساعد الأعمال على النمو بالأنظمة، لا بالحظ.",
+      "subtitle": "تجمع Empower of Marketing الاستراتيجية والتسويق والذكاء الاصطناعي والعمل الإبداعي معًا، ليتوقف أصحاب الأعمال عن التخمين ويبدؤوا النمو."
     },
-    "storyTitle": "Our story",
+    "storyTitle": "قصتنا",
     "story": [
-      "Empower of Marketing was founded by Md. Iqbal Hossain, a marketer with more than six years of experience in digital and traditional marketing, and a background that spans Bangladesh and Saudi Arabia.",
-      "After working with more than fifty clients around the world, one pattern kept repeating: businesses were not failing because of one bad ad. They were stuck because marketing, sales and operations were disconnected.",
-      "So we built a different kind of partner — one that connects everything, from the first business idea to the customer who comes back again and again."
+      "أسّس Empower of Marketing محمد إقبال حسين، مسوّق يتمتع بأكثر من ست سنوات من الخبرة في التسويق الرقمي والتقليدي، وبخلفية تمتد بين بنغلاديش والمملكة العربية السعودية.",
+      "بعد العمل مع أكثر من خمسين عميلًا حول العالم، تكرر نمط واحد: الأعمال لم تكن تفشل بسبب إعلان سيئ واحد، بل كانت عالقة لأن التسويق والمبيعات والتشغيل منفصلة عن بعضها.",
+      "فبنينا نوعًا مختلفًا من الشركاء — شريكًا يربط كل شيء، من أول فكرة مشروع إلى العميل الذي يعود مرة بعد مرة."
     ],
-    "missionTitle": "Our mission",
-    "mission": "To give every business owner — from a first-time founder to an established company — a clear, honest and practical path to growth.",
-    "approachTitle": "How we work",
+    "missionTitle": "مهمتنا",
+    "mission": "أن نمنح كل صاحب عمل — من رائد الأعمال لأول مرة إلى الشركة الراسخة — طريقًا واضحًا وصادقًا وعمليًا نحو النمو.",
+    "approachTitle": "كيف نعمل",
     "approach": [
-      {
-        "title": "Listen first",
-        "text": "We understand your business, customers and numbers before suggesting anything."
-      },
-      {
-        "title": "Plan clearly",
-        "text": "You get a roadmap in plain language, with priorities and costs."
-      },
-      {
-        "title": "Execute together",
-        "text": "We do the work and involve your team so the results last."
-      },
-      {
-        "title": "Measure honestly",
-        "text": "We report what works and what doesn't — and adjust fast."
-      }
+      { "title": "نستمع أولًا", "text": "نفهم عملك وعملاءك وأرقامك قبل أن نقترح أي شيء." },
+      { "title": "نخطط بوضوح", "text": "تحصل على خارطة طريق بلغة بسيطة، بالأولويات والتكاليف." },
+      { "title": "ننفّذ معًا", "text": "ننجز العمل ونشرك فريقك لتدوم النتائج." },
+      { "title": "نقيس بصدق", "text": "نخبرك بما ينجح وما لا ينجح — ونعدّل بسرعة." }
     ],
-    "valuesTitle": "What we stand for",
+    "valuesTitle": "ما نؤمن به",
     "values": [
-      {
-        "title": "Honesty",
-        "text": "Real scarcity, real proof, real numbers. No tricks."
-      },
-      {
-        "title": "Clarity",
-        "text": "No jargon. You always know what we're doing and why."
-      },
-      {
-        "title": "Ownership",
-        "text": "We treat your growth like our own."
-      },
-      {
-        "title": "Respect",
-        "text": "For your budget, your time and your customers."
-      }
+      { "title": "الصدق", "text": "ندرة حقيقية، ودليل حقيقي، وأرقام حقيقية. بلا حيل." },
+      { "title": "الوضوح", "text": "بلا مصطلحات معقدة. تعرف دائمًا ماذا نفعل ولماذا." },
+      { "title": "المسؤولية", "text": "نتعامل مع نموّك كأنه نموّنا." },
+      { "title": "الاحترام", "text": "لميزانيتك ووقتك وعملائك." }
     ],
-    "marketsTitle": "Where we work",
-    "markets": [
-      "USA",
-      "Canada",
-      "Europe",
-      "Saudi Arabia",
-      "Japan"
-    ],
-    "marketsNote": "We work online with businesses worldwide, with a special focus on these markets."
+    "marketsTitle": "أين نعمل",
+    "markets": ["الولايات المتحدة", "كندا", "أوروبا", "المملكة العربية السعودية", "اليابان"],
+    "marketsNote": "نعمل عبر الإنترنت مع الأعمال حول العالم، مع تركيز خاص على هذه الأسواق."
   },
   "Book": {
     "hero": {
-      "eyebrow": "The book",
-      "subtitle": "The Practical A–Z Marketing Field Guide — from strategy and psychology to attention, conversion, revenue and growth.",
-      "by": "By"
+      "eyebrow": "الكتاب",
+      "subtitle": "الدليل الميداني العملي للتسويق من الألف إلى الياء — من الاستراتيجية وعلم النفس إلى الانتباه والتحويل والإيرادات والنمو.",
+      "by": "تأليف"
     },
     "description": [
-      "Most people learn marketing in pieces: a course on ads, a video on SEO, a tip about branding. But customers experience a business as a whole.",
-      "Empire of Marketing connects those pieces into one marketing operating system. Each discipline is explained through four practical questions — what it is, why it works, when to use it and how to execute and measure it — with frameworks, tactic banks and real-market scenarios."
+      "يتعلم معظم الناس التسويق على شكل أجزاء متفرقة: دورة عن الإعلانات، وفيديو عن تحسين محركات البحث، ونصيحة عن العلامة التجارية. لكن العملاء يعيشون تجربة العمل ككل.",
+      "يربط Empire of Marketing هذه الأجزاء في نظام تشغيل تسويقي واحد. يُشرح كل تخصص من خلال أربعة أسئلة عملية — ما هو، ولماذا ينجح، ومتى نستخدمه، وكيف ننفذه ونقيسه — مع أطر عمل وبنوك تكتيكات وسيناريوهات من السوق الحقيقي."
     ],
-    "journeyTitle": "One connected system",
-    "journeySubtitle": "Marketing doesn't start with ads. It starts with a problem — and grows through every step of the customer journey.",
+    "journeyTitle": "نظام واحد مترابط",
+    "journeySubtitle": "التسويق لا يبدأ بالإعلانات، بل يبدأ بمشكلة — وينمو عبر كل خطوة في رحلة العميل.",
     "journey": {
-      "problem": "Problem",
-      "customer": "Customer",
-      "offer": "Offer",
-      "attention": "Attention",
-      "conversion": "Conversion",
-      "experience": "Experience",
-      "retention": "Retention",
-      "referral": "Referral",
-      "growth": "Growth"
+      "problem": "المشكلة",
+      "customer": "العميل",
+      "offer": "العرض",
+      "attention": "الانتباه",
+      "conversion": "التحويل",
+      "experience": "التجربة",
+      "retention": "الاحتفاظ",
+      "referral": "الإحالة",
+      "growth": "النمو"
     },
-    "azTitle": "26 chapters, A to Z",
-    "azSubtitle": "Every major discipline of modern marketing, organized as a practical reference you can return to.",
+    "azTitle": "٢٦ فصلًا، من A إلى Z",
+    "azSubtitle": "كل تخصص رئيسي في التسويق الحديث، منظّم كمرجع عملي يمكنك العودة إليه.",
     "chapters": {
-      "A": "Offer, Product & Sales Marketing",
-      "B": "Psychology, Behavior & Persuasion",
-      "C": "Content & Creative Communication",
-      "D": "Digital & Online Acquisition",
-      "E": "Email, Direct & Lifecycle Marketing",
-      "F": "Funnel, Conversion & Performance",
-      "G": "Growth Marketing",
-      "H": "Brand, Positioning & Awareness",
-      "I": "Influencer, Creator & KOL Marketing",
-      "J": "Partnership, Affiliate & Referral",
-      "K": "PR, Communications & Reputation",
-      "L": "Social Media & Engagement",
-      "M": "Advertising, Media Buying & Paid Campaigns",
-      "N": "Data, Analytics, AI & Automation",
-      "O": "Omnichannel, Channel & Distribution",
-      "P": "Pricing, Promotion & Revenue",
-      "Q": "Customer Relationship, Retention & Loyalty",
-      "R": "Research, Consumer Insight & Measurement",
-      "S": "Search, SEO & Discovery",
-      "T": "Traditional, Direct, Field & Offline",
-      "U": "Community, Advocacy & Word of Mouth",
-      "V": "Video, Visual, Audio & Multimedia",
-      "W": "Web, Mobile, E-commerce & Platforms",
-      "X": "Experiential, Event & Guerrilla",
-      "Y": "Youth, Culture, Trend & Niche",
-      "Z": "Local, Geographic & Hyperlocal"
+      "A": "العرض والمنتج وتسويق المبيعات",
+      "B": "علم النفس والسلوك والإقناع",
+      "C": "المحتوى والتواصل الإبداعي",
+      "D": "الاستقطاب الرقمي وعبر الإنترنت",
+      "E": "البريد والتسويق المباشر ودورة حياة العميل",
+      "F": "القمع والتحويل والأداء",
+      "G": "تسويق النمو",
+      "H": "العلامة التجارية والتموضع والوعي",
+      "I": "تسويق المؤثرين وصنّاع المحتوى",
+      "J": "الشراكات والتسويق بالعمولة والإحالة",
+      "K": "العلاقات العامة والاتصال والسمعة",
+      "L": "وسائل التواصل الاجتماعي والتفاعل",
+      "M": "الإعلانات وشراء الوسائط والحملات المدفوعة",
+      "N": "البيانات والتحليلات والذكاء الاصطناعي والأتمتة",
+      "O": "تعدد القنوات والتوزيع",
+      "P": "التسعير والترويج والإيرادات",
+      "Q": "علاقات العملاء والاحتفاظ والولاء",
+      "R": "البحث ورؤى المستهلك والقياس",
+      "S": "البحث وتحسين محركات البحث والاكتشاف",
+      "T": "التسويق التقليدي والمباشر والميداني",
+      "U": "المجتمع والمناصرة والتسويق الشفهي",
+      "V": "الفيديو والمرئيات والصوت والوسائط المتعددة",
+      "W": "الويب والجوال والتجارة الإلكترونية والمنصات",
+      "X": "التسويق التجريبي والفعاليات وتسويق العصابات",
+      "Y": "الشباب والثقافة والصيحات والأسواق المتخصصة",
+      "Z": "التسويق المحلي والجغرافي والدقيق"
     },
-    "learnTitle": "What you'll learn",
+    "learnTitle": "ماذا ستتعلم",
     "learn": [
-      "How to build an offer people understand, value and buy",
-      "The psychology behind attention, trust and decisions",
-      "How to fix a funnel when traffic doesn't turn into sales",
-      "How to grow with retention, referrals and partnerships",
-      "How to use data, AI and automation to decide faster",
-      "A 30-day marketing build and a business scorecard you can use right away"
+      "كيف تبني عرضًا يفهمه الناس ويقدّرونه ويشترونه",
+      "علم النفس وراء الانتباه والثقة واتخاذ القرار",
+      "كيف تصلح القمع حين لا تتحول الزيارات إلى مبيعات",
+      "كيف تنمو بالاحتفاظ بالعملاء والإحالات والشراكات",
+      "كيف تستخدم البيانات والذكاء الاصطناعي والأتمتة لتقرر أسرع",
+      "خطة تسويق لمدة ٣٠ يومًا وبطاقة أداء للأعمال يمكنك استخدامهما فورًا"
     ],
-    "forWhoTitle": "Who it's for",
-    "forWho": [
-      "Entrepreneurs and business owners",
-      "Marketers and growth teams",
-      "Freelancers and agencies",
-      "Sales professionals",
-      "Students of marketing"
-    ],
-    "formatsTitle": "Available formats",
+    "forWhoTitle": "لمن هذا الكتاب",
+    "forWho": ["رواد الأعمال وأصحاب الأعمال", "المسوّقون وفرق النمو", "المستقلون والوكالات", "محترفو المبيعات", "دارسو التسويق"],
+    "formatsTitle": "الصيغ المتاحة",
     "formats": {
-      "kindle": "Kindle eBook",
-      "paperback": "Paperback",
-      "hardcover": "Hardcover",
-      "bangla": "Also available in a Bangla edition."
+      "kindle": "كتاب Kindle إلكتروني",
+      "paperback": "غلاف ورقي",
+      "hardcover": "غلاف مقوّى",
+      "bangla": "متوفر أيضًا في طبعة باللغة البنغالية."
     },
-    "bridgeTitle": "Want this system built for your business?",
-    "bridgeText": "The book shows how marketing works as one system. Empower of Marketing builds that system for you — and helps you run it."
+    "bridgeTitle": "تريد هذا النظام مبنيًا لعملك؟",
+    "bridgeText": "يشرح الكتاب كيف يعمل التسويق كنظام واحد. وEmpower of Marketing تبني لك هذا النظام — وتساعدك على تشغيله."
   },
   "Founder": {
     "hero": {
-      "eyebrow": "Founder",
+      "eyebrow": "المؤسس",
       "name": "Md. Iqbal Hossain",
-      "role": "Founder, Empower of Marketing · Author of Empire of Marketing",
-      "intro": "A marketer who believes growth comes from connected systems — not lucky campaigns."
+      "role": "مؤسس Empower of Marketing · مؤلف كتاب Empire of Marketing",
+      "intro": "مسوّق يؤمن بأن النمو يأتي من أنظمة مترابطة — لا من حملات محظوظة."
     },
     "about": [
-      "Iqbal has more than six years of experience across digital and traditional marketing, helping more than fifty clients around the world grow their businesses.",
-      "He specializes in performance marketing and paid advertising on Google, Meta and TikTok, SEO, analytics and conversion optimization — and he coaches founders who want to launch new businesses with a clear, step-by-step roadmap.",
-      "His career spans Bangladesh and Saudi Arabia, with hands-on experience in operations, administration and IT support that shapes his practical, systems-first approach. He is the author of Empire of Marketing, a practical A–Z marketing field guide."
+      "يمتلك إقبال أكثر من ست سنوات من الخبرة في التسويق الرقمي والتقليدي، ساعد خلالها أكثر من خمسين عميلًا حول العالم على تنمية أعمالهم.",
+      "يتخصص في التسويق القائم على الأداء والإعلانات المدفوعة على Google وMeta وTikTok، وتحسين محركات البحث، والتحليلات، وتحسين معدل التحويل — ويرشد المؤسسين الراغبين في إطلاق مشاريع جديدة بخارطة طريق واضحة خطوة بخطوة.",
+      "تمتد مسيرته بين بنغلاديش والمملكة العربية السعودية، مع خبرة عملية في التشغيل والإدارة والدعم التقني شكّلت أسلوبه العملي القائم على الأنظمة. وهو مؤلف كتاب Empire of Marketing، الدليل الميداني العملي للتسويق من الألف إلى الياء."
     ],
-    "expertiseTitle": "Expertise",
-    "expertise": [
-      "Performance marketing",
-      "Google, Meta & TikTok Ads",
-      "SEO",
-      "GA4, GTM & Looker Studio",
-      "Tableau dashboards",
-      "Conversion optimization",
-      "Business launch coaching",
-      "Traditional & field marketing"
-    ],
-    "factsTitle": "At a glance",
+    "expertiseTitle": "مجالات الخبرة",
+    "expertise": ["التسويق القائم على الأداء", "إعلانات Google وMeta وTikTok", "تحسين محركات البحث", "GA4 وGTM وLooker Studio", "لوحات Tableau", "تحسين معدل التحويل", "إرشاد إطلاق المشاريع", "التسويق التقليدي والميداني"],
+    "factsTitle": "لمحة سريعة",
     "facts": [
-      {
-        "value": "6+",
-        "label": "years in marketing"
-      },
-      {
-        "value": "50+",
-        "label": "global clients"
-      },
-      {
-        "value": "1",
-        "label": "published book"
-      }
+      { "value": "6+", "label": "سنوات في التسويق" },
+      { "value": "50+", "label": "عميلًا حول العالم" },
+      { "value": "1", "label": "كتاب منشور" }
     ],
-    "linksTitle": "Connect"
+    "linksTitle": "تواصل"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "updated": "Last updated: 22 October 2026",
-    "intro": "This policy explains what information is handled when you visit this website or contact us, and the choices you have. We keep it simple: this website has no user accounts and does not store your data in a database.",
+    "title": "سياسة الخصوصية",
+    "updated": "آخر تحديث: ٢٢ أكتوبر ٢٠٢٦",
+    "intro": "توضح هذه السياسة المعلومات التي يتم التعامل معها عند زيارتك لهذا الموقع أو تواصلك معنا، والخيارات المتاحة لك. نُبقي الأمر بسيطًا: لا يحتوي هذا الموقع على حسابات مستخدمين ولا يخزّن بياناتك في قاعدة بيانات.",
     "sections": [
-      {
-        "h": "Who we are",
-        "p": "This website is operated by Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia. Contact: empireofmarketing4@gmail.com. We are responsible for the personal information described in this policy."
-      },
-      {
-        "h": "Information we receive",
-        "p": "We only receive personal information you choose to send us: when you email us, message us on WhatsApp, or book a call through Calendly (for example your name, email, phone number and what you tell us about your business)."
-      },
-      {
-        "h": "Information collected automatically",
-        "p": "Our hosting provider may keep standard server logs (such as IP address, browser type and pages visited) for security and reliability. This website does not use analytics or advertising cookies. If you change the language, your browser may keep that preference for your session."
-      },
-      {
-        "h": "Third-party services",
-        "p": "Booking a call opens Calendly, which processes your booking details under its own privacy policy. Clicking WhatsApp opens WhatsApp (Meta), and emailing us uses your email provider. The Book page links to Amazon. Fonts are served from this website, not from third parties."
-      },
-      {
-        "h": "Why we use your information",
-        "p": "To reply to your messages, hold the calls you book, prepare quotes and provide services you request. Depending on your location, our legal bases are your consent, steps taken at your request before a contract, performing a contract, and our legitimate interest in running and securing the website."
-      },
-      {
-        "h": "How long we keep it",
-        "p": "We keep messages and booking details only as long as needed to answer you, provide services and meet legal or accounting obligations, then delete them."
-      },
-      {
-        "h": "International transfers",
-        "p": "Our service providers (such as hosting, Calendly, email and WhatsApp) may process data in other countries, including the United States. By contacting us through these services, your information is transferred to them under their safeguards."
-      },
-      {
-        "h": "Your rights",
-        "p": "Depending on where you live — including under the EU/UK GDPR, Saudi Arabia's Personal Data Protection Law (PDPL) and Japan's Act on the Protection of Personal Information (APPI) — you may have the right to be informed, access, correct, delete or restrict the use of your data, object to processing, withdraw consent and complain to your data protection authority. Email us to use any of these rights."
-      },
-      {
-        "h": "Children",
-        "p": "This website is for businesses and adults. We do not knowingly collect information from children."
-      },
-      {
-        "h": "Changes",
-        "p": "We may update this policy. The date at the top shows the latest version."
-      }
+      { "h": "من نحن", "p": "يُشغَّل هذا الموقع من قِبل إقبال حسين (Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia). للتواصل: empireofmarketing4@gmail.com. نحن المسؤولون عن المعلومات الشخصية الموضحة في هذه السياسة." },
+      { "h": "المعلومات التي نتلقاها", "p": "لا نتلقى إلا المعلومات الشخصية التي تختار إرسالها إلينا: عند مراسلتنا بالبريد، أو عبر واتساب، أو حجز مكالمة من خلال Calendly (مثل اسمك وبريدك ورقم هاتفك وما تخبرنا به عن عملك)." },
+      { "h": "المعلومات التي تُجمع تلقائيًا", "p": "قد يحتفظ مزوّد الاستضافة بسجلات خادم قياسية (مثل عنوان IP ونوع المتصفح والصفحات التي زرتها) لأغراض الأمان والموثوقية. لا يستخدم هذا الموقع ملفات تعريف ارتباط للتحليلات أو الإعلانات. وإذا غيّرت اللغة فقد يحتفظ متصفحك بهذا التفضيل خلال جلستك." },
+      { "h": "خدمات الأطراف الثالثة", "p": "حجز مكالمة يفتح Calendly الذي يعالج بيانات الحجز وفق سياسة الخصوصية الخاصة به. والنقر على واتساب يفتح واتساب (Meta)، ومراسلتنا بالبريد تتم عبر مزوّد بريدك. وتربط صفحة الكتاب إلى أمازون. تُقدَّم الخطوط من هذا الموقع نفسه لا من أطراف ثالثة." },
+      { "h": "لماذا نستخدم معلوماتك", "p": "للرد على رسائلك، وإجراء المكالمات التي تحجزها، وإعداد عروض الأسعار، وتقديم الخدمات التي تطلبها. وبحسب موقعك، تكون أسسنا القانونية موافقتك، أو الخطوات المتخذة بناءً على طلبك قبل التعاقد، أو تنفيذ العقد، أو مصلحتنا المشروعة في تشغيل الموقع وتأمينه." },
+      { "h": "مدة الاحتفاظ", "p": "نحتفظ بالرسائل وبيانات الحجز فقط للمدة اللازمة للرد عليك وتقديم الخدمات والوفاء بالالتزامات القانونية أو المحاسبية، ثم نحذفها." },
+      { "h": "النقل الدولي للبيانات", "p": "قد يعالج مزوّدو الخدمات لدينا (مثل الاستضافة وCalendly والبريد وواتساب) البيانات في دول أخرى، منها الولايات المتحدة. وبتواصلك معنا عبر هذه الخدمات، تُنقل معلوماتك إليها وفق ضماناتها." },
+      { "h": "حقوقك", "p": "بحسب مكان إقامتك — بما في ذلك اللائحة العامة لحماية البيانات في الاتحاد الأوروبي والمملكة المتحدة (GDPR)، ونظام حماية البيانات الشخصية في المملكة العربية السعودية (PDPL)، وقانون حماية المعلومات الشخصية الياباني (APPI) — قد يحق لك العلم بالمعالجة، والوصول إلى بياناتك وتصحيحها وحذفها أو تقييد استخدامها، والاعتراض على المعالجة، وسحب الموافقة، وتقديم شكوى إلى جهة حماية البيانات. راسلنا لممارسة أي من هذه الحقوق." },
+      { "h": "الأطفال", "p": "هذا الموقع موجّه للأعمال والبالغين. ولا نجمع عن علم معلومات من الأطفال." },
+      { "h": "التغييرات", "p": "قد نحدّث هذه السياسة، ويوضح التاريخ في الأعلى أحدث نسخة." }
     ],
-    "disclaimer": "This policy is written in plain language for transparency and has not been reviewed by a lawyer."
+    "disclaimer": "كُتبت هذه السياسة بلغة بسيطة بهدف الشفافية، ولم يراجعها محامٍ."
   },
   "Terms": {
-    "title": "Terms of Use",
-    "updated": "Last updated: 22 October 2026",
-    "intro": "By using this website you agree to these terms. Please read them carefully.",
+    "title": "شروط الاستخدام",
+    "updated": "آخر تحديث: ٢٢ أكتوبر ٢٠٢٦",
+    "intro": "باستخدامك هذا الموقع فإنك توافق على هذه الشروط. يُرجى قراءتها بعناية.",
     "sections": [
-      {
-        "h": "About this website",
-        "p": "This website is operated by Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia. It provides information about our services and how to contact us."
-      },
-      {
-        "h": "Information only",
-        "p": "Content on this website is general information, not professional, legal or financial advice. Results described are goals and examples, not promises; every business and market is different."
-      },
-      {
-        "h": "Prices and services",
-        "p": "Prices shown are starting points in USD and may change. The final scope, price and timeline of any service are agreed in writing before work begins. Advertising spend is paid separately to the ad platforms."
-      },
-      {
-        "h": "Third-party links",
-        "p": "We link to services such as Calendly, WhatsApp and Amazon. We are not responsible for their content, policies or availability."
-      },
-      {
-        "h": "Intellectual property",
-        "p": "The design, text and graphics of this website belong to Empower of Marketing unless stated otherwise. You may not copy them for commercial use without permission."
-      },
-      {
-        "h": "Limitation of liability",
-        "p": "To the extent permitted by law, we are not liable for losses arising from the use of this website or reliance on its content."
-      },
-      {
-        "h": "Governing law",
-        "p": "These terms are governed by the laws of the Kingdom of Saudi Arabia."
-      },
-      {
-        "h": "Contact",
-        "p": "Questions about these terms? Email empireofmarketing4@gmail.com."
-      }
+      { "h": "عن هذا الموقع", "p": "يُشغَّل هذا الموقع من قِبل إقبال حسين (Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia). ويقدّم معلومات عن خدماتنا وطرق التواصل معنا." },
+      { "h": "للمعلومات فقط", "p": "المحتوى في هذا الموقع معلومات عامة وليس استشارة مهنية أو قانونية أو مالية. النتائج المذكورة أهداف وأمثلة لا وعود؛ فكل عمل وسوق مختلف." },
+      { "h": "الأسعار والخدمات", "p": "الأسعار المعروضة نقاط بداية بالدولار الأمريكي وقد تتغير. يُتفق كتابةً على النطاق والسعر والمدة النهائية لأي خدمة قبل بدء العمل. ويُدفع الإنفاق الإعلاني بشكل منفصل لمنصات الإعلان." },
+      { "h": "روابط الأطراف الثالثة", "p": "نربط إلى خدمات مثل Calendly وواتساب وأمازون، ولسنا مسؤولين عن محتواها أو سياساتها أو توفرها." },
+      { "h": "الملكية الفكرية", "p": "تصميم هذا الموقع ونصوصه ورسوماته ملك لـ Empower of Marketing ما لم يُذكر خلاف ذلك، ولا يجوز نسخها للاستخدام التجاري دون إذن." },
+      { "h": "حدود المسؤولية", "p": "في الحدود التي يسمح بها القانون، لسنا مسؤولين عن أي خسائر تنشأ عن استخدام هذا الموقع أو الاعتماد على محتواه." },
+      { "h": "القانون الحاكم", "p": "تخضع هذه الشروط لأنظمة المملكة العربية السعودية (Kingdom of Saudi Arabia)." },
+      { "h": "التواصل", "p": "لديك أسئلة عن هذه الشروط؟ راسلنا على empireofmarketing4@gmail.com." }
     ],
-    "disclaimer": "These terms are written in plain language and have not been reviewed by a lawyer."
+    "disclaimer": "كُتبت هذه الشروط بلغة بسيطة ولم يراجعها محامٍ."
   },
   "NotFound": {
-    "title": "This page took a wrong turn.",
-    "text": "The page you're looking for doesn't exist or has moved. Let's get you back on track."
-  },
-  "Meta": {
-    "home": {
-      "title": "Marketing, Business Growth & AI Automation",
-      "description": "Empower of Marketing helps businesses worldwide get customers, organize operations and grow with digital and traditional marketing, AI automation and video. Book a free call."
-    },
-    "services": {
-      "title": "Growth Services",
-      "description": "Digital marketing, traditional marketing, business growth, business setup, AI automation and marketing video editing — one team, one plan."
-    },
-    "solutions": {
-      "title": "Business Solutions",
-      "description": "Websites, UI/UX, graphic design, documents, travel & ticketing, training and manpower services for businesses."
-    },
-    "pricing": {
-      "title": "Pricing & Packages",
-      "description": "Start with a free growth call. Packages from $99 and monthly growth plans from $299 — tailored to your business."
-    },
-    "about": {
-      "title": "About Us",
-      "description": "Empower of Marketing connects strategy, marketing, AI and creative work to help business owners grow with systems, not luck."
-    },
-    "book": {
-      "title": "Empire of Marketing — The Book",
-      "description": "Empire of Marketing by Md. Iqbal Hossain: the practical A–Z marketing field guide. Available on Amazon in Kindle, paperback and hardcover."
-    },
-    "founder": {
-      "title": "Md. Iqbal Hossain — Founder",
-      "description": "Meet Md. Iqbal Hossain, founder of Empower of Marketing and author of Empire of Marketing, with 6+ years in digital and traditional marketing."
-    },
-    "privacy": {
-      "title": "Privacy Policy",
-      "description": "How Empower of Marketing handles your information."
-    },
-    "terms": {
-      "title": "Terms of Use",
-      "description": "Terms for using the Empower of Marketing website."
-    },
-    "notFound": {
-      "title": "Page not found",
-      "description": "This page doesn't exist."
-    }
+    "title": "هذه الصفحة سلكت طريقًا خاطئًا.",
+    "text": "الصفحة التي تبحث عنها غير موجودة أو نُقلت. دعنا نعيدك إلى المسار الصحيح."
   },
   "ServicePage": {
-    "painsTitle": "Is this you?",
-    "painsSubtitle": "If any of these sound familiar, you're in the right place.",
-    "deliverablesTitle": "What you get",
-    "deliverablesSubtitle": "Everything included, planned around your goals and budget.",
-    "outcomesTitle": "What you can expect",
-    "outcomesNote": "Results depend on your market, offer and budget. We agree realistic targets together on the call.",
-    "forTitle": "Who it's for",
-    "notForTitle": "Not the right fit if",
-    "includedTitle": "Included",
-    "faq": {
-      "eyebrow": "Questions",
-      "title": "Common questions"
-    }
+    "painsTitle": "هل هذا أنت؟",
+    "painsSubtitle": "إن بدا أي من هذا مألوفًا، فأنت في المكان الصحيح.",
+    "deliverablesTitle": "ما الذي تحصل عليه",
+    "deliverablesSubtitle": "كل شيء مشمول، ومخطط له حول أهدافك وميزانيتك.",
+    "outcomesTitle": "ما الذي يمكنك توقعه",
+    "outcomesNote": "تعتمد النتائج على سوقك وعرضك وميزانيتك. نتفق معًا على أهداف واقعية خلال المكالمة.",
+    "forTitle": "لمن هذه الخدمة",
+    "notForTitle": "ليست مناسبة إذا",
+    "includedTitle": "مشمول",
+    "faq": { "eyebrow": "أسئلة", "title": "أسئلة شائعة" }
   },
   "SolutionPage": {
-    "offerTitle": "What we offer",
-    "offerSubtitle": "Clear scope, fair price, delivered on time.",
-    "whyTitle": "Why choose us",
-    "faq": {
-      "eyebrow": "Questions",
-      "title": "Common questions"
-    }
+    "offerTitle": "ما نقدمه",
+    "offerSubtitle": "نطاق واضح، وسعر عادل، وتسليم في الموعد.",
+    "whyTitle": "لماذا تختارنا",
+    "faq": { "eyebrow": "أسئلة", "title": "أسئلة شائعة" }
+  },
+  "Meta": {
+    "home": { "title": "التسويق ونمو الأعمال والأتمتة بالذكاء الاصطناعي", "description": "تساعد Empower of Marketing الأعمال حول العالم على كسب العملاء وتنظيم التشغيل والنمو عبر التسويق الرقمي والتقليدي والأتمتة بالذكاء الاصطناعي والفيديو. احجز مكالمة مجانية." },
+    "services": { "title": "خدمات النمو", "description": "تسويق رقمي وتقليدي، ونمو الأعمال، وتأسيس المشاريع، والأتمتة بالذكاء الاصطناعي، ومونتاج الفيديو التسويقي — فريق واحد وخطة واحدة." },
+    "solutions": { "title": "حلول الأعمال", "description": "خدمات المواقع وتصميم الواجهات والتصميم الجرافيكي والمستندات والسفر والتذاكر والتدريب والقوى العاملة للأعمال." },
+    "pricing": { "title": "الأسعار والباقات", "description": "ابدأ بمكالمة نمو مجانية. باقات تبدأ من ٩٩ دولارًا، وخطط نمو شهرية من ٢٩٩ دولارًا — مصممة لعملك." },
+    "about": { "title": "من نحن", "description": "تربط Empower of Marketing الاستراتيجية والتسويق والذكاء الاصطناعي والإبداع لتساعد أصحاب الأعمال على النمو بالأنظمة لا بالحظ." },
+    "book": { "title": "كتاب Empire of Marketing", "description": "كتاب Empire of Marketing لمحمد إقبال حسين: الدليل الميداني العملي للتسويق من الألف إلى الياء. متوفر على أمازون بصيغة Kindle وغلاف ورقي ومقوّى." },
+    "founder": { "title": "محمد إقبال حسين — المؤسس", "description": "تعرّف على محمد إقبال حسين، مؤسس Empower of Marketing ومؤلف كتاب Empire of Marketing، بخبرة تزيد على ٦ سنوات في التسويق الرقمي والتقليدي." },
+    "privacy": { "title": "سياسة الخصوصية", "description": "كيف تتعامل Empower of Marketing مع معلوماتك." },
+    "terms": { "title": "شروط الاستخدام", "description": "شروط استخدام موقع Empower of Marketing." },
+    "notFound": { "title": "الصفحة غير موجودة", "description": "هذه الصفحة غير موجودة." }
   }
 }

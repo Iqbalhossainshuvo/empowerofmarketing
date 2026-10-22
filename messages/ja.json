@@ -1,1370 +1,790 @@
 {
   "Common": {
     "brand": "Empower of Marketing",
-    "bookCall": "Book a Free Call",
-    "bookCallLong": "Book a free 1:1 video call",
-    "whatsapp": "Chat on WhatsApp",
-    "email": "Email us",
-    "learnMore": "Learn more",
-    "viewAll": "View all",
-    "explore": "Explore",
-    "mostPopular": "Most popular",
-    "perMonth": "/ month",
-    "oneTime": "one-time",
-    "startingFrom": "from",
-    "letsTalk": "Let's talk",
-    "free": "Free",
-    "related": "You may also need",
-    "skipToContent": "Skip to content",
-    "menu": "Menu",
-    "close": "Close",
-    "language": "Language",
-    "opensNewTab": "(opens in a new tab)",
-    "whatsappPrefill": "Hello Empower of Marketing! I'd like to talk about growing my business.",
-    "emailSubject": "Business enquiry from your website",
-    "buyOnAmazon": "Get it on Amazon",
-    "callNote": "30 minutes · Free · No obligation",
-    "backHome": "Back to home"
+    "bookCall": "無料相談を予約",
+    "bookCallLong": "無料の1対1ビデオ相談を予約",
+    "whatsapp": "WhatsAppで相談",
+    "email": "メールで問い合わせ",
+    "learnMore": "詳しく見る",
+    "viewAll": "すべて見る",
+    "explore": "詳しく見る",
+    "mostPopular": "一番人気",
+    "perMonth": "/ 月",
+    "oneTime": "1回のみ",
+    "startingFrom": "から",
+    "letsTalk": "ご相談ください",
+    "free": "無料",
+    "related": "あわせて検討したいサービス",
+    "skipToContent": "本文へスキップ",
+    "menu": "メニュー",
+    "close": "閉じる",
+    "language": "言語",
+    "opensNewTab": "（新しいタブで開きます）",
+    "whatsappPrefill": "Empower of Marketingさん、こんにちは。ビジネスの成長について相談したいです。",
+    "emailSubject": "ウェブサイトからのお問い合わせ",
+    "buyOnAmazon": "Amazonで購入する",
+    "callNote": "30分 · 無料 · 契約の義務なし",
+    "backHome": "ホームに戻る"
   },
   "Nav": {
-    "home": "Home",
-    "services": "Services",
-    "solutions": "Solutions",
-    "pricing": "Pricing",
-    "about": "About Us",
-    "book": "Book",
-    "allServices": "All growth services",
-    "allSolutions": "All solutions",
-    "servicesIntro": "Marketing & growth systems that bring in customers.",
-    "solutionsIntro": "Everyday business services, done right."
+    "home": "ホーム",
+    "services": "サービス",
+    "solutions": "ソリューション",
+    "pricing": "料金",
+    "about": "私たちについて",
+    "book": "書籍",
+    "allServices": "成長支援サービス一覧",
+    "allSolutions": "ソリューション一覧",
+    "servicesIntro": "顧客を呼び込むマーケティングと成長の仕組み。",
+    "solutionsIntro": "日々のビジネス業務を、確実にサポート。"
   },
   "Footer": {
-    "tagline": "We build the marketing and business systems that turn effort into customers, sales and steady growth.",
-    "servicesTitle": "Growth services",
-    "solutionsTitle": "Solutions",
-    "companyTitle": "Company",
-    "contactTitle": "Contact",
-    "founder": "Founder",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
-    "location": "Dammam, Saudi Arabia · Serving clients worldwide",
+    "tagline": "努力を顧客・売上・継続的な成長へと変える、マーケティングとビジネスの仕組みをつくります。",
+    "servicesTitle": "成長支援サービス",
+    "solutionsTitle": "ソリューション",
+    "companyTitle": "会社情報",
+    "contactTitle": "お問い合わせ",
+    "founder": "創業者",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "location": "サウジアラビア・ダンマーム · 世界中のお客様に対応",
     "rights": "All rights reserved.",
-    "followUs": "Follow us"
+    "followUs": "フォローする"
   },
   "CtaBand": {
-    "eyebrow": "Your next step",
-    "title": "Your growth starts with one conversation.",
-    "subtitle": "Tell us where your business is stuck. In 30 minutes you'll leave with clear next steps, whether you work with us or not.",
-    "or": "or reach us directly"
+    "eyebrow": "次のステップ",
+    "title": "成長は、ひとつの会話から始まります。",
+    "subtitle": "ビジネスのどこでつまずいているかお聞かせください。30分で、次に取るべき行動が明確になります。ご依頼いただくかどうかに関わらず。",
+    "or": "または直接ご連絡ください"
   },
   "Home": {
     "hero": {
-      "badge": "Marketing · Growth · AI — for businesses worldwide",
-      "titleA": "Turn your business into a",
-      "titleHighlight": "sales machine.",
-      "subtitle": "Strategy, marketing, AI automation and content — built as one system that brings you customers, organizes your business and keeps it growing.",
-      "note": "Free 30-minute strategy call · Reply on WhatsApp within hours",
+      "badge": "マーケティング · 成長 · AI — 世界中のビジネスへ",
+      "titleA": "あなたのビジネスを",
+      "titleHighlight": "売れる仕組みに。",
+      "subtitle": "戦略、マーケティング、AI自動化、コンテンツをひとつの仕組みとして構築。顧客を呼び込み、ビジネスを整え、成長を持続させます。",
+      "note": "30分の無料戦略相談 · WhatsAppには数時間以内に返信",
       "cards": {
-        "ads": "Ad ROI",
-        "adsDelta": "+ smarter spend",
-        "ai": "AI workflow",
-        "aiSteps": "Lead → Reply → Follow-up",
-        "roadmap": "Growth roadmap",
-        "roadmapItems": "Offer · Funnel · Sales",
-        "video": "Video content",
-        "videoMeta": "Reels · Ads · Shorts"
+        "ads": "広告ROI",
+        "adsDelta": "+ より賢い広告費",
+        "ai": "AIワークフロー",
+        "aiSteps": "見込み客 → 返信 → フォロー",
+        "roadmap": "成長ロードマップ",
+        "roadmapItems": "オファー · ファネル · 販売",
+        "video": "動画コンテンツ",
+        "videoMeta": "リール · 広告 · ショート"
       }
     },
     "proof": {
-      "years": "Years of marketing experience",
-      "clients": "Global clients served",
-      "languages": "Languages we work in",
-      "author": "Published marketing author",
-      "title": "Proof, not promises"
+      "years": "年以上のマーケティング経験",
+      "clients": "社以上の海外クライアント",
+      "languages": "対応言語",
+      "author": "マーケティング書籍の著者",
+      "title": "約束ではなく、事実で。"
     },
     "which": {
-      "eyebrow": "Which one are you?",
-      "title": "Every business gets stuck somewhere. Find yours.",
-      "subtitle": "Pick the situation that sounds like you — we'll show you exactly how we fix it.",
+      "eyebrow": "あなたはどれ？",
+      "title": "どんなビジネスも、どこかでつまずく。あなたの場合は？",
+      "subtitle": "いちばん近い状況を選んでください。私たちがどう解決するかをお見せします。",
       "items": {
         "start": {
-          "title": "I want to start a business",
-          "pain": "You have an idea (or the money) but no clear plan, and you're scared of wasting both.",
-          "promise": "Get a step-by-step launch roadmap and someone in your corner for every step.",
-          "cta": "Plan my launch"
+          "title": "ビジネスを始めたい",
+          "pain": "アイデア（または資金）はあるけれど明確な計画がなく、どちらも無駄にするのが怖い。",
+          "promise": "ステップごとの立ち上げロードマップと、すべての段階で伴走するパートナーを。",
+          "cta": "立ち上げを計画する"
         },
         "nosales": {
-          "title": "My business has no sales",
-          "pain": "The shop is open, the page is live — but customers aren't coming, and ads feel like burning money.",
-          "promise": "We fix the offer, the message and the funnel, then bring in buyers.",
-          "cta": "Get me customers"
+          "title": "売上が上がらない",
+          "pain": "お店もページも開いているのに、お客様が来ない。広告はお金を燃やしているだけに感じる。",
+          "promise": "オファー、メッセージ、ファネルを立て直し、買ってくれるお客様を呼び込みます。",
+          "cta": "顧客を増やしたい"
         },
         "messy": {
-          "title": "My business is a mess",
-          "pain": "Everything depends on you, nothing is tracked, and every day is firefighting.",
-          "promise": "We put simple systems, numbers and routines in place so it runs without chaos.",
-          "cta": "Organize my business"
+          "title": "ビジネスが混乱している",
+          "pain": "すべてがあなた頼みで、何も数字で追えておらず、毎日が火消しに追われている。",
+          "promise": "シンプルな仕組み、数字、ルーティンを整え、混乱なく回るビジネスにします。",
+          "cta": "ビジネスを整える"
         },
         "ai": {
-          "title": "I want AI automation",
-          "pain": "Leads wait hours for a reply and your team repeats the same tasks all day.",
-          "promise": "We set up AI that replies, follows up, reports and saves you hours every week.",
-          "cta": "Automate my work"
+          "title": "AIで自動化したい",
+          "pain": "見込み客は返信を何時間も待ち、チームは一日中同じ作業を繰り返している。",
+          "promise": "返信、フォロー、レポートを担うAIを導入し、毎週何時間もの作業を削減します。",
+          "cta": "業務を自動化する"
         }
       },
-      "recommended": "Where we'd start",
-      "package": "Suggested package",
-      "hint": "Tap the situation that fits you best"
+      "recommended": "最初に取り組むこと",
+      "package": "おすすめのプラン",
+      "hint": "いちばん近い状況をタップしてください"
     },
     "servicesSection": {
-      "eyebrow": "Growth services",
-      "title": "Everything your business needs to grow — under one roof.",
-      "subtitle": "Digital and traditional marketing, business strategy, AI and video. One team, one plan, one direction."
+      "eyebrow": "成長支援サービス",
+      "title": "ビジネスの成長に必要なすべてを、ワンストップで。",
+      "subtitle": "デジタルと従来型のマーケティング、事業戦略、AI、動画。ひとつのチーム、ひとつの計画、ひとつの方向へ。"
     },
     "process": {
-      "eyebrow": "How it works",
-      "title": "From first call to steady growth in four clear steps.",
-      "subtitle": "No long contracts, no confusing jargon. You always know what we're doing and why.",
+      "eyebrow": "進め方",
+      "title": "最初の相談から安定した成長まで、明確な4ステップ。",
+      "subtitle": "長期契約も難しい専門用語もありません。私たちが何を、なぜしているのか、いつでも分かります。",
       "steps": [
-        {
-          "title": "Free strategy call",
-          "text": "We listen to your goals and problems, and you get honest first advice in 30 minutes."
-        },
-        {
-          "title": "Diagnosis & roadmap",
-          "text": "We study your market, offer and numbers, then map the fastest path to results."
-        },
-        {
-          "title": "Build & execute",
-          "text": "We launch the campaigns, content, systems and automations — and keep you updated."
-        },
-        {
-          "title": "Track & scale",
-          "text": "We measure what works, cut what doesn't, and grow what's bringing you money."
-        }
+        { "title": "無料戦略相談", "text": "目標と課題をお聞きし、30分で率直な初期アドバイスをお伝えします。" },
+        { "title": "診断とロードマップ", "text": "市場、オファー、数字を分析し、成果への最短ルートを描きます。" },
+        { "title": "構築と実行", "text": "キャンペーン、コンテンツ、仕組み、自動化を立ち上げ、進捗を随時共有します。" },
+        { "title": "測定と拡大", "text": "成果の出る施策を見極め、効果のないものはやめ、利益を生むものを伸ばします。" }
       ]
     },
     "why": {
-      "eyebrow": "Why Empower of Marketing",
-      "title": "Not just another marketing agency.",
+      "eyebrow": "Empower of Marketingが選ばれる理由",
+      "title": "ありがちなマーケティング会社ではありません。",
       "items": [
-        {
-          "title": "Digital and traditional",
-          "text": "Online ads and SEO, plus offline, local and field marketing — because customers live in both worlds."
-        },
-        {
-          "title": "One partner, start to scale",
-          "text": "From business setup to marketing, AI and video, you don't have to juggle five different freelancers."
-        },
-        {
-          "title": "Systems, not one-off campaigns",
-          "text": "We build repeatable systems that keep bringing results after the campaign ends."
-        },
-        {
-          "title": "Global experience",
-          "text": "We work with clients across Asia, the Middle East and beyond, in English, Arabic and Japanese."
-        }
+        { "title": "デジタルも従来型も", "text": "オンライン広告やSEOに加え、オフライン・地域・現場のマーケティングも。お客様は両方の世界にいるからです。" },
+        { "title": "立ち上げから拡大まで一社で", "text": "事業立ち上げからマーケティング、AI、動画まで。複数のフリーランサーを調整する必要はありません。" },
+        { "title": "単発施策ではなく仕組みを", "text": "キャンペーン終了後も成果を生み続ける、再現性のある仕組みをつくります。" },
+        { "title": "グローバルな経験", "text": "アジア、中東、そしてその先のクライアントと、英語・アラビア語・日本語で仕事をしています。" }
       ]
     },
     "bookTeaser": {
-      "eyebrow": "From our founder",
-      "title": "The playbook behind our work.",
-      "text": "Empire of Marketing is our founder's A–Z field guide that connects strategy, psychology, attention, conversion and growth into one marketing system.",
-      "learn": "Explore the book"
+      "eyebrow": "創業者より",
+      "title": "私たちの仕事を支える一冊。",
+      "text": "『Empire of Marketing』は創業者によるA〜Zの実践ガイド。戦略、心理、注目、コンバージョン、成長をひとつのマーケティングの仕組みとしてつなぎます。",
+      "learn": "書籍を見る"
     },
     "faq": {
-      "eyebrow": "Questions",
-      "title": "Answers before you ask.",
+      "eyebrow": "よくある質問",
+      "title": "聞かれる前に、お答えします。",
       "items": [
-        {
-          "q": "Is the first call really free?",
-          "a": "Yes. The 30-minute video call is free and there's no obligation. You'll get honest advice on your situation even if we're not the right fit."
-        },
-        {
-          "q": "Which countries do you work with?",
-          "a": "We work online with businesses worldwide, with a focus on the USA, Canada, Europe, Saudi Arabia and Japan. Local and field marketing is planned around your market."
-        },
-        {
-          "q": "How much do your services cost?",
-          "a": "Packages start from $99, and monthly growth packages start from $299. Every plan is tailored on the call, and you'll see the price before anything starts."
-        },
-        {
-          "q": "Do you work in Arabic and Japanese?",
-          "a": "Yes. Our website, calls and materials can be in English, Arabic or Japanese."
-        },
-        {
-          "q": "How soon will I see results?",
-          "a": "Quick wins like a clearer offer or faster lead replies often show within weeks. Bigger growth comes from consistent work over months. We'll set realistic milestones together."
-        },
-        {
-          "q": "What should I prepare for the call?",
-          "a": "Just tell us about your business, your goal and what you've tried so far. If you have numbers like sales or ad spend, bring them — they help us give better advice."
-        }
+        { "q": "最初の相談は本当に無料ですか？", "a": "はい。30分のビデオ相談は無料で、契約の義務もありません。私たちがお役に立てない場合でも、状況に合った率直なアドバイスをお伝えします。" },
+        { "q": "どの国に対応していますか？", "a": "オンラインで世界中のビジネスに対応しており、特に米国、カナダ、ヨーロッパ、サウジアラビア、日本に注力しています。地域・現場のマーケティングは市場に合わせて計画します。" },
+        { "q": "料金はいくらですか？", "a": "パッケージは99ドルから、月額の成長プランは299ドルからです。どのプランも相談の場で内容を調整し、作業開始前に料金をご確認いただけます。" },
+        { "q": "アラビア語や日本語で対応できますか？", "a": "はい。ウェブサイト、相談、資料は英語・アラビア語・日本語で対応できます。" },
+        { "q": "成果はいつ頃出ますか？", "a": "オファーの明確化や返信の高速化など、すぐ効く改善は数週間で表れることが多いです。大きな成長は数か月の継続的な取り組みから生まれます。現実的なマイルストーンを一緒に設定します。" },
+        { "q": "相談の前に何を準備すればいいですか？", "a": "ビジネスの内容、目標、これまで試したことをお聞かせください。売上や広告費などの数字があれば、より的確なアドバイスができます。" }
       ]
     }
   },
   "ServicesIndex": {
-    "eyebrow": "Growth services",
-    "title": "Six ways we help businesses grow.",
-    "subtitle": "Choose a starting point, or let us combine them into one plan built around your goals."
+    "eyebrow": "成長支援サービス",
+    "title": "ビジネスの成長を支える6つの方法。",
+    "subtitle": "出発点を選ぶか、目標に合わせてひとつのプランにまとめましょう。"
   },
   "Service": {
     "digital-marketing": {
-      "title": "Digital Marketing",
-      "short": "Paid ads, SEO, analytics and conversion optimization that turn clicks into customers.",
+      "title": "デジタルマーケティング",
+      "short": "クリックを顧客に変える、広告運用・SEO・分析・コンバージョン改善。",
       "hero": {
-        "eyebrow": "Digital Marketing",
-        "title": "Stop paying for clicks that never buy.",
-        "subtitle": "We run Google, Meta and TikTok ads, SEO and analytics as one system — so every dollar you spend is tracked, tested and pushed toward real sales."
+        "eyebrow": "デジタルマーケティング",
+        "title": "買わないクリックに、お金を払うのはもうやめよう。",
+        "subtitle": "Google・Meta・TikTokの広告、SEO、分析をひとつの仕組みとして運用。1ドル単位で計測・検証し、実際の売上につなげます。"
       },
       "pains": [
-        "You're spending on ads but can't tell what's actually working.",
-        "Your website gets visits but almost nobody contacts you or buys.",
-        "Competitors show up on Google and you don't.",
-        "Your social pages are active but don't bring in customers."
+        "広告費をかけているのに、何が効いているのか分からない。",
+        "サイトへのアクセスはあるのに、問い合わせや購入がほとんどない。",
+        "競合はGoogleに表示されるのに、自社は出てこない。",
+        "SNSは更新しているのに、お客様につながらない。"
       ],
       "deliverables": [
-        {
-          "title": "Google Ads",
-          "text": "Search, Performance Max and YouTube campaigns built around buying intent."
-        },
-        {
-          "title": "Meta & TikTok Ads",
-          "text": "Creative-led campaigns on Facebook, Instagram and TikTok that reach the right people."
-        },
-        {
-          "title": "SEO",
-          "text": "Technical fixes, content and local SEO so customers find you without paying per click."
-        },
-        {
-          "title": "Analytics & tracking",
-          "text": "GA4, Google Tag Manager and dashboards so you see exactly where sales come from."
-        },
-        {
-          "title": "Conversion optimization",
-          "text": "Landing pages and funnels improved step by step to turn more visitors into leads."
-        },
-        {
-          "title": "Monthly reporting",
-          "text": "Clear reports in plain language, with the next actions — not just numbers."
-        }
+        { "title": "Google広告", "text": "購買意欲に基づく検索、P-MAX、YouTubeキャンペーン。" },
+        { "title": "Meta・TikTok広告", "text": "Facebook、Instagram、TikTokで適切な人に届くクリエイティブ主導の広告。" },
+        { "title": "SEO", "text": "技術的改善、コンテンツ、ローカルSEOで、クリック課金なしに見つけてもらう。" },
+        { "title": "分析・トラッキング", "text": "GA4、Googleタグマネージャー、ダッシュボードで売上の発生源を可視化。" },
+        { "title": "コンバージョン改善", "text": "ランディングページとファネルを段階的に改善し、訪問者を見込み客に。" },
+        { "title": "月次レポート", "text": "数字の羅列ではなく、次のアクションまで分かる明快なレポート。" }
       ],
       "outcomes": [
-        "Know your cost per lead and cost per sale",
-        "Ad budget moved to what actually converts",
-        "More qualified leads from search and social",
-        "A website that works as a sales tool"
+        "見込み客1件あたり・販売1件あたりのコストが分かる",
+        "広告予算を本当に成果の出る施策へ",
+        "検索とSNSからの質の高い見込み客が増える",
+        "営業ツールとして機能するウェブサイト"
       ],
       "forWho": {
-        "yes": [
-          "Businesses ready to invest in ads and wanting better returns",
-          "Online stores and service businesses that need steady leads",
-          "Brands entering a new country or city"
-        ],
-        "no": [
-          "Anyone looking for overnight results without a budget",
-          "Businesses that don't want to track results"
-        ]
+        "yes": ["広告に投資し、より高いリターンを求める企業", "安定した見込み客が必要なECサイトやサービス業", "新しい国や都市に進出するブランド"],
+        "no": ["予算をかけずに一夜で成果を求める方", "成果を計測したくない企業"]
       },
       "faq": [
-        {
-          "q": "What ad budget do I need?",
-          "a": "It depends on your market and goal. We'll recommend a sensible starting budget on the call. Ad spend is paid directly to the platforms, separate from our fee."
-        },
-        {
-          "q": "Can you take over my existing ad accounts?",
-          "a": "Yes. We start with an audit of your current accounts and keep what works."
-        },
-        {
-          "q": "How long does SEO take?",
-          "a": "SEO builds over time. Technical fixes help quickly; strong rankings usually take several months of steady work."
-        }
+        { "q": "広告予算はどのくらい必要ですか？", "a": "市場と目標によります。相談の場で適切な初期予算をご提案します。広告費は当社の報酬とは別に、各プラットフォームへ直接お支払いいただきます。" },
+        { "q": "既存の広告アカウントを引き継げますか？", "a": "はい。まず現在のアカウントを監査し、成果の出ている部分は活かします。" },
+        { "q": "SEOにはどのくらい時間がかかりますか？", "a": "SEOは時間とともに積み上がります。技術的改善はすぐに効きますが、上位表示には通常数か月の継続的な取り組みが必要です。" }
       ]
     },
     "traditional-marketing": {
-      "title": "Traditional Marketing",
-      "short": "Print, outdoor, local, field and WhatsApp marketing that wins customers in the real world.",
+      "title": "従来型マーケティング",
+      "short": "印刷物、屋外広告、地域・現場・WhatsAppマーケティングで、リアルの顧客を獲得。",
       "hero": {
-        "eyebrow": "Traditional Marketing",
-        "title": "Own your street, your city and your community.",
-        "subtitle": "Not every customer scrolls. We plan print, outdoor, events, field sales and WhatsApp campaigns that put your business in front of people where they live and shop."
+        "eyebrow": "従来型マーケティング",
+        "title": "その通り、その街、その地域で一番の存在に。",
+        "subtitle": "すべてのお客様がスマホを見ているわけではありません。印刷物、屋外広告、イベント、現場営業、WhatsAppキャンペーンで、人々が暮らし買い物をする場所にあなたのビジネスを届けます。"
       },
       "pains": [
-        "Local customers walk past your shop without knowing what you offer.",
-        "Your flyers and posters look like everyone else's.",
-        "Events and promotions cost money but bring few buyers.",
-        "You don't know how to measure offline marketing."
+        "近所のお客様が、何のお店か知らずに素通りしてしまう。",
+        "チラシやポスターが他店と代わり映えしない。",
+        "イベントやキャンペーンに費用をかけても、購入者は少ない。",
+        "オフライン施策の効果測定の方法が分からない。"
       ],
       "deliverables": [
-        {
-          "title": "Print & outdoor",
-          "text": "Posters, flyers, banners and signage designed to stop people and drive action."
-        },
-        {
-          "title": "Local & community marketing",
-          "text": "Neighborhood campaigns, partnerships with nearby businesses and community presence."
-        },
-        {
-          "title": "Events & activations",
-          "text": "Launches, in-store promotions and pop-ups that create real buzz."
-        },
-        {
-          "title": "Field & direct sales support",
-          "text": "Scripts, materials and routes for teams that sell face to face."
-        },
-        {
-          "title": "WhatsApp marketing",
-          "text": "Broadcast lists, catalogs and offers sent in your customers' language."
-        },
-        {
-          "title": "Offline tracking",
-          "text": "QR codes, offer codes and simple counts so you know what's working."
-        }
+        { "title": "印刷物・屋外広告", "text": "目を留め、行動を促すポスター、チラシ、バナー、看板。" },
+        { "title": "地域・コミュニティマーケティング", "text": "近隣キャンペーン、周辺店舗との提携、地域での存在感づくり。" },
+        { "title": "イベント・プロモーション", "text": "話題を生むローンチ、店頭キャンペーン、ポップアップ。" },
+        { "title": "現場・対面営業の支援", "text": "対面で販売するチームのためのトーク、資料、訪問ルート。" },
+        { "title": "WhatsAppマーケティング", "text": "お客様の言語で送る配信リスト、カタログ、特典。" },
+        { "title": "オフラインの効果測定", "text": "QRコード、クーポンコード、簡単なカウントで効果を把握。" }
       ],
       "outcomes": [
-        "More walk-in and local customers",
-        "Materials that look premium and consistent",
-        "Promotions with clear, measured results",
-        "Stronger name in your neighborhood"
+        "来店客・地域のお客様の増加",
+        "上質で統一感のある販促物",
+        "効果が明確に測れるキャンペーン",
+        "地域での知名度アップ"
       ],
       "forWho": {
-        "yes": [
-          "Shops, restaurants, clinics, salons and hotels",
-          "Businesses serving a city or region",
-          "Companies with sales teams in the field"
-        ],
-        "no": [
-          "Purely online businesses with no local customers",
-          "Anyone wanting design only, without a plan (see Graphic Design)"
-        ]
+        "yes": ["店舗、飲食店、クリニック、サロン、ホテル", "特定の都市や地域で事業を行う企業", "現場に営業チームを持つ企業"],
+        "no": ["地域の顧客がいない完全オンラインのビジネス", "計画なしでデザインだけを求める方（グラフィックデザインをご覧ください）"]
       },
       "faq": [
-        {
-          "q": "Do you handle printing?",
-          "a": "We design and plan everything and can coordinate with your local printer, or recommend one."
-        },
-        {
-          "q": "Can you run multilingual campaigns?",
-          "a": "Yes. We create materials and WhatsApp messages in English, Arabic, Japanese and other languages your customers speak."
-        },
-        {
-          "q": "How do you measure offline results?",
-          "a": "With QR codes, unique offer codes, call tracking and simple in-store counts."
-        }
+        { "q": "印刷まで対応してもらえますか？", "a": "デザインと企画はすべて担当し、地元の印刷会社との調整や紹介も可能です。" },
+        { "q": "多言語のキャンペーンは可能ですか？", "a": "はい。英語、アラビア語、日本語など、お客様が話す言語で販促物やWhatsAppメッセージを作成します。" },
+        { "q": "オフラインの成果はどう測りますか？", "a": "QRコード、専用クーポンコード、電話トラッキング、店頭での簡単なカウントで測定します。" }
       ]
     },
     "business-growth": {
-      "title": "Business Growth",
-      "short": "For businesses with no sales or no system: offer, funnel, sales process and operations, fixed.",
+      "title": "事業成長支援",
+      "short": "売上がない、仕組みがない事業へ。オファー、ファネル、販売プロセス、業務を立て直します。",
       "hero": {
-        "eyebrow": "Business Growth",
-        "title": "Your business is open. Now let's make it profitable.",
-        "subtitle": "When sales are low or everything feels messy, more ads aren't the answer. We fix the foundation — your offer, your funnel, your sales process and your daily operations — then scale what works."
+        "eyebrow": "事業成長支援",
+        "title": "お店は開いている。次は、利益を出そう。",
+        "subtitle": "売上が低い、すべてが混乱している——そんな時の答えは広告を増やすことではありません。オファー、ファネル、販売プロセス、日々の業務という土台を整え、うまくいく施策を拡大します。"
       },
       "pains": [
-        "You have a product or service, but sales are slow or unpredictable.",
-        "Everything depends on you and nothing runs without you.",
-        "You don't know your real numbers: margins, costs, customer value.",
-        "You've tried many tactics, but none of them stick."
+        "商品やサービスはあるのに、売上が伸びない・安定しない。",
+        "すべてがあなた頼みで、あなた抜きでは何も回らない。",
+        "利益率、コスト、顧客価値など、本当の数字が分からない。",
+        "いろいろ試したけれど、どれも定着しない。"
       ],
       "deliverables": [
-        {
-          "title": "Business diagnosis",
-          "text": "A clear look at your offer, market, pricing, numbers and bottlenecks."
-        },
-        {
-          "title": "Offer & pricing redesign",
-          "text": "An offer customers understand, value and say yes to."
-        },
-        {
-          "title": "Sales funnel & process",
-          "text": "A simple path from first contact to paid order, with scripts and follow-ups."
-        },
-        {
-          "title": "KPI dashboard",
-          "text": "The few numbers that matter, tracked weekly so you can decide fast."
-        },
-        {
-          "title": "Operations clean-up",
-          "text": "Roles, routines and checklists so the business runs without daily chaos."
-        },
-        {
-          "title": "Growth coaching",
-          "text": "Regular sessions to review numbers, remove blockers and plan the next move."
-        }
+        { "title": "事業診断", "text": "オファー、市場、価格、数字、ボトルネックを明確に把握。" },
+        { "title": "オファーと価格の再設計", "text": "お客様が理解し、価値を感じ、購入したくなるオファーに。" },
+        { "title": "販売ファネルとプロセス", "text": "最初の接点から受注までのシンプルな流れを、トークとフォロー付きで。" },
+        { "title": "KPIダッシュボード", "text": "本当に重要な数字だけを毎週追い、素早く判断できるように。" },
+        { "title": "業務の整理", "text": "役割、ルーティン、チェックリストで、日々の混乱なく回る体制に。" },
+        { "title": "成長コーチング", "text": "定期的に数字を確認し、障害を取り除き、次の一手を計画。" }
       ],
       "outcomes": [
-        "A clear offer and a steady flow of leads",
-        "A sales process your team can follow",
-        "Weekly numbers you actually understand",
-        "More time for you to lead, not firefight"
+        "明確なオファーと安定した見込み客の流れ",
+        "チームが実践できる販売プロセス",
+        "本当に理解できる毎週の数字",
+        "火消しではなく、経営に使える時間"
       ],
       "forWho": {
-        "yes": [
-          "Businesses with low or unpredictable sales",
-          "Owners who feel the business is disorganized",
-          "Teams ready to change how they work"
-        ],
-        "no": [
-          "Anyone looking for a magic trick instead of a system",
-          "Businesses not willing to share their numbers"
-        ]
+        "yes": ["売上が低い・不安定な企業", "事業が整理されていないと感じる経営者", "働き方を変える準備ができているチーム"],
+        "no": ["仕組みではなく魔法のような裏技を探している方", "数字を共有したくない企業"]
       },
       "faq": [
-        {
-          "q": "Do I need a big team for this?",
-          "a": "No. Most of our clients are small and medium businesses. We design systems that fit the team you have."
-        },
-        {
-          "q": "Will you work with my existing staff?",
-          "a": "Yes. We train and guide your team so the new systems keep working after we step back."
-        },
-        {
-          "q": "How fast will sales improve?",
-          "a": "Fixing the offer and follow-up often shows results within weeks. Lasting growth comes from steady work over a few months."
-        }
+        { "q": "大きなチームが必要ですか？", "a": "いいえ。クライアントの多くは中小企業です。今いるチームに合った仕組みを設計します。" },
+        { "q": "既存のスタッフと一緒に進めてもらえますか？", "a": "はい。チームをトレーニングし、私たちが離れた後も新しい仕組みが機能するようにします。" },
+        { "q": "売上はどのくらいで改善しますか？", "a": "オファーやフォローの改善は数週間で効果が出ることが多いです。持続的な成長は数か月の継続的な取り組みから生まれます。" }
       ]
     },
     "business-setup": {
-      "title": "Business Setup",
-      "short": "A step-by-step roadmap to start your business right — anywhere in the world.",
+      "title": "起業・事業立ち上げ支援",
+      "short": "世界のどこでも、正しくビジネスを始めるためのステップごとのロードマップ。",
       "hero": {
-        "eyebrow": "Business Setup",
-        "title": "Start your business with a map, not a guess.",
-        "subtitle": "From validating your idea to your first customers, we give you a step-by-step launch roadmap and stay with you in the field — so you avoid the expensive mistakes most new businesses make."
+        "eyebrow": "起業・事業立ち上げ支援",
+        "title": "勘ではなく、地図を持って起業しよう。",
+        "subtitle": "アイデアの検証から最初のお客様の獲得まで、ステップごとの立ち上げロードマップを用意し、現場でも伴走します。多くの新規事業が陥る高くつく失敗を避けられます。"
       },
       "pains": [
-        "You have an idea or savings, but don't know where to begin.",
-        "You're afraid of choosing the wrong product, location or market.",
-        "Registration, branding and marketing all feel overwhelming.",
-        "You want to launch in a new country and don't know the market."
+        "アイデアや資金はあるけれど、何から始めればいいか分からない。",
+        "商品、立地、市場の選択を間違えるのが怖い。",
+        "登記、ブランディング、マーケティングのすべてが大変に感じる。",
+        "新しい国で起業したいが、その市場を知らない。"
       ],
       "deliverables": [
-        {
-          "title": "Idea validation",
-          "text": "Quick, low-cost tests to check real demand before you invest."
-        },
-        {
-          "title": "Market & competitor research",
-          "text": "Who your customers are, what they pay, and how to stand out."
-        },
-        {
-          "title": "Launch roadmap",
-          "text": "A step-by-step plan with priorities, timelines and a realistic budget."
-        },
-        {
-          "title": "Brand setup",
-          "text": "Name, logo, identity, website and social profiles that look professional from day one."
-        },
-        {
-          "title": "Go-to-market plan",
-          "text": "How you'll find your first 100 customers, online and offline."
-        },
-        {
-          "title": "Field guidance",
-          "text": "Ongoing support as you launch — so you never feel alone with a decision."
-        }
+        { "title": "アイデア検証", "text": "投資する前に、低コストで素早く実際の需要を確かめるテスト。" },
+        { "title": "市場・競合調査", "text": "顧客は誰か、いくら払うか、どう差別化するか。" },
+        { "title": "立ち上げロードマップ", "text": "優先順位、スケジュール、現実的な予算を含むステップごとの計画。" },
+        { "title": "ブランド構築", "text": "初日からプロらしく見える名前、ロゴ、アイデンティティ、サイト、SNS。" },
+        { "title": "市場参入プラン", "text": "オンラインとオフラインで、最初の100人の顧客をどう獲得するか。" },
+        { "title": "現場での伴走", "text": "立ち上げ中も継続サポート。決断に一人で悩むことはありません。" }
       ],
       "outcomes": [
-        "Confidence that there's demand before you spend",
-        "A clear plan with steps, costs and timelines",
-        "A professional brand ready to sell",
-        "Your first customers, faster"
+        "お金をかける前に需要があるという確信",
+        "手順、費用、スケジュールが明確な計画",
+        "すぐに販売できるプロのブランド",
+        "より早く、最初のお客様を獲得"
       ],
       "forWho": {
-        "yes": [
-          "First-time founders",
-          "Professionals turning a skill into a business",
-          "Investors entering a new market or country"
-        ],
-        "no": [
-          "Anyone looking only for company registration paperwork",
-          "Get-rich-quick schemes"
-        ]
+        "yes": ["初めて起業する方", "スキルを事業にしたい専門家", "新しい市場や国に参入する投資家"],
+        "no": ["会社登記の書類手続きだけを求める方", "一攫千金を狙うスキーム"]
       },
       "faq": [
-        {
-          "q": "Can you help me start a business in another country?",
-          "a": "Yes. We help with market research, positioning and launch planning for many markets. For legal registration we guide you to the right local providers."
-        },
-        {
-          "q": "I only have a small budget. Can I still start?",
-          "a": "Often yes. We'll design a lean launch that tests demand before larger spending."
-        },
-        {
-          "q": "Do you stay involved after the launch?",
-          "a": "If you want. Many clients continue with our growth or marketing packages."
-        }
+        { "q": "海外での起業も支援してもらえますか？", "a": "はい。多くの市場で市場調査、ポジショニング、立ち上げ計画を支援します。法的な登記については、現地の適切な専門家をご案内します。" },
+        { "q": "予算が少なくても始められますか？", "a": "多くの場合可能です。大きな支出の前に需要を検証する、スリムな立ち上げを設計します。" },
+        { "q": "立ち上げ後も関わってもらえますか？", "a": "ご希望であれば。多くのクライアントが成長支援やマーケティングのプランで継続しています。" }
       ]
     },
     "ai-automation": {
-      "title": "AI Setup & Automation",
-      "short": "AI assistants and automated workflows that reply, follow up and report — while you focus on growth.",
+      "title": "AI導入・業務自動化",
+      "short": "返信、フォロー、レポートを担うAIアシスタントと自動化ワークフロー。あなたは成長に集中。",
       "hero": {
-        "eyebrow": "AI Setup & Automation",
-        "title": "Let AI handle the busy work. You handle the growth.",
-        "subtitle": "We set up practical AI tools and automations for your business — instant lead replies, follow-ups, content workflows and reports — so your team saves hours every week and no customer waits."
+        "eyebrow": "AI導入・業務自動化",
+        "title": "手間のかかる作業はAIに。成長はあなたの手で。",
+        "subtitle": "見込み客への即時返信、フォローアップ、コンテンツ制作の流れ、レポートなど、実用的なAIと自動化を導入。チームは毎週何時間も節約でき、お客様を待たせません。"
       },
       "pains": [
-        "Leads message you and wait hours (or days) for a reply.",
-        "Your team copies the same data between apps every day.",
-        "Content, reports and follow-ups always fall behind.",
-        "You know AI could help but don't know where to start."
+        "見込み客からの連絡に、返信まで何時間（何日）もかかる。",
+        "チームが毎日同じデータをアプリ間でコピーしている。",
+        "コンテンツ、レポート、フォローがいつも後回しになる。",
+        "AIが役立つのは分かるが、どこから始めればいいか分からない。"
       ],
       "deliverables": [
-        {
-          "title": "AI audit",
-          "text": "We find the tasks in your business that AI and automation can take over first."
-        },
-        {
-          "title": "Lead capture & instant reply",
-          "text": "Website, WhatsApp and social leads captured and answered in seconds."
-        },
-        {
-          "title": "AI assistants & chatbots",
-          "text": "Assistants trained on your services that answer common questions 24/7."
-        },
-        {
-          "title": "Workflow automation",
-          "text": "Connect your forms, CRM, sheets, email and calendar so work flows automatically."
-        },
-        {
-          "title": "AI content workflows",
-          "text": "Faster drafts for posts, ads, emails and product descriptions — reviewed by humans."
-        },
-        {
-          "title": "Training your team",
-          "text": "Simple guides and sessions so your team uses the tools with confidence."
-        }
+        { "title": "AI活用診断", "text": "AIと自動化に最初に任せられる業務を洗い出します。" },
+        { "title": "リード獲得と即時返信", "text": "サイト、WhatsApp、SNSからの問い合わせを数秒で受け付け、返信。" },
+        { "title": "AIアシスタント・チャットボット", "text": "自社サービスを学習し、よくある質問に24時間対応。" },
+        { "title": "ワークフロー自動化", "text": "フォーム、CRM、スプレッドシート、メール、カレンダーを連携し、業務を自動で流す。" },
+        { "title": "AIによるコンテンツ制作", "text": "投稿、広告、メール、商品説明の下書きを高速化。最終確認は人が行います。" },
+        { "title": "チームへのトレーニング", "text": "分かりやすいガイドとセッションで、自信を持ってツールを使えるように。" }
       ],
       "outcomes": [
-        "Faster replies to every lead",
-        "Hours of repetitive work saved each week",
-        "Fewer missed follow-ups",
-        "A team that knows how to use AI safely"
+        "すべての見込み客へのより速い返信",
+        "毎週何時間もの繰り返し作業を削減",
+        "フォロー漏れの減少",
+        "AIを安全に使いこなせるチーム"
       ],
       "forWho": {
-        "yes": [
-          "Businesses getting leads from many channels",
-          "Teams buried in repetitive admin work",
-          "Owners who want to use AI but need a guide"
-        ],
-        "no": [
-          "Anyone hoping AI will replace a real strategy",
-          "Businesses unwilling to change a single process"
-        ]
+        "yes": ["多くのチャネルから問い合わせが来る企業", "繰り返しの事務作業に追われるチーム", "AIを活用したいが案内役が必要な経営者"],
+        "no": ["AIが本物の戦略の代わりになると期待している方", "業務プロセスを一切変えたくない企業"]
       },
       "faq": [
-        {
-          "q": "Do I need technical skills?",
-          "a": "No. We set everything up, document it and train your team in plain language."
-        },
-        {
-          "q": "Which tools do you use?",
-          "a": "We choose tools that fit your budget and existing apps, from popular AI assistants to automation platforms and CRMs."
-        },
-        {
-          "q": "Is my customer data safe?",
-          "a": "We design automations with privacy in mind, use reputable tools and only connect the data each workflow needs."
-        }
+        { "q": "技術的なスキルは必要ですか？", "a": "いいえ。すべて私たちが設定し、手順を文書化し、分かりやすい言葉でチームをトレーニングします。" },
+        { "q": "どのツールを使いますか？", "a": "予算や既存のアプリに合わせて、一般的なAIアシスタントから自動化プラットフォームやCRMまで選定します。" },
+        { "q": "顧客データは安全ですか？", "a": "プライバシーに配慮して自動化を設計し、信頼できるツールを使い、各ワークフローに必要なデータだけを連携します。" }
       ]
     },
     "video-editing": {
-      "title": "Marketing Video Editing",
-      "short": "Scroll-stopping ads, reels, shorts and explainer videos edited to sell.",
+      "title": "マーケティング動画編集",
+      "short": "スクロールを止める広告、リール、ショート、説明動画を、売れる編集で。",
       "hero": {
-        "eyebrow": "Marketing Video Editing",
-        "title": "Videos that stop the scroll and start the sale.",
-        "subtitle": "We edit ads, reels, shorts and explainer videos with hooks, captions and motion graphics designed for one goal: getting people to take action."
+        "eyebrow": "マーケティング動画編集",
+        "title": "スクロールを止め、購入を動かす動画を。",
+        "subtitle": "広告、リール、ショート、説明動画を、フック、字幕、モーショングラフィックスで編集。目的はひとつ、見た人に行動してもらうことです。"
       },
       "pains": [
-        "Your videos get views but no messages or sales.",
-        "People scroll past in the first two seconds.",
-        "Editing takes your team days and still looks amateur.",
-        "You need content every week but can't keep up."
+        "再生はされるのに、問い合わせや売上につながらない。",
+        "最初の2秒でスクロールされてしまう。",
+        "編集に何日もかかるのに、仕上がりが素人っぽい。",
+        "毎週コンテンツが必要なのに、追いつかない。"
       ],
       "deliverables": [
-        {
-          "title": "Ad creatives",
-          "text": "Short video ads built around a strong hook, clear offer and call to action."
-        },
-        {
-          "title": "Reels, Shorts & TikToks",
-          "text": "Vertical videos edited for each platform's style and pace."
-        },
-        {
-          "title": "Product & service explainers",
-          "text": "Simple videos that show what you do and why it matters."
-        },
-        {
-          "title": "Motion graphics & captions",
-          "text": "Animated text, icons and subtitles that keep viewers watching — even on mute."
-        },
-        {
-          "title": "Multilingual subtitles",
-          "text": "Captions in English, Arabic, Japanese and more."
-        },
-        {
-          "title": "Monthly content packs",
-          "text": "A steady batch of videos every month, planned with your marketing calendar."
-        }
+        { "title": "広告クリエイティブ", "text": "強いフック、明確なオファー、行動喚起で構成された短尺広告。" },
+        { "title": "リール・ショート・TikTok", "text": "各プラットフォームのスタイルとテンポに合わせた縦型動画。" },
+        { "title": "商品・サービス説明動画", "text": "何を提供しているか、なぜ大切かを伝えるシンプルな動画。" },
+        { "title": "モーショングラフィックス・字幕", "text": "動く文字やアイコン、字幕で、音声オフでも最後まで見てもらう。" },
+        { "title": "多言語字幕", "text": "英語、アラビア語、日本語などの字幕。" },
+        { "title": "月額コンテンツパック", "text": "マーケティングカレンダーに合わせて、毎月安定して動画をお届け。" }
       ],
       "outcomes": [
-        "More people watching past the first seconds",
-        "Videos that clearly drive messages and clicks",
-        "A consistent, professional look",
-        "Fresh content without stress"
+        "最初の数秒を超えて見てくれる人が増える",
+        "問い合わせやクリックに明確につながる動画",
+        "一貫したプロフェッショナルな見た目",
+        "ストレスなく新しいコンテンツを"
       ],
       "forWho": {
-        "yes": [
-          "Brands running video ads",
-          "Businesses posting on Reels, TikTok or YouTube",
-          "Coaches, experts and founders who record themselves"
-        ],
-        "no": [
-          "Long films or wedding videos",
-          "Projects with no raw footage and no budget for filming"
-        ]
+        "yes": ["動画広告を運用しているブランド", "リール、TikTok、YouTubeに投稿している企業", "自ら撮影するコーチ、専門家、創業者"],
+        "no": ["長編映画やウェディング動画", "撮影素材も撮影予算もないプロジェクト"]
       },
       "faq": [
-        {
-          "q": "Do you film the videos?",
-          "a": "We focus on editing. You send the raw footage (even phone videos work), and we can guide you on how to film it."
-        },
-        {
-          "q": "How fast is delivery?",
-          "a": "Short videos are usually delivered within a few working days, depending on volume."
-        },
-        {
-          "q": "How many revisions do I get?",
-          "a": "Each package includes revisions so you're happy with the final result."
-        }
+        { "q": "撮影もしてもらえますか？", "a": "私たちは編集に特化しています。撮影素材（スマホ動画でも可）をお送りください。撮影のコツもご案内できます。" },
+        { "q": "納品はどのくらいの早さですか？", "a": "短尺動画は通常、数営業日以内に納品します（本数によります）。" },
+        { "q": "修正は何回までできますか？", "a": "各プランに修正回数が含まれており、仕上がりにご満足いただけるまで対応します。" }
       ]
     }
   },
   "SolutionsIndex": {
-    "eyebrow": "Solutions",
-    "title": "Business services you can count on.",
-    "subtitle": "Beyond marketing, we take care of the everyday work your business needs — from websites and design to documents, travel, training and manpower.",
-    "stepsTitle": "Simple from start to finish",
+    "eyebrow": "ソリューション",
+    "title": "頼れるビジネスサービス。",
+    "subtitle": "マーケティングに加え、ウェブサイトやデザインから書類、出張・旅行、研修、人材まで、ビジネスに必要な日々の業務をお任せください。",
+    "stepsTitle": "最初から最後まで、シンプルに",
     "steps": [
-      {
-        "title": "Tell us what you need",
-        "text": "Message us on WhatsApp or book a free call."
-      },
-      {
-        "title": "Get a clear quote",
-        "text": "You receive the scope, timeline and price before we start."
-      },
-      {
-        "title": "We deliver",
-        "text": "We handle the work and keep you updated until it's done."
-      }
+      { "title": "ご要望をお聞かせください", "text": "WhatsAppでメッセージを送るか、無料相談をご予約ください。" },
+      { "title": "明確なお見積もり", "text": "作業開始前に、範囲、期間、料金をお伝えします。" },
+      { "title": "確実にお届け", "text": "作業を担当し、完了まで進捗を共有します。" }
     ]
   },
   "Solution": {
     "web-development": {
-      "title": "Website Development",
-      "short": "Fast, modern business websites and landing pages built to convert.",
+      "title": "ウェブサイト制作",
+      "short": "成果につながる、高速でモダンなコーポレートサイトとランディングページ。",
       "hero": {
-        "eyebrow": "Website Development",
-        "title": "A website that works as hard as you do.",
-        "subtitle": "We build fast, mobile-first websites and landing pages that look premium, load in a blink and turn visitors into enquiries."
+        "eyebrow": "ウェブサイト制作",
+        "title": "あなたと同じくらい働くウェブサイトを。",
+        "subtitle": "高級感があり、一瞬で表示され、訪問者を問い合わせへと導く、モバイルファーストのウェブサイトとランディングページを制作します。"
       },
       "offer": [
-        {
-          "title": "Business websites",
-          "text": "Multi-page sites that explain what you do and build trust."
-        },
-        {
-          "title": "Landing pages",
-          "text": "Focused pages for ads and campaigns, built to convert."
-        },
-        {
-          "title": "Multilingual sites",
-          "text": "English, Arabic (right-to-left), Japanese and more."
-        },
-        {
-          "title": "SEO-ready & fast",
-          "text": "Clean code, good speed scores and search-friendly structure."
-        }
+        { "title": "コーポレートサイト", "text": "事業内容を伝え、信頼を築く複数ページのサイト。" },
+        { "title": "ランディングページ", "text": "広告やキャンペーン用に、成果を重視して設計したページ。" },
+        { "title": "多言語サイト", "text": "英語、アラビア語（右から左）、日本語などに対応。" },
+        { "title": "SEO対応で高速", "text": "クリーンなコード、高い表示速度、検索に強い構造。" }
       ],
-      "why": [
-        "Built by marketers, so every page has a goal",
-        "Mobile-first and fast",
-        "Easy to update and move between hosts"
-      ],
+      "why": ["マーケターが作るので、すべてのページに目的がある", "モバイルファーストで高速", "更新が簡単で、サーバー移行も容易"],
       "faq": [
-        {
-          "q": "Do you provide hosting and a domain?",
-          "a": "We can guide you to buy them in your name and connect everything for you."
-        },
-        {
-          "q": "Can you redesign my current website?",
-          "a": "Yes. We keep what works, fix what doesn't and improve speed and conversions."
-        }
+        { "q": "ホスティングやドメインも用意してもらえますか？", "a": "お客様名義での購入をご案内し、すべての接続設定を代行します。" },
+        { "q": "今のサイトをリニューアルできますか？", "a": "はい。良い部分は残し、問題点を直し、速度と成果を改善します。" }
       ]
     },
     "ui-ux-design": {
-      "title": "UI/UX Design",
-      "short": "Clean, modern app and web interfaces that are easy and pleasant to use.",
+      "title": "UI/UXデザイン",
+      "short": "すっきりとモダンで、使いやすく心地よいアプリ・ウェブのインターフェース。",
       "hero": {
-        "eyebrow": "UI/UX Design",
-        "title": "Design that people understand at first glance.",
-        "subtitle": "We design app and web interfaces that look modern, guide users naturally and make your product feel effortless."
+        "eyebrow": "UI/UXデザイン",
+        "title": "ひと目で分かるデザインを。",
+        "subtitle": "モダンな見た目で、ユーザーを自然に導き、製品を使いやすく感じさせるアプリやウェブのインターフェースをデザインします。"
       },
       "offer": [
-        {
-          "title": "User research & flows",
-          "text": "We map how your users think before drawing a single screen."
-        },
-        {
-          "title": "Wireframes & prototypes",
-          "text": "Clickable prototypes you can test before development."
-        },
-        {
-          "title": "UI design",
-          "text": "Polished screens with a consistent, premium look."
-        },
-        {
-          "title": "Design systems",
-          "text": "Reusable components so your product stays consistent as it grows."
-        }
+        { "title": "ユーザー調査・導線設計", "text": "画面を描く前に、ユーザーの考え方を整理します。" },
+        { "title": "ワイヤーフレーム・プロトタイプ", "text": "開発前に検証できる、クリック可能なプロトタイプ。" },
+        { "title": "UIデザイン", "text": "統一感のある上質な画面デザイン。" },
+        { "title": "デザインシステム", "text": "製品が成長しても一貫性を保てる、再利用可能なコンポーネント。" }
       ],
-      "why": [
-        "Design driven by conversion and usability",
-        "Ready-to-build files for developers",
-        "Right-to-left and multilingual layouts"
-      ],
+      "why": ["成果と使いやすさを重視したデザイン", "開発者がすぐ使えるデータ", "右から左の言語や多言語レイアウトに対応"],
       "faq": [
-        {
-          "q": "Which tools do you use?",
-          "a": "Usually Figma, with files and prototypes shared so your team can review and comment."
-        },
-        {
-          "q": "Can you also build the design?",
-          "a": "Yes — see our Website Development solution."
-        }
+        { "q": "どのツールを使いますか？", "a": "主にFigmaを使用し、チームがレビュー・コメントできるようにファイルとプロトタイプを共有します。" },
+        { "q": "デザインの実装もできますか？", "a": "はい。ウェブサイト制作のソリューションをご覧ください。" }
       ]
     },
     "graphic-design": {
-      "title": "Graphic Design",
-      "short": "Logos, branding, social posts, posters and print that look professional.",
+      "title": "グラフィックデザイン",
+      "short": "プロらしく見える、ロゴ、ブランディング、SNS投稿、ポスター、印刷物。",
       "hero": {
-        "eyebrow": "Graphic Design",
-        "title": "Look like the brand customers already trust.",
-        "subtitle": "From logos and brand identity to social posts, posters and print, we create visuals that make your business look as good as it is."
+        "eyebrow": "グラフィックデザイン",
+        "title": "お客様が信頼するブランドの見た目に。",
+        "subtitle": "ロゴやブランドアイデンティティから、SNS投稿、ポスター、印刷物まで。あなたのビジネスの実力にふさわしいビジュアルをつくります。"
       },
       "offer": [
-        {
-          "title": "Logo & brand identity",
-          "text": "Logo, colors, fonts and simple brand guidelines."
-        },
-        {
-          "title": "Social media designs",
-          "text": "Post and story templates that stay on-brand every week."
-        },
-        {
-          "title": "Posters & flyers",
-          "text": "Eye-catching print and digital promotions."
-        },
-        {
-          "title": "Business stationery",
-          "text": "Business cards, letterheads, menus and brochures."
-        }
+        { "title": "ロゴ・ブランドアイデンティティ", "text": "ロゴ、カラー、フォント、シンプルなブランドガイドライン。" },
+        { "title": "SNSデザイン", "text": "毎週ブランドらしさを保てる投稿・ストーリーのテンプレート。" },
+        { "title": "ポスター・チラシ", "text": "目を引く印刷・デジタルの販促物。" },
+        { "title": "ビジネス印刷物", "text": "名刺、レターヘッド、メニュー、パンフレット。" }
       ],
-      "why": [
-        "Designs made to sell, not just to look nice",
-        "Consistent style across every channel",
-        "Multilingual layouts including Arabic"
-      ],
+      "why": ["見た目だけでなく、売るためのデザイン", "すべてのチャネルで一貫したスタイル", "アラビア語を含む多言語レイアウト"],
       "faq": [
-        {
-          "q": "Do I get the source files?",
-          "a": "Yes. You receive the final files and, for brand work, the editable source files."
-        },
-        {
-          "q": "How many revisions are included?",
-          "a": "Each project includes revision rounds agreed before we start."
-        }
+        { "q": "元データももらえますか？", "a": "はい。最終データに加え、ブランド関連の制作では編集可能な元データもお渡しします。" },
+        { "q": "修正は何回まで含まれますか？", "a": "各プロジェクトに、開始前に合意した回数の修正が含まれます。" }
       ]
     },
     "documents": {
-      "title": "Document Services",
-      "short": "Business documents, company profiles, proposals, CVs and document processing help.",
+      "title": "書類作成サービス",
+      "short": "ビジネス書類、会社案内、提案書、履歴書、書類手続きのサポート。",
       "hero": {
-        "eyebrow": "Document Services",
-        "title": "Professional documents, without the headache.",
-        "subtitle": "We prepare and organize the documents your business and career need — clear, well-designed and ready to send."
+        "eyebrow": "書類作成サービス",
+        "title": "プロ品質の書類を、手間なく。",
+        "subtitle": "ビジネスやキャリアに必要な書類を、分かりやすく、見やすく、すぐに送れる形で作成・整理します。"
       },
       "offer": [
-        {
-          "title": "Company profiles",
-          "text": "Professional profiles that present your business with confidence."
-        },
-        {
-          "title": "Business proposals & plans",
-          "text": "Proposals, pitch documents and business plans that win approval."
-        },
-        {
-          "title": "CVs & cover letters",
-          "text": "Modern CVs tailored to your target country and role."
-        },
-        {
-          "title": "Forms & document processing",
-          "text": "Help filling forms, organizing files and preparing paperwork correctly."
-        }
+        { "title": "会社案内", "text": "自信を持って事業を紹介できる、プロ品質の会社案内。" },
+        { "title": "提案書・事業計画書", "text": "承認を勝ち取る提案書、プレゼン資料、事業計画書。" },
+        { "title": "履歴書・カバーレター", "text": "応募先の国や職種に合わせたモダンな履歴書。" },
+        { "title": "各種フォーム・書類手続き", "text": "フォームの記入、ファイルの整理、書類の正しい準備をサポート。" }
       ],
-      "why": [
-        "Clear writing with a professional design",
-        "Formats for different countries and industries",
-        "Fast turnaround"
-      ],
+      "why": ["分かりやすい文章とプロのデザイン", "国や業界ごとのフォーマットに対応", "スピーディーな納品"],
       "faq": [
-        {
-          "q": "Can you translate documents?",
-          "a": "We can prepare documents in English, Arabic and other languages. For official certified translation we guide you to licensed providers."
-        },
-        {
-          "q": "Is my information kept private?",
-          "a": "Yes. We use your documents only for your project and don't share them."
-        }
+        { "q": "書類の翻訳もできますか？", "a": "英語、アラビア語などで書類を作成できます。公的な認証翻訳が必要な場合は、認可を受けた翻訳会社をご案内します。" },
+        { "q": "個人情報は守られますか？", "a": "はい。お預かりした書類はご依頼のプロジェクトにのみ使用し、第三者と共有しません。" }
       ]
     },
     "travel-ticketing": {
-      "title": "Travel & Ticketing",
-      "short": "Flight tickets, hotel bookings, visa assistance and Umrah travel support.",
+      "title": "旅行・航空券手配",
+      "short": "航空券、ホテル予約、ビザ申請サポート、ウムラ巡礼の旅行サポート。",
       "hero": {
-        "eyebrow": "Travel & Ticketing",
-        "title": "Travel planned properly, from ticket to hotel.",
-        "subtitle": "Business trip, family travel or Umrah — we help you book flights and hotels and prepare your visa paperwork, so your journey starts stress-free."
+        "eyebrow": "旅行・航空券手配",
+        "title": "航空券からホテルまで、きちんと計画された旅を。",
+        "subtitle": "出張、家族旅行、ウムラ巡礼——航空券やホテルの予約、ビザ書類の準備をお手伝いし、ストレスのない旅のスタートを。"
       },
       "offer": [
-        {
-          "title": "Flight tickets",
-          "text": "Help finding and booking the right flights for your dates and budget."
-        },
-        {
-          "title": "Hotel bookings",
-          "text": "Accommodation options that fit your plans and location."
-        },
-        {
-          "title": "Visa assistance",
-          "text": "Guidance and document preparation for your visa application."
-        },
-        {
-          "title": "Umrah travel support",
-          "text": "Planning support for Umrah trips, with our experience in Hajj & Umrah operations."
-        }
+        { "title": "航空券", "text": "日程と予算に合ったフライトの検索と予約をサポート。" },
+        { "title": "ホテル予約", "text": "予定や場所に合った宿泊先のご提案。" },
+        { "title": "ビザ申請サポート", "text": "ビザ申請のためのご案内と書類準備。" },
+        { "title": "ウムラ旅行サポート", "text": "ハッジ・ウムラ業務の経験を活かした、ウムラ旅行の計画サポート。" }
       ],
-      "why": [
-        "Experience with travel in Saudi Arabia and the region",
-        "Clear options and honest advice",
-        "Support by WhatsApp when you need it"
-      ],
+      "why": ["サウジアラビアと周辺地域での旅行に関する経験", "明確な選択肢と率直なアドバイス", "必要な時にWhatsAppでサポート"],
       "faq": [
-        {
-          "q": "Do you issue visas?",
-          "a": "Visas are issued by the official authorities. We help you prepare the documents and follow the correct process."
-        },
-        {
-          "q": "Can you help groups and companies?",
-          "a": "Yes. We can coordinate travel for teams, families and groups."
-        }
+        { "q": "ビザを発給してもらえますか？", "a": "ビザは公的機関が発給します。私たちは書類の準備と正しい手続きをサポートします。" },
+        { "q": "団体や企業の手配もできますか？", "a": "はい。チーム、家族、団体の旅行手配を調整できます。" }
       ]
     },
     "training": {
-      "title": "Training",
-      "short": "Practical marketing, sales, AI-tools and business training for owners and teams.",
+      "title": "研修・トレーニング",
+      "short": "経営者とチーム向けの、実践的なマーケティング・営業・AIツール・経営研修。",
       "hero": {
-        "eyebrow": "Training",
-        "title": "Skills your team can use on Monday morning.",
-        "subtitle": "Hands-on training in marketing, sales, AI tools and business management — practical, in your language, and built around your real work."
+        "eyebrow": "研修・トレーニング",
+        "title": "明日の朝から使えるスキルを。",
+        "subtitle": "マーケティング、営業、AIツール、事業運営の実践型研修。実用的で、あなたの言語で、実際の業務に沿って行います。"
       },
       "offer": [
-        {
-          "title": "Digital marketing training",
-          "text": "Ads, social media, SEO and analytics basics to advanced."
-        },
-        {
-          "title": "Sales & customer service",
-          "text": "Scripts, follow-ups and handling objections with confidence."
-        },
-        {
-          "title": "AI tools for business",
-          "text": "How to use AI safely to save time on daily tasks."
-        },
-        {
-          "title": "Business management",
-          "text": "Planning, KPIs and simple systems for owners and managers."
-        }
+        { "title": "デジタルマーケティング研修", "text": "広告、SNS、SEO、分析を基礎から応用まで。" },
+        { "title": "営業・カスタマーサービス", "text": "トーク、フォローアップ、反論への自信ある対応。" },
+        { "title": "ビジネスのためのAIツール", "text": "日々の業務の時間を節約する、安全なAIの使い方。" },
+        { "title": "事業マネジメント", "text": "経営者や管理職のための計画、KPI、シンプルな仕組み。" }
       ],
-      "why": [
-        "Taught by a practising marketer and author",
-        "Online or in person",
-        "Real examples from your business"
-      ],
+      "why": ["現役マーケターであり著者が講師", "オンラインでも対面でも", "あなたのビジネスの実例を使用"],
       "faq": [
-        {
-          "q": "Is training online or in person?",
-          "a": "Both. Online sessions work worldwide; in-person training can be arranged depending on location."
-        },
-        {
-          "q": "Can training be customized for my team?",
-          "a": "Yes. We build each program around your goals and your team's level."
-        }
+        { "q": "オンラインですか、対面ですか？", "a": "どちらも可能です。オンラインは世界中から受講でき、対面研修は場所に応じて調整します。" },
+        { "q": "チームに合わせてカスタマイズできますか？", "a": "はい。目標とチームのレベルに合わせてプログラムを組み立てます。" }
       ]
     },
     "manpower": {
-      "title": "Manpower Services",
-      "short": "Manpower supply and recruitment support so your business has the right people.",
+      "title": "人材サービス",
+      "short": "必要な人材を確保するための、人材供給と採用サポート。",
       "hero": {
-        "eyebrow": "Manpower Services",
-        "title": "The right people, when your business needs them.",
-        "subtitle": "We help businesses find and organize reliable staff — from skilled workers to office support — so you can keep growing without hiring headaches."
+        "eyebrow": "人材サービス",
+        "title": "必要な時に、必要な人材を。",
+        "subtitle": "熟練スタッフから事務サポートまで、信頼できる人材の確保と組織づくりを支援。採用の悩みなく成長を続けられます。"
       },
       "offer": [
-        {
-          "title": "Manpower supply",
-          "text": "Support finding workers for projects, operations and seasonal demand."
-        },
-        {
-          "title": "Recruitment support",
-          "text": "Job posts, screening and shortlisting candidates for your roles."
-        },
-        {
-          "title": "Workforce organization",
-          "text": "Simple systems for timesheets, rosters and staff records."
-        },
-        {
-          "title": "Onboarding materials",
-          "text": "Clear guides so new staff become productive faster."
-        }
+        { "title": "人材供給", "text": "プロジェクト、日常業務、繁忙期に必要な人材の確保をサポート。" },
+        { "title": "採用サポート", "text": "求人掲載、選考、候補者の絞り込み。" },
+        { "title": "人材管理の仕組み化", "text": "勤怠、シフト、従業員情報のためのシンプルな仕組み。" },
+        { "title": "入社時の研修資料", "text": "新しいスタッフが早く戦力になるための分かりやすいガイド。" }
       ],
-      "why": [
-        "Experience working with manpower companies",
-        "Practical systems, not just CVs",
-        "Support in multiple languages"
-      ],
+      "why": ["人材会社との業務経験", "履歴書だけでなく実用的な仕組みを提供", "多言語でのサポート"],
       "faq": [
-        {
-          "q": "Which countries do you support?",
-          "a": "Tell us your location and needs on a call — we'll explain what we can arrange for your market."
-        },
-        {
-          "q": "Can you set up staff management systems?",
-          "a": "Yes. We can organize employee, timesheet and payroll records in simple tools your team can use."
-        }
+        { "q": "どの国に対応していますか？", "a": "所在地とご要望を相談の場でお聞かせください。対応可能な内容をご説明します。" },
+        { "q": "スタッフ管理の仕組みも作ってもらえますか？", "a": "はい。従業員、勤怠、給与の記録を、チームが使えるシンプルなツールで整理します。" }
       ]
     }
   },
   "Pricing": {
-    "eyebrow": "Pricing",
-    "title": "Simple packages. Start free.",
-    "subtitle": "Begin with a free call. Choose a package when you're ready — every plan is tailored to your business on the call.",
+    "eyebrow": "料金",
+    "title": "シンプルなプラン。まずは無料から。",
+    "subtitle": "無料相談から始めて、準備ができたらプランをお選びください。どのプランも相談の場でビジネスに合わせて調整します。",
     "packages": {
       "free": {
-        "name": "Free Growth Call",
-        "tagline": "The best place to start.",
-        "features": [
-          "30-minute 1:1 video call",
-          "Quick diagnosis of your business",
-          "Your top 3 quick wins",
-          "No obligation"
-        ],
-        "cta": "Book free call"
+        "name": "無料成長相談",
+        "tagline": "最初の一歩に最適です。",
+        "features": ["30分の1対1ビデオ相談", "ビジネスの簡易診断", "すぐ効く改善策トップ3", "契約の義務なし"],
+        "cta": "無料相談を予約"
       },
       "starter": {
-        "name": "Starter Audit",
-        "tagline": "A clear plan for your next 30 days.",
-        "features": [
-          "Full marketing & business audit",
-          "Competitor snapshot",
-          "30-day action plan (PDF)",
-          "Follow-up call to walk through it"
-        ],
-        "cta": "Get my audit"
+        "name": "スターター診断",
+        "tagline": "これからの30日間の明確な計画。",
+        "features": ["マーケティングと事業の総合診断", "競合のスナップショット", "30日間のアクションプラン（PDF）", "内容を説明するフォローアップ相談"],
+        "cta": "診断を依頼する"
       },
       "growth": {
-        "name": "Growth",
-        "tagline": "Steady marketing that brings customers.",
-        "features": [
-          "Ads on 1–2 platforms",
-          "Monthly content plan",
-          "Basic SEO",
-          "Monthly report & strategy call",
-          "WhatsApp support"
-        ],
-        "cta": "Start growing"
+        "name": "グロース",
+        "tagline": "顧客を呼び込む、継続的なマーケティング。",
+        "features": ["1〜2媒体での広告運用", "月次コンテンツプラン", "基本的なSEO", "月次レポートと戦略相談", "WhatsAppサポート"],
+        "cta": "成長を始める"
       },
       "scale": {
-        "name": "Scale",
-        "tagline": "A full growth engine for ambitious teams.",
-        "features": [
-          "Multi-platform ads",
-          "Funnel & conversion optimization",
-          "AI automation setup",
-          "4 marketing videos per month",
-          "Bi-weekly strategy calls"
-        ],
-        "cta": "Scale my business"
+        "name": "スケール",
+        "tagline": "意欲的なチームのための成長エンジン。",
+        "features": ["複数媒体での広告運用", "ファネルとコンバージョンの改善", "AI自動化の導入", "毎月4本のマーケティング動画", "隔週の戦略相談"],
+        "cta": "事業を拡大する"
       },
       "custom": {
-        "name": "Custom & Business Setup",
-        "tagline": "Built around your exact needs.",
-        "features": [
-          "Business launch roadmap",
-          "Market entry planning",
-          "Websites, design & documents",
-          "Travel, training & manpower support"
-        ],
-        "cta": "Let's talk"
+        "name": "カスタム・起業支援",
+        "tagline": "あなたのニーズに合わせて設計。",
+        "features": ["事業立ち上げロードマップ", "市場参入計画", "ウェブサイト、デザイン、書類", "旅行、研修、人材のサポート"],
+        "cta": "ご相談ください"
       }
     },
     "notes": [
-      "Ad spend is paid directly to the ad platforms and is not included in our fees.",
-      "No long-term lock-in. Monthly packages can be paused or changed.",
-      "Prices are starting points in USD. You'll get a clear quote before any work begins."
+      "広告費は各広告プラットフォームへ直接お支払いいただき、当社の料金には含まれません。",
+      "長期契約の縛りはありません。月額プランは一時停止や変更が可能です。",
+      "料金は米ドルでの目安です。作業開始前に明確なお見積もりをお出しします。"
     ]
   },
   "About": {
     "hero": {
-      "eyebrow": "About us",
-      "title": "We help businesses grow with systems, not luck.",
-      "subtitle": "Empower of Marketing brings strategy, marketing, AI and creative work together so business owners can stop guessing and start growing."
+      "eyebrow": "私たちについて",
+      "title": "運ではなく、仕組みでビジネスを成長させる。",
+      "subtitle": "Empower of Marketingは、戦略、マーケティング、AI、クリエイティブをひとつにまとめ、経営者が推測をやめて成長を始められるよう支援します。"
     },
-    "storyTitle": "Our story",
+    "storyTitle": "私たちのストーリー",
     "story": [
-      "Empower of Marketing was founded by Md. Iqbal Hossain, a marketer with more than six years of experience in digital and traditional marketing, and a background that spans Bangladesh and Saudi Arabia.",
-      "After working with more than fifty clients around the world, one pattern kept repeating: businesses were not failing because of one bad ad. They were stuck because marketing, sales and operations were disconnected.",
-      "So we built a different kind of partner — one that connects everything, from the first business idea to the customer who comes back again and again."
+      "Empower of Marketingは、デジタルと従来型のマーケティングで6年以上の経験を持ち、バングラデシュとサウジアラビアでキャリアを積んだマーケター、Md. Iqbal Hossainによって設立されました。",
+      "世界中の50社以上のクライアントと仕事をする中で、ひとつのパターンが繰り返されました。ビジネスが失敗するのは、ひとつの悪い広告のせいではない。マーケティング、営業、業務がバラバラだから行き詰まるのだ、と。",
+      "そこで私たちは、すべてをつなぐ新しいタイプのパートナーをつくりました。最初の事業アイデアから、何度も戻ってきてくれるお客様まで。"
     ],
-    "missionTitle": "Our mission",
-    "mission": "To give every business owner — from a first-time founder to an established company — a clear, honest and practical path to growth.",
-    "approachTitle": "How we work",
+    "missionTitle": "ミッション",
+    "mission": "初めて起業する方から確立された企業まで、すべての経営者に、明確で誠実で実践的な成長への道筋を。",
+    "approachTitle": "仕事の進め方",
     "approach": [
-      {
-        "title": "Listen first",
-        "text": "We understand your business, customers and numbers before suggesting anything."
-      },
-      {
-        "title": "Plan clearly",
-        "text": "You get a roadmap in plain language, with priorities and costs."
-      },
-      {
-        "title": "Execute together",
-        "text": "We do the work and involve your team so the results last."
-      },
-      {
-        "title": "Measure honestly",
-        "text": "We report what works and what doesn't — and adjust fast."
-      }
+      { "title": "まず聞く", "text": "何かを提案する前に、ビジネス、顧客、数字を理解します。" },
+      { "title": "明確に計画する", "text": "優先順位と費用が分かる、平易な言葉のロードマップをお渡しします。" },
+      { "title": "一緒に実行する", "text": "私たちが手を動かし、チームも巻き込むので成果が続きます。" },
+      { "title": "正直に測る", "text": "うまくいくこと、いかないことを報告し、素早く改善します。" }
     ],
-    "valuesTitle": "What we stand for",
+    "valuesTitle": "大切にしていること",
     "values": [
-      {
-        "title": "Honesty",
-        "text": "Real scarcity, real proof, real numbers. No tricks."
-      },
-      {
-        "title": "Clarity",
-        "text": "No jargon. You always know what we're doing and why."
-      },
-      {
-        "title": "Ownership",
-        "text": "We treat your growth like our own."
-      },
-      {
-        "title": "Respect",
-        "text": "For your budget, your time and your customers."
-      }
+      { "title": "誠実さ", "text": "本物の希少性、本物の根拠、本物の数字。小細工はしません。" },
+      { "title": "明快さ", "text": "専門用語は使いません。何を、なぜしているのか、いつでも分かります。" },
+      { "title": "当事者意識", "text": "あなたの成長を、自分たちの成長として取り組みます。" },
+      { "title": "敬意", "text": "あなたの予算、時間、そしてお客様に。" }
     ],
-    "marketsTitle": "Where we work",
-    "markets": [
-      "USA",
-      "Canada",
-      "Europe",
-      "Saudi Arabia",
-      "Japan"
-    ],
-    "marketsNote": "We work online with businesses worldwide, with a special focus on these markets."
+    "marketsTitle": "対応地域",
+    "markets": ["米国", "カナダ", "ヨーロッパ", "サウジアラビア", "日本"],
+    "marketsNote": "オンラインで世界中のビジネスに対応し、特にこれらの市場に注力しています。"
   },
   "Book": {
     "hero": {
-      "eyebrow": "The book",
-      "subtitle": "The Practical A–Z Marketing Field Guide — from strategy and psychology to attention, conversion, revenue and growth.",
-      "by": "By"
+      "eyebrow": "書籍",
+      "subtitle": "A〜Zで学ぶ実践マーケティング・フィールドガイド。戦略と心理から、注目、コンバージョン、売上、成長まで。",
+      "by": "著者"
     },
     "description": [
-      "Most people learn marketing in pieces: a course on ads, a video on SEO, a tip about branding. But customers experience a business as a whole.",
-      "Empire of Marketing connects those pieces into one marketing operating system. Each discipline is explained through four practical questions — what it is, why it works, when to use it and how to execute and measure it — with frameworks, tactic banks and real-market scenarios."
+      "多くの人はマーケティングを断片的に学びます。広告の講座、SEOの動画、ブランディングのコツ。しかしお客様は、ビジネスを丸ごと体験しています。",
+      "『Empire of Marketing』は、そうした断片をひとつの「マーケティング・オペレーティングシステム」につなぎます。各分野を「それは何か」「なぜ効くのか」「いつ使うのか」「どう実行し測定するのか」という4つの実践的な問いで解説し、フレームワーク、戦術集、実際の市場シナリオを収録しています。"
     ],
-    "journeyTitle": "One connected system",
-    "journeySubtitle": "Marketing doesn't start with ads. It starts with a problem — and grows through every step of the customer journey.",
+    "journeyTitle": "ひとつにつながった仕組み",
+    "journeySubtitle": "マーケティングは広告から始まるのではありません。課題から始まり、顧客体験のすべての段階を通じて成長します。",
     "journey": {
-      "problem": "Problem",
-      "customer": "Customer",
-      "offer": "Offer",
-      "attention": "Attention",
-      "conversion": "Conversion",
-      "experience": "Experience",
-      "retention": "Retention",
-      "referral": "Referral",
-      "growth": "Growth"
+      "problem": "課題",
+      "customer": "顧客",
+      "offer": "オファー",
+      "attention": "注目",
+      "conversion": "コンバージョン",
+      "experience": "体験",
+      "retention": "継続",
+      "referral": "紹介",
+      "growth": "成長"
     },
-    "azTitle": "26 chapters, A to Z",
-    "azSubtitle": "Every major discipline of modern marketing, organized as a practical reference you can return to.",
+    "azTitle": "AからZまで、全26章",
+    "azSubtitle": "現代マーケティングの主要分野を、いつでも立ち返れる実践的なリファレンスとして体系化。",
     "chapters": {
-      "A": "Offer, Product & Sales Marketing",
-      "B": "Psychology, Behavior & Persuasion",
-      "C": "Content & Creative Communication",
-      "D": "Digital & Online Acquisition",
-      "E": "Email, Direct & Lifecycle Marketing",
-      "F": "Funnel, Conversion & Performance",
-      "G": "Growth Marketing",
-      "H": "Brand, Positioning & Awareness",
-      "I": "Influencer, Creator & KOL Marketing",
-      "J": "Partnership, Affiliate & Referral",
-      "K": "PR, Communications & Reputation",
-      "L": "Social Media & Engagement",
-      "M": "Advertising, Media Buying & Paid Campaigns",
-      "N": "Data, Analytics, AI & Automation",
-      "O": "Omnichannel, Channel & Distribution",
-      "P": "Pricing, Promotion & Revenue",
-      "Q": "Customer Relationship, Retention & Loyalty",
-      "R": "Research, Consumer Insight & Measurement",
-      "S": "Search, SEO & Discovery",
-      "T": "Traditional, Direct, Field & Offline",
-      "U": "Community, Advocacy & Word of Mouth",
-      "V": "Video, Visual, Audio & Multimedia",
-      "W": "Web, Mobile, E-commerce & Platforms",
-      "X": "Experiential, Event & Guerrilla",
-      "Y": "Youth, Culture, Trend & Niche",
-      "Z": "Local, Geographic & Hyperlocal"
+      "A": "オファー、商品、セールスマーケティング",
+      "B": "心理、行動、説得",
+      "C": "コンテンツとクリエイティブ・コミュニケーション",
+      "D": "デジタル・オンライン集客",
+      "E": "メール、ダイレクト、ライフサイクルマーケティング",
+      "F": "ファネル、コンバージョン、パフォーマンス",
+      "G": "グロースマーケティング",
+      "H": "ブランド、ポジショニング、認知",
+      "I": "インフルエンサー、クリエイター、KOLマーケティング",
+      "J": "パートナーシップ、アフィリエイト、紹介",
+      "K": "PR、コミュニケーション、評判",
+      "L": "ソーシャルメディアとエンゲージメント",
+      "M": "広告、メディアバイイング、有料キャンペーン",
+      "N": "データ、分析、AI、自動化",
+      "O": "オムニチャネル、チャネル、流通",
+      "P": "価格、プロモーション、収益",
+      "Q": "顧客関係、リテンション、ロイヤルティ",
+      "R": "リサーチ、消費者インサイト、測定",
+      "S": "検索、SEO、発見",
+      "T": "従来型、ダイレクト、フィールド、オフライン",
+      "U": "コミュニティ、アドボカシー、口コミ",
+      "V": "動画、ビジュアル、音声、マルチメディア",
+      "W": "ウェブ、モバイル、EC、プラットフォーム",
+      "X": "体験型、イベント、ゲリラマーケティング",
+      "Y": "若者、カルチャー、トレンド、ニッチ",
+      "Z": "地域、エリア、ハイパーローカル"
     },
-    "learnTitle": "What you'll learn",
+    "learnTitle": "この本で学べること",
     "learn": [
-      "How to build an offer people understand, value and buy",
-      "The psychology behind attention, trust and decisions",
-      "How to fix a funnel when traffic doesn't turn into sales",
-      "How to grow with retention, referrals and partnerships",
-      "How to use data, AI and automation to decide faster",
-      "A 30-day marketing build and a business scorecard you can use right away"
+      "人が理解し、価値を感じ、購入するオファーのつくり方",
+      "注目、信頼、意思決定の背後にある心理",
+      "アクセスが売上につながらない時のファネルの直し方",
+      "リテンション、紹介、パートナーシップで成長する方法",
+      "データ、AI、自動化で素早く判断する方法",
+      "すぐに使える30日間のマーケティング構築プランと事業スコアカード"
     ],
-    "forWhoTitle": "Who it's for",
-    "forWho": [
-      "Entrepreneurs and business owners",
-      "Marketers and growth teams",
-      "Freelancers and agencies",
-      "Sales professionals",
-      "Students of marketing"
-    ],
-    "formatsTitle": "Available formats",
+    "forWhoTitle": "こんな方におすすめ",
+    "forWho": ["起業家・経営者", "マーケターと成長チーム", "フリーランス・代理店", "営業のプロフェッショナル", "マーケティングを学ぶ学生"],
+    "formatsTitle": "購入できる形式",
     "formats": {
-      "kindle": "Kindle eBook",
-      "paperback": "Paperback",
-      "hardcover": "Hardcover",
-      "bangla": "Also available in a Bangla edition."
+      "kindle": "Kindle電子書籍",
+      "paperback": "ペーパーバック",
+      "hardcover": "ハードカバー",
+      "bangla": "ベンガル語版もあります。"
     },
-    "bridgeTitle": "Want this system built for your business?",
-    "bridgeText": "The book shows how marketing works as one system. Empower of Marketing builds that system for you — and helps you run it."
+    "bridgeTitle": "この仕組みを、あなたのビジネスに。",
+    "bridgeText": "本書はマーケティングがひとつの仕組みとして機能することを示します。Empower of Marketingは、その仕組みをあなたのために構築し、運用を支援します。"
   },
   "Founder": {
     "hero": {
-      "eyebrow": "Founder",
+      "eyebrow": "創業者",
       "name": "Md. Iqbal Hossain",
-      "role": "Founder, Empower of Marketing · Author of Empire of Marketing",
-      "intro": "A marketer who believes growth comes from connected systems — not lucky campaigns."
+      "role": "Empower of Marketing創業者 · 『Empire of Marketing』著者",
+      "intro": "成長は幸運なキャンペーンではなく、つながった仕組みから生まれる——そう信じるマーケターです。"
     },
     "about": [
-      "Iqbal has more than six years of experience across digital and traditional marketing, helping more than fifty clients around the world grow their businesses.",
-      "He specializes in performance marketing and paid advertising on Google, Meta and TikTok, SEO, analytics and conversion optimization — and he coaches founders who want to launch new businesses with a clear, step-by-step roadmap.",
-      "His career spans Bangladesh and Saudi Arabia, with hands-on experience in operations, administration and IT support that shapes his practical, systems-first approach. He is the author of Empire of Marketing, a practical A–Z marketing field guide."
+      "Iqbalはデジタルと従来型のマーケティングで6年以上の経験を持ち、世界中の50社以上のクライアントのビジネス成長を支援してきました。",
+      "専門はパフォーマンスマーケティング、Google・Meta・TikTokの広告運用、SEO、データ分析、コンバージョン改善。新たに事業を立ち上げたい創業者を、明確なステップごとのロードマップで指導しています。",
+      "キャリアはバングラデシュとサウジアラビアにまたがり、業務運営、事務管理、ITサポートの実務経験が、仕組みを重視する実践的なアプローチを形づくっています。A〜Zの実践マーケティングガイド『Empire of Marketing』の著者でもあります。"
     ],
-    "expertiseTitle": "Expertise",
-    "expertise": [
-      "Performance marketing",
-      "Google, Meta & TikTok Ads",
-      "SEO",
-      "GA4, GTM & Looker Studio",
-      "Tableau dashboards",
-      "Conversion optimization",
-      "Business launch coaching",
-      "Traditional & field marketing"
-    ],
-    "factsTitle": "At a glance",
+    "expertiseTitle": "専門分野",
+    "expertise": ["パフォーマンスマーケティング", "Google・Meta・TikTok広告", "SEO", "GA4・GTM・Looker Studio", "Tableauダッシュボード", "コンバージョン改善", "起業支援コーチング", "従来型・フィールドマーケティング"],
+    "factsTitle": "ひと目で分かる実績",
     "facts": [
-      {
-        "value": "6+",
-        "label": "years in marketing"
-      },
-      {
-        "value": "50+",
-        "label": "global clients"
-      },
-      {
-        "value": "1",
-        "label": "published book"
-      }
+      { "value": "6+", "label": "年のマーケティング経験" },
+      { "value": "50+", "label": "社の海外クライアント" },
+      { "value": "1", "label": "冊の著書" }
     ],
-    "linksTitle": "Connect"
+    "linksTitle": "つながる"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "updated": "Last updated: 22 October 2026",
-    "intro": "This policy explains what information is handled when you visit this website or contact us, and the choices you have. We keep it simple: this website has no user accounts and does not store your data in a database.",
+    "title": "プライバシーポリシー",
+    "updated": "最終更新日：2026年10月22日",
+    "intro": "本ポリシーは、本ウェブサイトの閲覧時やお問い合わせ時に取り扱う情報と、お客様の選択肢について説明するものです。本サイトにはユーザーアカウントがなく、データベースにお客様のデータを保存しません。",
     "sections": [
-      {
-        "h": "Who we are",
-        "p": "This website is operated by Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia. Contact: empireofmarketing4@gmail.com. We are responsible for the personal information described in this policy."
-      },
-      {
-        "h": "Information we receive",
-        "p": "We only receive personal information you choose to send us: when you email us, message us on WhatsApp, or book a call through Calendly (for example your name, email, phone number and what you tell us about your business)."
-      },
-      {
-        "h": "Information collected automatically",
-        "p": "Our hosting provider may keep standard server logs (such as IP address, browser type and pages visited) for security and reliability. This website does not use analytics or advertising cookies. If you change the language, your browser may keep that preference for your session."
-      },
-      {
-        "h": "Third-party services",
-        "p": "Booking a call opens Calendly, which processes your booking details under its own privacy policy. Clicking WhatsApp opens WhatsApp (Meta), and emailing us uses your email provider. The Book page links to Amazon. Fonts are served from this website, not from third parties."
-      },
-      {
-        "h": "Why we use your information",
-        "p": "To reply to your messages, hold the calls you book, prepare quotes and provide services you request. Depending on your location, our legal bases are your consent, steps taken at your request before a contract, performing a contract, and our legitimate interest in running and securing the website."
-      },
-      {
-        "h": "How long we keep it",
-        "p": "We keep messages and booking details only as long as needed to answer you, provide services and meet legal or accounting obligations, then delete them."
-      },
-      {
-        "h": "International transfers",
-        "p": "Our service providers (such as hosting, Calendly, email and WhatsApp) may process data in other countries, including the United States. By contacting us through these services, your information is transferred to them under their safeguards."
-      },
-      {
-        "h": "Your rights",
-        "p": "Depending on where you live — including under the EU/UK GDPR, Saudi Arabia's Personal Data Protection Law (PDPL) and Japan's Act on the Protection of Personal Information (APPI) — you may have the right to be informed, access, correct, delete or restrict the use of your data, object to processing, withdraw consent and complain to your data protection authority. Email us to use any of these rights."
-      },
-      {
-        "h": "Children",
-        "p": "This website is for businesses and adults. We do not knowingly collect information from children."
-      },
-      {
-        "h": "Changes",
-        "p": "We may update this policy. The date at the top shows the latest version."
-      }
+      { "h": "運営者", "p": "本ウェブサイトは、Iqbal Hossain（Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia）が運営しています。連絡先：empireofmarketing4@gmail.com。本ポリシーに記載された個人情報の取扱いについて責任を負います。" },
+      { "h": "受け取る情報", "p": "お客様が送信を選択した個人情報のみを受け取ります。メール、WhatsAppでのご連絡、Calendlyでの相談予約の際の情報（氏名、メールアドレス、電話番号、ビジネスについてのお話など）です。" },
+      { "h": "自動的に収集される情報", "p": "ホスティング事業者が、セキュリティと安定運用のために標準的なサーバーログ（IPアドレス、ブラウザの種類、閲覧ページなど）を保持する場合があります。本サイトは分析や広告のためのCookieを使用しません。言語を切り替えた場合、セッション中はブラウザにその設定が保持されることがあります。" },
+      { "h": "第三者サービス", "p": "相談の予約ではCalendlyが開き、予約情報は同社のプライバシーポリシーに基づいて処理されます。WhatsAppをクリックするとWhatsApp（Meta）が開き、メールはお客様のメールサービスを通じて送信されます。書籍ページはAmazonにリンクしています。フォントは第三者ではなく本サイトから配信されます。" },
+      { "h": "利用目的", "p": "メッセージへの返信、予約された相談の実施、お見積もりの作成、ご依頼のサービス提供のために利用します。所在地に応じて、同意、契約前のご依頼に基づく対応、契約の履行、ウェブサイトの運営・保護という正当な利益を法的根拠とします。" },
+      { "h": "保存期間", "p": "メッセージや予約情報は、返信、サービス提供、法令・会計上の義務の履行に必要な期間のみ保存し、その後削除します。" },
+      { "h": "国外への移転", "p": "当社のサービス提供事業者（ホスティング、Calendly、メール、WhatsAppなど）は、米国を含む他国でデータを処理する場合があります。これらのサービスを通じてご連絡いただくと、各社の保護措置のもとで情報が移転されます。" },
+      { "h": "お客様の権利", "p": "お住まいの地域によっては、EU・英国のGDPR、サウジアラビアの個人データ保護法（PDPL）、日本の個人情報保護法（APPI）などに基づき、通知を受ける権利、データへのアクセス・訂正・削除・利用制限、処理への異議、同意の撤回、データ保護当局への申立ての権利があります。権利を行使する場合はメールでご連絡ください。" },
+      { "h": "子どもの情報", "p": "本サイトは企業および成人を対象としています。子どもの情報を意図的に収集することはありません。" },
+      { "h": "改定", "p": "本ポリシーは改定される場合があります。冒頭の日付が最新版を示します。" }
     ],
-    "disclaimer": "This policy is written in plain language for transparency and has not been reviewed by a lawyer."
+    "disclaimer": "本ポリシーは透明性のために平易な言葉で作成したもので、弁護士の確認は受けていません。"
   },
   "Terms": {
-    "title": "Terms of Use",
-    "updated": "Last updated: 22 October 2026",
-    "intro": "By using this website you agree to these terms. Please read them carefully.",
+    "title": "利用規約",
+    "updated": "最終更新日：2026年10月22日",
+    "intro": "本ウェブサイトを利用することで、本規約に同意したものとみなされます。よくお読みください。",
     "sections": [
-      {
-        "h": "About this website",
-        "p": "This website is operated by Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia. It provides information about our services and how to contact us."
-      },
-      {
-        "h": "Information only",
-        "p": "Content on this website is general information, not professional, legal or financial advice. Results described are goals and examples, not promises; every business and market is different."
-      },
-      {
-        "h": "Prices and services",
-        "p": "Prices shown are starting points in USD and may change. The final scope, price and timeline of any service are agreed in writing before work begins. Advertising spend is paid separately to the ad platforms."
-      },
-      {
-        "h": "Third-party links",
-        "p": "We link to services such as Calendly, WhatsApp and Amazon. We are not responsible for their content, policies or availability."
-      },
-      {
-        "h": "Intellectual property",
-        "p": "The design, text and graphics of this website belong to Empower of Marketing unless stated otherwise. You may not copy them for commercial use without permission."
-      },
-      {
-        "h": "Limitation of liability",
-        "p": "To the extent permitted by law, we are not liable for losses arising from the use of this website or reliance on its content."
-      },
-      {
-        "h": "Governing law",
-        "p": "These terms are governed by the laws of the Kingdom of Saudi Arabia."
-      },
-      {
-        "h": "Contact",
-        "p": "Questions about these terms? Email empireofmarketing4@gmail.com."
-      }
+      { "h": "本サイトについて", "p": "本ウェブサイトは、Iqbal Hossain（Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia）が運営し、当社サービスとお問い合わせ方法についての情報を提供しています。" },
+      { "h": "情報提供のみ", "p": "本サイトの内容は一般的な情報であり、専門的・法的・財務的な助言ではありません。記載された成果は目標や例であり、約束ではありません。ビジネスや市場は一つひとつ異なります。" },
+      { "h": "料金とサービス", "p": "表示料金は米ドルでの目安で、変更される場合があります。各サービスの最終的な範囲、料金、期間は作業開始前に書面で合意します。広告費は各広告プラットフォームへ別途お支払いいただきます。" },
+      { "h": "第三者へのリンク", "p": "Calendly、WhatsApp、Amazonなどのサービスにリンクしています。これらの内容、方針、利用可否について当社は責任を負いません。" },
+      { "h": "知的財産", "p": "本サイトのデザイン、文章、画像は、特に記載がない限りEmpower of Marketingに帰属します。許可なく商用目的で複製することはできません。" },
+      { "h": "免責", "p": "法令で認められる範囲で、本サイトの利用またはその内容への依拠により生じた損失について責任を負いません。" },
+      { "h": "準拠法", "p": "本規約はサウジアラビア王国（Kingdom of Saudi Arabia）の法律に準拠します。" },
+      { "h": "お問い合わせ", "p": "本規約についてのご質問は empireofmarketing4@gmail.com までご連絡ください。" }
     ],
-    "disclaimer": "These terms are written in plain language and have not been reviewed by a lawyer."
+    "disclaimer": "本規約は平易な言葉で作成したもので、弁護士の確認は受けていません。"
   },
   "NotFound": {
-    "title": "This page took a wrong turn.",
-    "text": "The page you're looking for doesn't exist or has moved. Let's get you back on track."
-  },
-  "Meta": {
-    "home": {
-      "title": "Marketing, Business Growth & AI Automation",
-      "description": "Empower of Marketing helps businesses worldwide get customers, organize operations and grow with digital and traditional marketing, AI automation and video. Book a free call."
-    },
-    "services": {
-      "title": "Growth Services",
-      "description": "Digital marketing, traditional marketing, business growth, business setup, AI automation and marketing video editing — one team, one plan."
-    },
-    "solutions": {
-      "title": "Business Solutions",
-      "description": "Websites, UI/UX, graphic design, documents, travel & ticketing, training and manpower services for businesses."
-    },
-    "pricing": {
-      "title": "Pricing & Packages",
-      "description": "Start with a free growth call. Packages from $99 and monthly growth plans from $299 — tailored to your business."
-    },
-    "about": {
-      "title": "About Us",
-      "description": "Empower of Marketing connects strategy, marketing, AI and creative work to help business owners grow with systems, not luck."
-    },
-    "book": {
-      "title": "Empire of Marketing — The Book",
-      "description": "Empire of Marketing by Md. Iqbal Hossain: the practical A–Z marketing field guide. Available on Amazon in Kindle, paperback and hardcover."
-    },
-    "founder": {
-      "title": "Md. Iqbal Hossain — Founder",
-      "description": "Meet Md. Iqbal Hossain, founder of Empower of Marketing and author of Empire of Marketing, with 6+ years in digital and traditional marketing."
-    },
-    "privacy": {
-      "title": "Privacy Policy",
-      "description": "How Empower of Marketing handles your information."
-    },
-    "terms": {
-      "title": "Terms of Use",
-      "description": "Terms for using the Empower of Marketing website."
-    },
-    "notFound": {
-      "title": "Page not found",
-      "description": "This page doesn't exist."
-    }
+    "title": "このページは道に迷ってしまいました。",
+    "text": "お探しのページは存在しないか、移動しました。正しいルートに戻りましょう。"
   },
   "ServicePage": {
-    "painsTitle": "Is this you?",
-    "painsSubtitle": "If any of these sound familiar, you're in the right place.",
-    "deliverablesTitle": "What you get",
-    "deliverablesSubtitle": "Everything included, planned around your goals and budget.",
-    "outcomesTitle": "What you can expect",
-    "outcomesNote": "Results depend on your market, offer and budget. We agree realistic targets together on the call.",
-    "forTitle": "Who it's for",
-    "notForTitle": "Not the right fit if",
-    "includedTitle": "Included",
-    "faq": {
-      "eyebrow": "Questions",
-      "title": "Common questions"
-    }
+    "painsTitle": "こんなお悩みはありませんか？",
+    "painsSubtitle": "ひとつでも当てはまるなら、ぜひご相談ください。",
+    "deliverablesTitle": "サービス内容",
+    "deliverablesSubtitle": "目標と予算に合わせて計画し、すべて含めて提供します。",
+    "outcomesTitle": "期待できること",
+    "outcomesNote": "成果は市場、オファー、予算によって異なります。現実的な目標を相談の場で一緒に設定します。",
+    "forTitle": "こんな方に",
+    "notForTitle": "こんな場合は不向きです",
+    "includedTitle": "含まれる内容",
+    "faq": { "eyebrow": "よくある質問", "title": "よくあるご質問" }
   },
   "SolutionPage": {
-    "offerTitle": "What we offer",
-    "offerSubtitle": "Clear scope, fair price, delivered on time.",
-    "whyTitle": "Why choose us",
-    "faq": {
-      "eyebrow": "Questions",
-      "title": "Common questions"
-    }
+    "offerTitle": "提供内容",
+    "offerSubtitle": "明確な範囲、適正な料金、納期厳守。",
+    "whyTitle": "選ばれる理由",
+    "faq": { "eyebrow": "よくある質問", "title": "よくあるご質問" }
+  },
+  "Meta": {
+    "home": { "title": "マーケティング・事業成長・AI自動化", "description": "Empower of Marketingは、デジタル・従来型マーケティング、AI自動化、動画で、世界中のビジネスの顧客獲得、業務の整理、成長を支援します。無料相談をご予約ください。" },
+    "services": { "title": "成長支援サービス", "description": "デジタルマーケティング、従来型マーケティング、事業成長、起業支援、AI自動化、マーケティング動画編集——ひとつのチーム、ひとつの計画で。" },
+    "solutions": { "title": "ビジネスソリューション", "description": "ウェブサイト制作、UI/UX、グラフィックデザイン、書類作成、旅行・航空券手配、研修、人材サービスをご提供します。" },
+    "pricing": { "title": "料金・プラン", "description": "まずは無料の成長相談から。パッケージは99ドルから、月額の成長プランは299ドルから。ビジネスに合わせて調整します。" },
+    "about": { "title": "私たちについて", "description": "Empower of Marketingは戦略、マーケティング、AI、クリエイティブをつなぎ、運ではなく仕組みで成長できるよう経営者を支援します。" },
+    "book": { "title": "書籍『Empire of Marketing』", "description": "Md. Iqbal Hossain著『Empire of Marketing』——A〜Zで学ぶ実践マーケティング・フィールドガイド。AmazonでKindle、ペーパーバック、ハードカバーを販売中。" },
+    "founder": { "title": "Md. Iqbal Hossain — 創業者", "description": "Empower of Marketing創業者であり『Empire of Marketing』著者のMd. Iqbal Hossain。デジタル・従来型マーケティングで6年以上の経験。" },
+    "privacy": { "title": "プライバシーポリシー", "description": "Empower of Marketingにおける情報の取扱いについて。" },
+    "terms": { "title": "利用規約", "description": "Empower of Marketingウェブサイトの利用規約。" },
+    "notFound": { "title": "ページが見つかりません", "description": "このページは存在しません。" }
   }
 }

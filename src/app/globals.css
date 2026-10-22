@@ -37,6 +37,7 @@ html[lang="ja"] {
 
 @layer base {
   html {
+    overflow-x: clip; /* decorative glows must never cause sideways scrolling on phones */
     background: var(--color-ink-950);
     color-scheme: dark;
     -webkit-text-size-adjust: 100%;

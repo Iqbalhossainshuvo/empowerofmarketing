@@ -92,10 +92,10 @@ export function Hero() {
             data-words
             className="mt-7 text-[clamp(2.6rem,6.4vw,5.4rem)] leading-[1.02] font-semibold text-white"
           >
-            <Words text={t("titleA")} />{" "}
-            <span className="text-gradient">
-              <Words text={t("titleHighlight")} offset={t("titleA").split(/\s+/).length} />
-            </span>
+            <Words text={t("titleA")} />
+            {/* no gap for languages written without spaces (Japanese) */}
+            {/\s/.test(t("titleA")) ? " " : null}
+            <Words text={t("titleHighlight")} offset={t("titleA").split(/\s+/).length} wordClassName="text-gradient" />
           </h1>
           <Reveal delay={350}>
             <p className="mt-6 max-w-xl text-lg text-muted md:text-xl">{t("subtitle")}</p>
