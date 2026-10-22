@@ -1342,5 +1342,29 @@
       "title": "Page not found",
       "description": "This page doesn't exist."
     }
+  },
+  "ServicePage": {
+    "painsTitle": "Is this you?",
+    "painsSubtitle": "If any of these sound familiar, you're in the right place.",
+    "deliverablesTitle": "What you get",
+    "deliverablesSubtitle": "Everything included, planned around your goals and budget.",
+    "outcomesTitle": "What you can expect",
+    "outcomesNote": "Results depend on your market, offer and budget. We agree realistic targets together on the call.",
+    "forTitle": "Who it's for",
+    "notForTitle": "Not the right fit if",
+    "includedTitle": "Included",
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Common questions"
+    }
+  },
+  "SolutionPage": {
+    "offerTitle": "What we offer",
+    "offerSubtitle": "Clear scope, fair price, delivered on time.",
+    "whyTitle": "Why choose us",
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Common questions"
+    }
   }
 }
