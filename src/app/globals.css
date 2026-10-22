@@ -156,6 +156,9 @@ html[lang="ja"] {
 [dir="rtl"] [data-reveal="draw"] { transform-origin: right; }
 .js [data-reveal].is-in { opacity: 1; transform: none; filter: none; }
 
+/* Safety net: if the script that reveals sections never starts (blocked/failed JS), show everything */
+.reveal-fallback [data-reveal], .reveal-fallback [data-words] .w { opacity: 1 !important; transform: none !important; filter: none !important; transition: none !important; }
+
 /* Word-by-word headline reveal */
 .js [data-words] .w {
   display: inline-block;

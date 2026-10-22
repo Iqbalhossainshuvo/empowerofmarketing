@@ -41,7 +41,8 @@ export default async function LocaleLayout({
     <html lang={locale} dir={isRtl(locale as Locale) ? "rtl" : "ltr"} className={fontVariables}>
       <head>
         {/* Marks JS as available so entrance animations can start hidden; without JS everything shows. */}
-        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+        <script dangerouslySetInnerHTML={{ __html:
+              "(function(d){d.classList.add('js');setTimeout(function(){if(!window.__revealReady)d.classList.add('reveal-fallback')},2500)})(document.documentElement)" }} />
         {locale === "ar"
           ? arabicPreloads.map((href) => <link key={href} rel="preload" as="font" type="font/woff2" href={href} crossOrigin="" />)
           : null}

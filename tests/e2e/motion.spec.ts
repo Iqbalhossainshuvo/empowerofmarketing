@@ -32,6 +32,16 @@ test.describe("without JavaScript", () => {
   });
 });
 
+test("if the JavaScript bundle fails to load, content still appears", async ({ page }) => {
+  await page.route("**/_next/static/chunks/*.js", (r) => r.abort());
+  await page.goto("/en/");
+  await page.waitForTimeout(3500);
+  const hidden = await page.$$eval("[data-reveal], [data-words] .w", (els) =>
+    els.filter((el) => Number(getComputedStyle(el).opacity) < 1).length,
+  );
+  expect(hidden).toBe(0);
+});
+
 test("scrolled sections become visible with JS", async ({ page }) => {
   await page.goto("/en/");
   const faq = page.getByTestId("faq");
