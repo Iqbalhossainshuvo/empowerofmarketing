@@ -114,7 +114,24 @@ All pages exist in `en`, `ar` and `ja`.
 | `/` | — | Language picker/redirect (see Constraints) |
 | 404 | — | Branded not-found page with links home and to booking |
 
-Main menu order: **Home · Services ▾ · About Us · Book**, then a language switcher and a primary **"Book a Free Call"** button. On mobile the menu becomes a full-screen sheet.
+**Solutions (individual services) [Iqbal: requested; name and grouping are Claude's call]** — one page each, lighter template (§7.2b):
+
+| Route | Purpose |
+|---|---|
+| `/{locale}/solutions` | Overview of all individual solutions |
+| `/{locale}/solutions/web-development` | Business websites and landing pages |
+| `/{locale}/solutions/ui-ux-design` | App/web UI and UX design |
+| `/{locale}/solutions/graphic-design` | Logos, branding, social posts, posters, print |
+| `/{locale}/solutions/documents` | All kinds of document work: business documents, company profiles, proposals, CVs, form filling and document processing assistance |
+| `/{locale}/solutions/travel-ticketing` | Flight tickets, hotel booking, visa assistance, Umrah travel support |
+| `/{locale}/solutions/training` | Marketing, sales, AI-tools and business training for owners and teams |
+| `/{locale}/solutions/manpower` | Manpower supply and recruitment support for businesses |
+
+| Route | In main menu | Purpose |
+|---|---|---|
+| `/{locale}/pricing` | Pricing | Packages (§7.4) |
+
+Main menu order: **Home · Services ▾ · Solutions ▾ · Pricing · About Us · Book**, then a language switcher and a primary **"Book a Free Call"** button. On mobile the menu becomes a full-screen sheet with collapsible groups.
 
 Footer: logo + one-line promise; service links; company links (About, Book, **Founder**); contact (WhatsApp, email, "Dammam, Saudi Arabia"); legal (Privacy, Terms); social (LinkedIn, Medium, X); © year.
 
@@ -136,11 +153,36 @@ Footer: logo + one-line promise; service links; company links (About, Book, **Fo
 ### 7.2 Service page template (same structure for all 6, different content)
 Hero with a service-specific visual card → "Is this you?" pain bullets → what you get (deliverables grid) → process for this service → outcomes you can expect (stated as goals, not guarantees) → who it's for / not for → service FAQ (3–5) → CTA band → links to related services.
 
+### 7.2b Solution page template (shorter)
+Hero → what we offer (service list as glass cards) → why choose us for this → simple 3-step process → FAQ (2–3) → CTA band.
+
+### 7.4 Pricing **[Iqbal: one free package, the rest low-priced packages to attract customers. Exact names/prices are Claude's call — Iqbal can change them in one file]**
+Prices in USD, shown as "starting from"; final quote after the free call.
+
+| Package | Price | What's included |
+|---|---|---|
+| **Free Growth Call** | $0 | 30-min 1:1 video call, business diagnosis, top 3 quick wins |
+| **Starter Audit** | from $99 one-time | Full marketing/business audit, competitor snapshot, 30-day action plan (PDF) |
+| **Growth** (most popular) | from $299 / month | Ads management on 1–2 platforms, monthly content plan, basic SEO, monthly report, WhatsApp support |
+| **Scale** | from $699 / month | Multi-platform ads, funnel + CRO, AI automation setup, 4 marketing videos/month, bi-weekly strategy calls |
+| **Custom / Business Setup** | Let's talk | Business launch roadmap, market entry, solutions (web, design, documents, travel, training, manpower) |
+
+Notes on the page: ad spend is paid separately by the client; no long-term lock-in; packages are tailored on the call. Every package button opens the Calendly popup (the free one is the primary CTA). A comparison toggle is not needed. Prices live in a single config file so Iqbal can change them.
+
 ### 7.3 About · Book · Founder · Legal
 - **About:** story, mission, approach, values, markets, CTA.
 - **Book:** cover mockup, title, author, short description, "what you'll learn" (5–7 points), who it's for, formats (Kindle, paperback, hardcover; Bangla edition mentioned), an "Buy on Amazon" CTA (opens in new tab), and a cross-sell: "Want this applied to your business? Book a call".
 - **Founder:** Iqbal Hossain: 6+ years in digital and traditional marketing; performance marketing, Google/Meta/TikTok Ads, SEO, analytics (GA4, GTM, Looker Studio, Tableau), CRO; 50+ global clients; business-launch coaching; background spanning Bangladesh and Saudi Arabia; author of *Empire of Marketing*; links to LinkedIn (`linkedin.com/in/mdiqbalhossainmarketingspecialist`), Medium (`medium.com/@mdiqbalhossain203050`) and X (**handle needed from Iqbal**).
 - **Privacy/Terms:** plain-language. They disclose: no database, the hosting provider's server logs, Calendly as a third-party processor when booking, WhatsApp/Meta when clicking, email, self-hosted fonts, a session language cookie if any, user rights under GDPR, PDPL and APPI, and contact email. Each page carries a "last updated" date and a note that it is not legal advice reviewed by a lawyer.
+
+### Voice **[Iqbal]**
+The site speaks as **"we"** (Empower of Marketing). The founder page introduces Iqbal Hossain as the founder. No invented team members, founding dates or office locations.
+
+### Legal operator **[Claude's call — Iqbal to confirm]**
+Privacy Policy and Terms name **Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia**, contact `empireofmarketing4@gmail.com`. Terms are governed by the laws of the Kingdom of Saudi Arabia. Easy to change once a company is registered.
+
+### Book content **[Claude's call — Iqbal to replace]**
+The Amazon page cannot be read automatically and no description or table of contents has been provided. The Book page uses only a short, general description (a practical marketing and business-growth guide by Iqbal Hossain), with the "what you'll learn" points kept in one editable content file, clearly marked in the README for Iqbal to replace with the real chapter themes.
 
 ### Copywriting rules **[Claude's call]**
 - Lead with the visitor's pain and desired result, not with "we".
@@ -230,7 +272,8 @@ Inspired by the reference images saved in `docs/references/ref-01.png` … `ref-
 - Section order tweaks on service pages if content flows better.
 
 ## 13. Needed from Iqbal (not blocking the build — placeholders until provided)
-- Book cover image (front, high-res) and, if possible, a short official book description.
+- Book cover image (front, high-res) and the real description / chapter themes.
+- Confirm or change package names and prices (§7.4) and the legal operator line (§7).
 - Founder photo.
 - X (Twitter) profile URL.
 - Confirm the book name stays *Empire of Marketing* while the company is *Empower of Marketing*.
