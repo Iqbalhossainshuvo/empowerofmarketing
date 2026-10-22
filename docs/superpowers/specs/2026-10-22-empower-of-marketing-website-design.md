@@ -86,7 +86,7 @@ USA, Canada, Europe, Saudi Arabia, Japan.
 ## 5. Brand and naming
 
 - Company/site name: **Empower of Marketing** (wordmark "EMPOWER OF MARKETING"). **[Iqbal]**
-- Book title: ***Empire of Marketing*** by **Iqbal Hossain**, Amazon: `https://www.amazon.com/dp/B0H71PC4QF`. Kindle, paperback and hardcover editions exist; there is also a Bangla edition (*এম্পায়ার অব মার্কেটিং*). **[Iqbal, from earlier conversations]** The book's own name stays "Empire" even though the company is "Empower". **[Claude's call — to confirm]**
+- Book title: ***Empire of Marketing*** by **Md. Iqbal Hossain**, Amazon: `https://www.amazon.com/dp/B0H71PC4QF`. Kindle, paperback and hardcover editions exist; there is also a Bangla edition (*এম্পায়ার অব মার্কেটিং*). **[Iqbal, from earlier conversations]** The book's own name stays "Empire" even though the company is "Empower". **[Claude's call — to confirm]**
 - Logo: no logo file exists yet. Claude designs a simple original SVG mark (an upward-arrow/spark glyph inside a glowing rounded square) plus the text wordmark. It can be swapped later. **[Claude's call]**
 - Book cover image and founder photo: **needed from Iqbal**. Until provided, the book page uses a CSS-rendered book mockup with the title, and the founder page uses an initials monogram.
 
@@ -181,8 +181,13 @@ The site speaks as **"we"** (Empower of Marketing). The founder page introduces 
 ### Legal operator **[Claude's call — Iqbal to confirm]**
 Privacy Policy and Terms name **Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia**, contact `empireofmarketing4@gmail.com`. Terms are governed by the laws of the Kingdom of Saudi Arabia. Easy to change once a company is registered.
 
-### Book content **[Claude's call — Iqbal to replace]**
-The Amazon page cannot be read automatically and no description or table of contents has been provided. The Book page uses only a short, general description (a practical marketing and business-growth guide by Iqbal Hossain), with the "what you'll learn" points kept in one editable content file, clearly marked in the README for Iqbal to replace with the real chapter themes.
+### Book content **[Iqbal provided the interior PDF for reference only — the PDF must never be committed or quoted at length]**
+- Title: *Empire of Marketing* — subtitle "The Practical A–Z Marketing Field Guide: From Strategy and Psychology to Attention, Conversion, Revenue & Growth". Author: **Md. Iqbal Hossain**. First English Edition, 2026, 7×10 in print.
+- Core idea (paraphrase on the site): marketing is one connected system, not separate channels — the journey Problem → Customer → Offer → Attention → Conversion → Experience → Retention → Referral → Growth ("Marketing Operating System").
+- Structure: 26 chapters A–Z (e.g. Offer & Sales, Pricing & Revenue, Retention & Loyalty, Research & Measurement, SEO, Traditional & Field marketing, Community & Word of Mouth, Video & Multimedia, Web & E-commerce, Experiential & Guerrilla, Local & Hyperlocal …), each answering What / Why / When / How, with strategy pages, real-market scenarios and tactic banks; plus a 30-day marketing build, a business scorecard, and "persuasion without deception".
+- Who it's for: marketers, entrepreneurs, business owners, students, freelancers, sales professionals and growth teams.
+- Site visual: an interactive A–Z letter grid (26 glowing tiles, hover reveals the chapter theme) and the 9-step journey as a glowing connector line.
+- Brand bridge: the book's "build a marketing system" message is the agency's positioning — Empower of Marketing builds that system for clients.
 
 ### Copywriting rules **[Claude's call]**
 - Lead with the visitor's pain and desired result, not with "we".
