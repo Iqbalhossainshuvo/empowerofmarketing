@@ -76,11 +76,11 @@
       }
     },
     "proof": {
-      "years": "Years of marketing experience",
       "clients": "Global clients served",
       "languages": "Languages we work in",
-      "author": "Published marketing author",
-      "title": "Proof, not promises"
+      "author": "Our own published marketing playbook",
+      "title": "Proof, not promises",
+      "services": "Services & solutions under one roof"
     },
     "which": {
       "eyebrow": "Which one are you?",
@@ -1429,8 +1429,8 @@
       "description": "This page doesn't exist."
     },
     "profile": {
-      "title": "Md. Iqbal Hossain — Digital Marketing Specialist",
-      "description": "Professional profile of Md. Iqbal Hossain: digital marketing specialist with 6+ years in performance marketing, Google/Meta/TikTok ads, SEO, analytics and CRO. 50+ global clients. Based in Dammam, Saudi Arabia."
+      "title": "Md. Iqbal Hossain — Performance Marketing Manager",
+      "description": "Md. Iqbal Hossain: performance marketing manager and digital growth specialist with 6+ years in Google, Meta and TikTok ads, SEO, GA4 and CRO. 50+ global clients, 3× average ROAS. Based in Saudi Arabia."
     }
   },
   "ServicePage": {
@@ -1461,11 +1461,11 @@
     "hero": {
       "eyebrow": "Professional profile",
       "name": "Md. Iqbal Hossain",
-      "role": "Digital Marketing Specialist · Performance Marketing, SEO & Growth",
-      "intro": "I help businesses turn marketing spend into measurable customers — with paid ads, SEO, analytics and conversion systems that connect.",
-      "location": "Dammam, Saudi Arabia",
+      "role": "Performance Marketing Manager · Digital Growth Specialist",
+      "intro": "I turn marketing budgets into measurable growth — with Google, Meta and TikTok ads, SEO, analytics and conversion optimisation that work as one system.",
+      "location": "Saudi Arabia",
       "open": "Open to full-time roles and consulting projects",
-      "photoAlt": "Md. Iqbal Hossain, digital marketing specialist, in a navy suit",
+      "photoAlt": "Md. Iqbal Hossain, performance marketing manager, in a navy suit",
       "email": "Email me",
       "chip1": "Google · Meta · TikTok Ads",
       "chip2": "GA4 · GTM · Looker Studio"
@@ -1480,16 +1480,20 @@
         "label": "global clients"
       },
       {
-        "value": "2",
-        "label": "book editions published"
+        "value": "3×",
+        "label": "average ROAS delivered"
+      },
+      {
+        "value": "200%",
+        "label": "client revenue increase (up to)"
       }
     ],
     "factsTitle": "At a glance",
     "summaryTitle": "Summary",
     "summary": [
-      "Digital marketing specialist with more than six years of experience across digital and traditional marketing, working with more than fifty clients around the world.",
-      "Specialised in performance marketing and paid advertising on Google, Meta and TikTok, search engine optimisation, analytics and conversion-rate optimisation — building tracking, reporting and funnels so every campaign can be measured and improved.",
-      "Career experience spans Bangladesh and Saudi Arabia, including operations, office administration and IT support, which shapes a practical, systems-first way of working. Author of Empire of Marketing, a practical A–Z marketing field guide published in English and Bangla."
+      "Results-driven performance marketing manager with more than six years of experience delivering measurable growth through data-led strategies across Google Ads, Meta Ads, TikTok Ads, SEO and conversion-rate optimisation.",
+      "Proven track record managing multi-channel campaigns for more than fifty global clients, with a consistent 3× return on ad spend and up to 200% revenue growth. Proficient in Google Analytics 4, Looker Studio and CRM automation for full-funnel optimisation and real-time KPI reporting.",
+      "Experience spans e-commerce, education, travel and professional services across Bangladesh and Saudi Arabia, including Hajj and Umrah operations. Author of Empire of Marketing, a practical A–Z marketing field guide published in English and Bangla."
     ],
     "skillsTitle": "Core skills",
     "skills": [
@@ -1518,49 +1522,146 @@
         "text": "AI tools, automation and video editing to produce marketing content faster."
       }
     ],
-    "toolsTitle": "Tools",
+    "toolsTitle": "Tools & platforms",
     "tools": [
-      "Google Ads",
-      "Meta Ads Manager",
+      "Google Ads (Search, PMax, Display)",
+      "Meta Ads",
       "TikTok Ads",
+      "YouTube Ads",
       "Google Analytics 4",
       "Google Tag Manager",
       "Looker Studio",
       "Tableau",
       "Search Console",
+      "CRM automation",
+      "Shopify",
+      "WooCommerce",
+      "WordPress",
+      "Wix",
+      "HTML",
+      "Canva",
+      "Photoshop",
+      "Figma",
       "Amadeus GDS"
     ],
     "experienceTitle": "Experience",
     "experience": [
       {
-        "role": "Digital Marketing Specialist — Freelance",
-        "where": "Remote · Global clients",
+        "role": "Hajj & Umrah Operations Officer",
+        "org": "Sky Touch International",
+        "where": "Saudi Arabia",
+        "when": "2025 – Present",
         "points": [
-          "Planned and managed paid advertising on Google, Meta and TikTok for more than fifty clients.",
-          "Set up analytics, tag management and reporting dashboards to track leads and sales.",
-          "Improved websites and landing pages for SEO and conversions.",
-          "Guided new business owners through launches with step-by-step roadmaps."
+          "Manage end-to-end digital visa processing through MOFA, Nusuk and Saudi government portals, cutting processing time with systematic workflows.",
+          "Coordinate with 20+ international travel agencies to keep passports, IATA certifications and trade licences fully compliant.",
+          "Oversee group pilgrim logistics — accommodation, transport and real-time support across Makkah and Madinah.",
+          "Built digital dashboards for visa status tracking, improving data accuracy and team efficiency."
         ]
       },
       {
-        "role": "Operations, Administration & IT Support",
-        "where": "Saudi Arabia · Bangladesh",
+        "role": "Marketing Manager / Performance Marketing Lead",
+        "org": "Digital IT Zone",
+        "where": "Dhaka, Bangladesh",
+        "when": "2023 – 2025",
         "points": [
-          "Supported Hajj and Umrah operations.",
-          "Handled office administration and IT support.",
-          "Worked in warehouse and cargo handling operations."
+          "Planned and optimised multi-channel campaigns on Google, Meta and TikTok with a consistent 3×+ ROAS for e-commerce and service clients.",
+          "Reduced cost per lead by 28% through A/B testing, refined audience segmentation and landing page CRO.",
+          "Built GA4, GTM and Looker Studio dashboards giving senior stakeholders real-time performance visibility.",
+          "Increased organic traffic by 40% with technical SEO audits, content gap analysis and backlink campaigns.",
+          "Managed CRM automation and email workflows, improving lead-to-customer conversion by 22%."
+        ]
+      },
+      {
+        "role": "Digital Marketing Analyst",
+        "org": "Nano Deb Lab",
+        "where": "Dhaka, Bangladesh",
+        "when": "2021 – 2023",
+        "points": [
+          "Grew organic website traffic by 150% in six months through technical audits, keyword clustering and structured content.",
+          "Improved paid ad click-through rate by 35% with precise audience segmentation and behavioural data.",
+          "Designed Tableau and Data Studio dashboards for data-driven decisions across marketing and leadership.",
+          "Achieved a 40% ROI improvement by aligning paid and organic campaigns with full-funnel goals."
+        ]
+      },
+      {
+        "role": "Digital Marketing Specialist",
+        "org": "Fly Bird Express",
+        "where": "Dhaka, Bangladesh",
+        "when": "2018 – 2021",
+        "points": [
+          "Launched and managed Google Ads and Facebook Ads campaigns, increasing lead conversions by 30%.",
+          "Ranked 20+ competitive keywords on Google page one through structured SEO and technical improvements.",
+          "Lifted landing page conversion rate by 25% with systematic A/B testing and UX optimisation.",
+          "Delivered monthly performance reports with clear budget reallocation recommendations."
+        ]
+      },
+      {
+        "role": "Freelance Digital Marketing Consultant",
+        "org": "Global clients",
+        "where": "Remote · International",
+        "when": "2016 – 2025",
+        "points": [
+          "Delivered end-to-end digital marketing strategies for 50+ clients in e-commerce, education and professional services.",
+          "Increased client online revenue by up to 200% within 12 months using SEO, PPC, content marketing and CRO.",
+          "Managed Facebook Ads and YouTube Ads campaigns with an average 3× ROAS, consistently above client targets.",
+          "Advised on campaign architecture, budget scaling and long-term digital growth planning."
         ]
       }
     ],
-    "certTitle": "Training",
+    "certTitle": "Certifications & training",
     "certs": [
-      "Amadeus GDS — air ticketing and reservations course"
+      "Advanced Digital Marketing & Performance Marketing — Bongiyo Institute",
+      "Advanced Search Engine Optimisation Strategies — Coursera",
+      "IT Support Professional — Udemy",
+      "Dropshipping with Shopify: Selling Online Worldwide — Udemy",
+      "Data Analysis Fundamentals — Tutorial Point",
+      "Leadership Excellence Master Class — World Academy for Research & Development",
+      "Amadeus GDS — air ticketing and reservations"
     ],
     "publicationsTitle": "Publication",
     "publication": "Empire of Marketing — The Practical A–Z Marketing Field Guide (English and Bangla editions, 2026).",
     "servicesTitle": "What I deliver",
     "servicesSubtitle": "The same skills, packaged as services for businesses.",
     "contactTitle": "Let's work together",
-    "contactText": "Hiring for a marketing role, or need help growing a business? Reach out — I reply quickly."
+    "contactText": "Hiring for a marketing role, or need help growing a business? Reach out — I reply quickly.",
+    "present": "Present",
+    "educationTitle": "Education",
+    "education": [
+      {
+        "degree": "Bachelor of Arts (BA)",
+        "school": "National University, Dhaka, Bangladesh",
+        "when": "2018 – 2024"
+      },
+      {
+        "degree": "Diploma in Computer Science & Engineering",
+        "school": "Bangladesh Technical Education Board, Dhaka",
+        "when": "2017 – 2020"
+      }
+    ],
+    "languagesTitle": "Languages",
+    "languages": [
+      {
+        "name": "English",
+        "level": "Professional"
+      },
+      {
+        "name": "Bengali",
+        "level": "Native"
+      },
+      {
+        "name": "Arabic",
+        "level": "Basic"
+      }
+    ],
+    "industriesTitle": "Industries",
+    "industries": [
+      "E-commerce",
+      "Travel & tourism",
+      "Education",
+      "Professional services",
+      "FinTech",
+      "iGaming",
+      "Digital services"
+    ]
   }
 }

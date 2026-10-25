@@ -76,11 +76,11 @@
       }
     },
     "proof": {
-      "years": "年以上のマーケティング経験",
       "clients": "社以上の海外クライアント",
       "languages": "対応言語",
-      "author": "マーケティング書籍の著者",
-      "title": "約束ではなく、事実で。"
+      "author": "自社で出版したマーケティングの指南書",
+      "title": "約束ではなく、事実で。",
+      "services": "サービス・ソリューションをワンストップで提供"
     },
     "which": {
       "eyebrow": "あなたはどれ？",
@@ -1453,19 +1453,19 @@
       "description": "このページは存在しません。"
     },
     "profile": {
-      "title": "Md. Iqbal Hossain — デジタルマーケティングスペシャリスト",
-      "description": "Md. Iqbal Hossainのプロフィール：パフォーマンスマーケティング、Google・Meta・TikTok広告、SEO、分析、CROで6年以上の経験を持つデジタルマーケティングスペシャリスト。海外クライアント50社以上。サウジアラビア・ダンマーム在住。"
+      "title": "Md. Iqbal Hossain — パフォーマンスマーケティングマネージャー",
+      "description": "Md. Iqbal Hossain：Google・Meta・TikTok広告、SEO、GA4、CROで6年以上の経験を持つパフォーマンスマーケティングマネージャー兼デジタルグロース・スペシャリスト。海外クライアント50社以上、平均ROAS 3倍。サウジアラビア在住。"
     }
   },
   "Profile": {
     "hero": {
       "eyebrow": "プロフェッショナル・プロフィール",
       "name": "Md. Iqbal Hossain",
-      "role": "デジタルマーケティングスペシャリスト · パフォーマンスマーケティング、SEO、グロース",
-      "intro": "広告運用、SEO、データ分析、コンバージョンの仕組みをつなげ、マーケティング予算を測定できる顧客獲得へと変えるお手伝いをしています。",
-      "location": "サウジアラビア・ダンマーム",
+      "role": "パフォーマンスマーケティングマネージャー · デジタルグロース・スペシャリスト",
+      "intro": "Google・Meta・TikTok広告、SEO、データ分析、コンバージョン改善をひとつの仕組みとして動かし、マーケティング予算を測定できる成長へと変えます。",
+      "location": "サウジアラビア",
       "open": "正社員のポジション・コンサルティング案件を受付中",
-      "photoAlt": "紺のスーツを着たデジタルマーケティングスペシャリストのMd. Iqbal Hossain",
+      "photoAlt": "紺のスーツを着たパフォーマンスマーケティングマネージャーのMd. Iqbal Hossain",
       "email": "メールを送る",
       "chip1": "Google · Meta · TikTok広告",
       "chip2": "GA4 · GTM · Looker Studio"
@@ -1480,16 +1480,20 @@
         "label": "社の海外クライアント"
       },
       {
-        "value": "2",
-        "label": "言語で出版した著書"
+        "value": "3×",
+        "label": "平均ROAS"
+      },
+      {
+        "value": "200%",
+        "label": "クライアント売上の増加（最大）"
       }
     ],
     "factsTitle": "ひと目で分かる実績",
     "summaryTitle": "概要",
     "summary": [
-      "デジタルと従来型のマーケティングで6年以上の経験を持ち、世界中の50社以上のクライアントと仕事をしてきたデジタルマーケティングスペシャリスト。",
-      "専門はパフォーマンスマーケティング、Google・Meta・TikTokの広告運用、SEO、データ分析、コンバージョン改善。すべての施策を計測・改善できるよう、トラッキング、レポート、ファネルを構築します。",
-      "バングラデシュとサウジアラビアで、業務運営、事務管理、ITサポートを含むキャリアを積み、仕組みを重視する実践的な働き方を身につけました。英語版とベンガル語版で出版した実践マーケティングガイド『Empire of Marketing』の著者です。"
+      "Google広告、Meta広告、TikTok広告、SEO、コンバージョン改善において、データに基づく戦略で測定可能な成長を6年以上にわたり実現してきた、成果重視のパフォーマンスマーケティングマネージャー。",
+      "世界50社以上のクライアントのマルチチャネル施策を担当し、平均3倍のROASと最大200%の売上成長を達成。Google Analytics 4、Looker Studio、CRM自動化を活用したファネル全体の最適化とリアルタイムのKPIレポートに精通しています。",
+      "EC、教育、旅行、専門サービスなどの分野で、バングラデシュとサウジアラビアにおける経験を持ち、ハッジ・ウムラ業務にも携わっています。英語版とベンガル語版で出版した実践マーケティングガイド『Empire of Marketing』の著者です。"
     ],
     "skillsTitle": "主なスキル",
     "skills": [
@@ -1518,42 +1522,100 @@
         "text": "AIツール、自動化、動画編集でマーケティングコンテンツをより速く制作。"
       }
     ],
-    "toolsTitle": "ツール",
+    "toolsTitle": "ツール・プラットフォーム",
     "tools": [
-      "Google Ads",
-      "Meta Ads Manager",
+      "Google Ads (Search, PMax, Display)",
+      "Meta Ads",
       "TikTok Ads",
+      "YouTube Ads",
       "Google Analytics 4",
       "Google Tag Manager",
       "Looker Studio",
       "Tableau",
       "Search Console",
+      "CRM automation",
+      "Shopify",
+      "WooCommerce",
+      "WordPress",
+      "Wix",
+      "HTML",
+      "Canva",
+      "Photoshop",
+      "Figma",
       "Amadeus GDS"
     ],
     "experienceTitle": "経歴",
     "experience": [
       {
-        "role": "デジタルマーケティングスペシャリスト（フリーランス）",
-        "where": "リモート · 海外クライアント",
+        "role": "ハッジ・ウムラ業務オフィサー",
+        "org": "Sky Touch International",
+        "where": "サウジアラビア",
+        "when": "2025 – 現在",
         "points": [
-          "50社以上のクライアントのGoogle・Meta・TikTok広告を企画・運用。",
-          "見込み客と売上を追跡するための分析、タグ管理、レポートダッシュボードを構築。",
-          "SEOとコンバージョンのためにウェブサイトとランディングページを改善。",
-          "ステップごとのロードマップで新規事業オーナーの立ち上げを支援。"
+          "MOFA、Nusuk、サウジ政府ポータルを通じたビザのデジタル手続きを一貫して管理し、業務フローの最適化で処理時間を短縮。",
+          "20社以上の海外旅行会社と連携し、パスポート、IATA認証、営業許可の完全なコンプライアンスを確保。",
+          "メッカとメディナにおける団体巡礼者の宿泊、移動、リアルタイムのサポートを統括。",
+          "ビザ状況を追跡するデジタルダッシュボードを構築し、データの正確性とチームの効率を向上。"
         ]
       },
       {
-        "role": "業務運営・事務管理・ITサポート",
-        "where": "サウジアラビア · バングラデシュ",
+        "role": "マーケティングマネージャー / パフォーマンスマーケティングリード",
+        "org": "Digital IT Zone",
+        "where": "バングラデシュ・ダッカ",
+        "when": "2023 – 2025",
         "points": [
-          "ハッジ・ウムラ巡礼の業務を支援。",
-          "事務管理とITサポートを担当。",
-          "倉庫・貨物取扱業務に従事。"
+          "Google・Meta・TikTokでマルチチャネル施策を企画・最適化し、ECおよびサービス業のクライアントで常に3倍以上のROASを達成。",
+          "A/Bテスト、オーディエンスの精緻化、ランディングページ改善により、獲得単価を28%削減。",
+          "経営陣がリアルタイムで成果を把握できるGA4・GTM・Looker Studioのダッシュボードを構築。",
+          "テクニカルSEO監査、コンテンツギャップ分析、被リンク施策で自然検索流入を40%増加。",
+          "CRM自動化とメールのワークフローを管理し、見込み客から顧客への転換率を22%改善。"
+        ]
+      },
+      {
+        "role": "デジタルマーケティングアナリスト",
+        "org": "Nano Deb Lab",
+        "where": "バングラデシュ・ダッカ",
+        "when": "2021 – 2023",
+        "points": [
+          "テクニカル監査、キーワードクラスタリング、構造化したコンテンツにより、6か月で自然検索流入を150%増加。",
+          "精緻なオーディエンス設計と行動データの分析で、広告のクリック率を35%改善。",
+          "マーケティングと経営陣のデータに基づく意思決定のため、TableauとData Studioのダッシュボードを設計。",
+          "有料施策と自然検索施策をファネル全体の目標に合わせ、ROIを40%改善。"
+        ]
+      },
+      {
+        "role": "デジタルマーケティングスペシャリスト",
+        "org": "Fly Bird Express",
+        "where": "バングラデシュ・ダッカ",
+        "when": "2018 – 2021",
+        "points": [
+          "Google広告とFacebook広告のキャンペーンを立ち上げ・運用し、見込み客のコンバージョンを30%増加。",
+          "体系的なSEOと技術的改善により、競争の激しい20以上のキーワードでGoogle検索1ページ目を獲得。",
+          "体系的なA/BテストとUX改善で、ランディングページのコンバージョン率を25%向上。",
+          "予算再配分の具体的な提案を含む月次パフォーマンスレポートを提供。"
+        ]
+      },
+      {
+        "role": "フリーランス デジタルマーケティングコンサルタント",
+        "org": "海外クライアント",
+        "where": "リモート · 国際",
+        "when": "2016 – 2025",
+        "points": [
+          "EC、教育、専門サービスの50社以上に、一貫したデジタルマーケティング戦略を提供。",
+          "SEO、PPC、コンテンツマーケティング、CROにより、12か月以内でクライアントのオンライン売上を最大200%増加。",
+          "Facebook広告とYouTube広告を平均3倍のROASで運用し、常にクライアントの目標を上回る成果。",
+          "キャンペーン設計、予算拡大、長期的なデジタル成長計画についてコンサルティング。"
         ]
       }
     ],
-    "certTitle": "研修",
+    "certTitle": "資格・研修",
     "certs": [
+      "Advanced Digital Marketing & Performance Marketing — Bongiyo Institute",
+      "Advanced Search Engine Optimisation Strategies — Coursera",
+      "IT Support Professional — Udemy",
+      "Dropshipping with Shopify: Selling Online Worldwide — Udemy",
+      "Data Analysis Fundamentals — Tutorial Point",
+      "Leadership Excellence Master Class — World Academy for Research & Development",
       "Amadeus GDS — 航空券発券・予約コース"
     ],
     "publicationsTitle": "著書",
@@ -1561,6 +1623,45 @@
     "servicesTitle": "提供できること",
     "servicesSubtitle": "同じスキルを、企業向けのサービスとして。",
     "contactTitle": "一緒に仕事をしましょう",
-    "contactText": "マーケティング職の採用をご検討中の方も、事業の成長でお困りの方も、お気軽にご連絡ください。すぐに返信します。"
+    "contactText": "マーケティング職の採用をご検討中の方も、事業の成長でお困りの方も、お気軽にご連絡ください。すぐに返信します。",
+    "present": "現在",
+    "educationTitle": "学歴",
+    "education": [
+      {
+        "degree": "文学士（BA）",
+        "school": "National University（バングラデシュ・ダッカ）",
+        "when": "2018 – 2024"
+      },
+      {
+        "degree": "コンピュータ科学・工学ディプロマ",
+        "school": "Bangladesh Technical Education Board（ダッカ）",
+        "when": "2017 – 2020"
+      }
+    ],
+    "languagesTitle": "言語",
+    "languages": [
+      {
+        "name": "英語",
+        "level": "ビジネスレベル"
+      },
+      {
+        "name": "ベンガル語",
+        "level": "母語"
+      },
+      {
+        "name": "アラビア語",
+        "level": "初級"
+      }
+    ],
+    "industriesTitle": "業界",
+    "industries": [
+      "EC",
+      "旅行・観光",
+      "教育",
+      "専門サービス",
+      "フィンテック",
+      "iGaming",
+      "デジタルサービス"
+    ]
   }
 }

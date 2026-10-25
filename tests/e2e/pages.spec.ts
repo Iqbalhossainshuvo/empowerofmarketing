@@ -62,7 +62,7 @@ test.describe("profile", () => {
 
   test("is a professional profile with photo, never calls him founder", async ({ page }) => {
     await expect(page.locator("h1")).toContainText("Md. Iqbal Hossain");
-    await expect(page.locator("main")).toContainText("Digital Marketing Specialist");
+    await expect(page.locator("main")).toContainText("Performance Marketing Manager");
     const photo = page.locator('main img[src="/images/profile/md-iqbal-hossain-digital-marketing-specialist.webp"]');
     await expect(photo).toBeVisible();
     expect(await photo.getAttribute("alt")).toMatch(/Iqbal Hossain/);
@@ -71,11 +71,19 @@ test.describe("profile", () => {
   });
 
   test("shows CV sections: skills, tools, experience, training, publication, services", async ({ page }) => {
-    for (const id of ["summary", "skills", "tools", "experience", "training", "publication", "profile-services"]) {
+    for (const id of ["summary", "skills", "tools", "experience", "education", "training", "languages", "industries", "publication", "profile-services"]) {
       await expect(page.getByTestId(id), id).toBeVisible();
     }
     await expect(page.getByTestId("tools")).toContainText("Google Analytics 4");
     await expect(page.getByTestId("training")).toContainText("Amadeus GDS");
+    await expect(page.getByTestId("training").locator("li")).toHaveCount(7);
+    const exp = page.getByTestId("experience");
+    await expect(exp.locator("ol > li")).toHaveCount(5);
+    for (const org of ["Sky Touch International", "Digital IT Zone", "Nano Deb Lab", "Fly Bird Express"]) await expect(exp).toContainText(org);
+    await expect(exp).toContainText("2025 – Present");
+    await expect(page.getByTestId("education")).toContainText("National University");
+    await expect(page.getByTestId("languages")).toContainText("Bengali");
+    await expect(page.locator("main")).toContainText("3×");
     await expect(page.getByTestId("profile-services").locator('img[src^="/images/services/"]')).toHaveCount(6);
     await expect(page.getByTestId("publication").locator("img")).toHaveCount(2);
   });

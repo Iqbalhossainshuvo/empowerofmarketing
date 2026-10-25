@@ -13,10 +13,11 @@ test("one h1 and hero calls to action", async ({ page }) => {
 
 test("proof strip shows only true facts", async ({ page }) => {
   const proof = page.getByTestId("proof");
-  await expect(proof).toContainText("6+");
+  await expect(proof).toContainText("13");
   await expect(proof).toContainText("50+");
   await expect(proof).toContainText("3");
-  await expect(proof).toContainText(/author/i);
+  await expect(proof).toContainText(/playbook/i);
+  await expect(proof).not.toContainText("6+");
   const body = (await page.locator("body").innerText()).toLowerCase();
   expect(body).not.toContain("testimonial");
   expect(body).not.toContain("trusted by");

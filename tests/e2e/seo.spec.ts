@@ -56,6 +56,6 @@ test("structured data: organization everywhere, book and person on their pages",
   await page.goto("/en/profile/");
   const person = (await ld()).find((d) => d["@type"] === "Person");
   expect(person?.name).toBe("Md. Iqbal Hossain");
-  expect(person?.jobTitle).toBe("Digital Marketing Specialist");
+  expect(person?.jobTitle).toBe("Performance Marketing Manager");
   expect(person?.image).toContain("/images/profile/");
 });

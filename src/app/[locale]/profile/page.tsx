@@ -2,11 +2,13 @@ import { metaFor } from "@/lib/metadata";
 import { useTranslations } from "next-intl";
 import {
   ArrowUpRight,
+  Award,
   BarChart3,
   Bot,
   BriefcaseBusiness,
   Check,
   GraduationCap,
+  Languages,
   Mail,
   MapPin,
   MousePointerClick,
@@ -41,8 +43,11 @@ export default function ProfilePage() {
   const summary = t.raw("summary") as string[];
   const skills = t.raw("skills") as { title: string; text: string }[];
   const tools = t.raw("tools") as string[];
-  const experience = t.raw("experience") as { role: string; where: string; points: string[] }[];
+  const experience = t.raw("experience") as { role: string; org: string; where: string; when: string; points: string[] }[];
+  const education = t.raw("education") as { degree: string; school: string; when: string }[];
   const certs = t.raw("certs") as string[];
+  const langs = t.raw("languages") as { name: string; level: string }[];
+  const industries = t.raw("industries") as string[];
   const skillIcons = [Target, Search, BarChart3, MousePointerClick, Store, Bot];
   const links = [
     { label: "LinkedIn", href: site.social.linkedin },
@@ -112,7 +117,7 @@ export default function ProfilePage() {
       <section aria-labelledby="facts-title" className="pb-8">
         <h2 id="facts-title" className="sr-only">{t("factsTitle")}</h2>
         <div className="container-x">
-          <ul className="grid grid-cols-3 gap-px overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06]">
+          <ul className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06] md:grid-cols-4">
             {facts.map((f) => (
               <li key={f.label} className="bg-ink-950 px-4 py-8 text-center">
                 <p dir="ltr" className="font-display text-[clamp(2rem,4vw,3rem)] font-semibold text-white">{f.value}</p>
@@ -165,19 +170,25 @@ export default function ProfilePage() {
         </div>
       </section>
 
-      {/* Experience timeline + training */}
+      {/* Experience timeline + education, certifications, languages, industries */}
       <section aria-labelledby="exp-title" className="section">
-        <div className="container-x grid gap-12 lg:grid-cols-[1.25fr_0.75fr]">
+        <div className="container-x grid gap-12 lg:grid-cols-[1.3fr_0.7fr]">
           <div data-testid="experience">
             <h2 id="exp-title" className="text-[clamp(1.9rem,3.6vw,2.8rem)] font-semibold text-white">{t("experienceTitle")}</h2>
             <ol className="relative mt-10 space-y-10 border-s border-white/10 ps-8">
               {experience.map((e, i) => (
-                <Reveal as="li" key={e.role} delay={i * 120} className="relative">
+                <Reveal as="li" key={e.role + e.when} delay={Math.min(i, 3) * 100} className="relative">
                   <span aria-hidden className="absolute -start-[2.65rem] top-0.5 grid size-9 place-items-center rounded-full border border-white/15 bg-ink-900 text-mint shadow-[0_0_20px_-4px_rgb(124_245_180/0.8)]">
                     <BriefcaseBusiness className="size-4" />
                   </span>
-                  <h3 className="text-xl font-semibold text-white">{e.role}</h3>
-                  <p className="mt-1 text-sm text-mint">{e.where}</p>
+                  <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                    <h3 className="text-xl font-semibold text-white">{e.role}</h3>
+                    <span dir="auto" className="rounded-full bg-white/[0.06] px-3 py-1 text-xs font-semibold text-fg">{e.when}</span>
+                  </div>
+                  <p className="mt-1.5 text-sm">
+                    <span className="font-semibold text-mint" translate="no">{e.org}</span>
+                    <span className="text-muted"> · {e.where}</span>
+                  </p>
                   <ul className="mt-4 space-y-2.5">
                     {e.points.map((pt) => (
                       <li key={pt} className="flex items-start gap-3 text-fg">
@@ -191,20 +202,64 @@ export default function ProfilePage() {
             </ol>
           </div>
           <div className="grid content-start gap-6">
-            <Reveal className="rounded-[2rem] border border-white/10 p-8">
-              <div data-testid="training">
+            <Reveal className="rounded-[2rem] border border-white/10 p-7">
+              <div data-testid="education">
                 <h2 className="flex items-center gap-2 text-xl font-semibold text-white">
                   <GraduationCap aria-hidden className="size-5 text-violet" />
-                  {t("certTitle")}
+                  {t("educationTitle")}
                 </h2>
-                <ul className="mt-5 space-y-3">
-                  {certs.map((c) => (
-                    <li key={c} className="text-fg">{c}</li>
+                <ul className="mt-5 space-y-4">
+                  {education.map((ed) => (
+                    <li key={ed.degree}>
+                      <p className="font-semibold text-white">{ed.degree}</p>
+                      <p className="text-sm text-muted">{ed.school}</p>
+                      <p dir="ltr" className="mt-0.5 text-xs font-semibold text-mint rtl:text-end">{ed.when}</p>
+                    </li>
                   ))}
                 </ul>
               </div>
             </Reveal>
-            <Reveal delay={120} className="glass glow-edge overflow-hidden rounded-[2rem] p-8">
+            <Reveal delay={80} className="rounded-[2rem] border border-white/10 p-7">
+              <div data-testid="training">
+                <h2 className="flex items-center gap-2 text-xl font-semibold text-white">
+                  <Award aria-hidden className="size-5 text-gold" />
+                  {t("certTitle")}
+                </h2>
+                <ul className="mt-5 space-y-3">
+                  {certs.map((c) => (
+                    <li key={c} className="flex items-start gap-2.5 text-sm text-fg">
+                      <Check aria-hidden className="mt-0.5 size-4 shrink-0 text-mint" />
+                      {c}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+            <Reveal delay={120} className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">
+              <div data-testid="languages" className="rounded-[2rem] border border-white/10 p-7">
+                <h2 className="flex items-center gap-2 text-xl font-semibold text-white">
+                  <Languages aria-hidden className="size-5 text-sky" />
+                  {t("languagesTitle")}
+                </h2>
+                <ul className="mt-5 space-y-2.5">
+                  {langs.map((l) => (
+                    <li key={l.name} className="flex items-center justify-between gap-4 text-fg">
+                      {l.name}
+                      <span className="rounded-full bg-white/[0.06] px-2.5 py-0.5 text-xs text-muted">{l.level}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div data-testid="industries" className="rounded-[2rem] border border-white/10 p-7">
+                <h2 className="text-xl font-semibold text-white">{t("industriesTitle")}</h2>
+                <ul className="mt-5 flex flex-wrap gap-2">
+                  {industries.map((ind) => (
+                    <li key={ind} className="glass rounded-full px-3 py-1.5 text-sm text-fg">{ind}</li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+            <Reveal delay={160} className="glass glow-edge overflow-hidden rounded-[2rem] p-7">
               <div data-testid="publication">
                 <h2 className="text-xl font-semibold text-white">{t("publicationsTitle")}</h2>
                 <div className="mt-6 flex items-end justify-center gap-4">
@@ -268,10 +323,15 @@ export default function ProfilePage() {
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Md. Iqbal Hossain",
-          jobTitle: "Digital Marketing Specialist",
+          jobTitle: "Performance Marketing Manager",
+          alumniOf: [
+            { "@type": "CollegeOrUniversity", name: "National University, Bangladesh" },
+            { "@type": "EducationalOrganization", name: "Bangladesh Technical Education Board" },
+          ],
+          knowsLanguage: ["en", "bn", "ar"],
           image: `${site.url}${PHOTO}`,
           email: `mailto:${site.email}`,
-          address: { "@type": "PostalAddress", addressLocality: "Dammam", addressCountry: "SA" },
+          address: { "@type": "PostalAddress", addressCountry: "SA" },
           knowsAbout: ["Performance marketing", "Google Ads", "Meta Ads", "TikTok Ads", "SEO", "Google Analytics 4", "Google Tag Manager", "Conversion rate optimization"],
           sameAs: links.map((l) => l.href),
         }}

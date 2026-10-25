@@ -1,12 +1,15 @@
 import { useTranslations } from "next-intl";
 import { BookOpen } from "lucide-react";
+import { services } from "@/content/services";
+import { solutions } from "@/content/solutions";
 import { Counter } from "@/components/ui/Counter";
 import { Reveal } from "@/components/ui/Reveal";
 
+/** Company facts (not personal CV numbers). */
 export function ProofStrip() {
   const t = useTranslations("Home.proof");
   const items = [
-    { value: <Counter to={6} suffix="+" />, label: t("years") },
+    { value: <Counter to={services.length + solutions.length} />, label: t("services") },
     { value: <Counter to={50} suffix="+" />, label: t("clients") },
     { value: <Counter to={3} />, label: t("languages") },
     { value: <BookOpen aria-hidden className="size-9 text-mint" strokeWidth={1.5} />, label: t("author") },
