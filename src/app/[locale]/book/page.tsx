@@ -3,7 +3,9 @@ import { useTranslations } from "next-intl";
 import { ArrowUpRight, BookOpen, Check, User } from "lucide-react";
 import { book } from "@/content/book";
 import { site } from "@/content/site";
-import { BookMockup } from "@/components/pages/BookMockup";
+import { BookCover, covers } from "@/components/pages/BookMockup";
+import { whatsappUrl } from "@/lib/contact";
+import { WhatsAppIcon } from "@/components/layout/WhatsAppIcon";
 import { AZGrid } from "@/components/pages/AZGrid";
 import { JourneyLine } from "@/components/pages/JourneyLine";
 import { GlowAnchor } from "@/components/ui/GlowButton";
@@ -63,7 +65,7 @@ export default function BookPage() {
             </Reveal>
           </div>
           <Reveal immediate variant="tilt" delay={200} className="flex justify-center">
-            <BookMockup title={book.title} author={book.author} size="lg" />
+            <BookCover src={covers.en} alt={t("coverAlt")} size="lg" priority />
           </Reveal>
         </div>
       </section>
@@ -78,6 +80,41 @@ export default function BookPage() {
                 <p className={i === 0 ? "font-display text-[clamp(1.4rem,2.6vw,2rem)] leading-snug text-white" : "text-lg text-muted"}>{d}</p>
               </Reveal>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="bangla-title" className="section !pt-0">
+        <div className="container-x">
+          <div className="relative isolate grid items-center gap-12 overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-[#1a1208] via-ink-900 to-ink-950 p-8 md:grid-cols-[0.8fr_1.2fr] md:p-14">
+            <div aria-hidden className="aura -top-24 start-[-6rem] size-80 bg-[#b8864b]/25" />
+            <Reveal variant="tilt" className="flex justify-center">
+              <BookCover src={covers.bn} alt={t("bangla.alt")} size="md" tilt="right" />
+            </Reveal>
+            <div>
+              <p className="mb-4 text-sm font-semibold text-[#e2b77a]">{t("bangla.eyebrow")}</p>
+              <h2 id="bangla-title" className="text-[clamp(1.9rem,4vw,3rem)] font-semibold text-white">
+                {t("bangla.title")}{" "}
+                <span lang="bn" className="block text-[0.8em] text-[#e2b77a]">এম্পায়ার অব মার্কেটিং</span>
+              </h2>
+              <Reveal delay={120}>
+                <p className="mt-5 text-lg text-muted">{t("bangla.text")}</p>
+                <p className="mt-4 text-sm text-muted">
+                  <span lang="bn">মো. ইকবাল হোসেন</span> · {t("bangla.edition")}
+                </p>
+              </Reveal>
+              <Reveal delay={220} className="mt-8">
+                <GlowAnchor
+                  variant="ghost"
+                  href={whatsappUrl(t("bangla.whatsapp"))}
+                  target="_blank"
+                  rel="noopener"
+                  icon={<WhatsAppIcon className="size-4 text-[#25d366]" />}
+                >
+                  {t("bangla.cta")}
+                </GlowAnchor>
+              </Reveal>
+            </div>
           </div>
         </div>
       </section>
@@ -156,6 +193,11 @@ export default function BookPage() {
           bookEdition: book.edition,
           inLanguage: "en",
           url: site.amazonUrl,
+          image: `${site.url}${covers.en}`,
+          workExample: [
+            { "@type": "Book", inLanguage: "en", bookEdition: "First English Edition", image: `${site.url}${covers.en}`, url: site.amazonUrl },
+            { "@type": "Book", inLanguage: "bn", name: "এম্পায়ার অব মার্কেটিং", bookEdition: "First Bangla Edition", image: `${site.url}${covers.bn}` },
+          ],
         }}
       />
     </>

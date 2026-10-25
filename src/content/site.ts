@@ -1,6 +1,6 @@
 export const site = {
   name: "Empower of Marketing",
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://empowerofmarketing.vercel.app").replace(/\/$/, ""),
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://empowerofmarket.vercel.app").replace(/\/$/, ""),
   whatsapp: "966510356264",
   whatsappDisplay: "+966 51 035 6264",
   email: "empireofmarketing4@gmail.com",

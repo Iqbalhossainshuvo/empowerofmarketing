@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 
-const SITE = "https://empowerofmarketing.vercel.app";
+const SITE = "https://empowerofmarket.vercel.app";
 const paths = [
   "",
   "services/",

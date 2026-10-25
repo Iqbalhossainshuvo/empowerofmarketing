@@ -48,7 +48,7 @@ After changing text, run `npm test` — it fails if a language is missing a key 
 ### Vercel (current plan)
 1. On vercel.com choose **Add New → Project** and import `Iqbalhossainshuvo/empowerofmarketing`.
 2. Framework preset: **Next.js** (detected automatically). No settings to change.
-3. Optional: add the environment variable `NEXT_PUBLIC_SITE_URL` = your final address (e.g. `https://empowerofmarketing.com`) so links in Google and social previews use your domain. Without it they use `https://empowerofmarketing.vercel.app`.
+3. Optional: add the environment variable `NEXT_PUBLIC_SITE_URL` = your final address (e.g. `https://empowerofmarketing.com`) so links in Google and social previews use your domain. Without it they use `https://empowerofmarket.vercel.app`.
 4. Every push to `main` redeploys.
 
 > **Important:** Vercel's free *Hobby* plan is for non-commercial use only. A site that advertises paid services counts as commercial, so before you promote the site, upgrade to Vercel Pro or move it to another host (below).

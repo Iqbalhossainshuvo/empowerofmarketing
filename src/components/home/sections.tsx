@@ -7,7 +7,7 @@ import { Accordion } from "@/components/ui/Accordion";
 import { GlowLink } from "@/components/ui/GlowButton";
 import { Reveal } from "@/components/ui/Reveal";
 import { IconTile, SectionHeading } from "@/components/ui/primitives";
-import { BookMockup } from "@/components/pages/BookMockup";
+import { BookCover, covers } from "@/components/pages/BookMockup";
 import { WhichOneAreYou } from "./WhichOneAreYou";
 
 export function WhichSection() {
@@ -122,13 +122,19 @@ export function WhyUs() {
 
 export function BookTeaser() {
   const t = useTranslations("Home.bookTeaser");
+  const tb = useTranslations("Book");
   return (
     <section data-testid="book-teaser" aria-labelledby="book-teaser-title" className="section">
       <div className="container-x">
         <div className="relative isolate grid items-center gap-12 overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-ink-800 to-ink-950 p-8 md:grid-cols-2 md:p-14">
           <div aria-hidden className="aura -start-20 top-0 size-96 bg-violet/30" />
-          <Reveal variant="tilt" className="flex justify-center">
-            <BookMockup title={book.title} author={book.author} />
+          <Reveal variant="tilt" className="relative flex justify-center py-6">
+            <div className="absolute start-[8%] top-0 hidden rotate-[-8deg] opacity-80 sm:block">
+              <BookCover src={covers.bn} alt={tb("bangla.alt")} size="sm" tilt="right" />
+            </div>
+            <div className="relative sm:translate-x-10 rtl:sm:-translate-x-10">
+              <BookCover src={covers.en} alt={tb("coverAlt")} size="md" />
+            </div>
           </Reveal>
           <div>
             <p className="mb-4 text-sm font-semibold text-mint">{t("eyebrow")}</p>

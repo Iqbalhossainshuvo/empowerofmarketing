@@ -1167,7 +1167,17 @@
       "bangla": "Also available in a Bangla edition."
     },
     "bridgeTitle": "Want this system built for your business?",
-    "bridgeText": "The book shows how marketing works as one system. Empower of Marketing builds that system for you — and helps you run it."
+    "bridgeText": "The book shows how marketing works as one system. Empower of Marketing builds that system for you — and helps you run it.",
+    "coverAlt": "Empire of Marketing book cover, English edition, by Md. Iqbal Hossain — The Practical A–Z Marketing Field Guide",
+    "bangla": {
+      "eyebrow": "Also in Bangla",
+      "title": "The Bangla edition",
+      "text": "The same practical A–Z marketing system, written for Bangla readers — for founders, marketers and students who prefer to learn in their own language.",
+      "edition": "First Bangla Edition, 2026",
+      "cta": "Ask about the Bangla edition",
+      "whatsapp": "Hello! I'd like to get the Bangla edition of Empire of Marketing (এম্পায়ার অব মার্কেটিং).",
+      "alt": "Empire of Marketing Bangla edition book cover (এম্পায়ার অব মার্কেটিং) by Md. Iqbal Hossain"
+    }
   },
   "Founder": {
     "hero": {

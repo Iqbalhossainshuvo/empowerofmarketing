@@ -34,6 +34,18 @@ test.describe("book", () => {
     expect(await amazon.getAttribute("rel")).toContain("noopener");
   });
 
+  test("shows the real English cover and a separate Bangla edition with its cover", async ({ page }) => {
+    const en = page.locator('main img[src="/images/book/empire-of-marketing-english-edition-cover.webp"]').first();
+    await expect(en).toBeVisible();
+    expect(await en.getAttribute("alt")).toMatch(/English edition/);
+    expect(await en.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
+    const bangla = page.locator("section", { has: page.locator("#bangla-title") });
+    await bangla.scrollIntoViewIfNeeded();
+    await expect(bangla.locator('img[src="/images/book/empire-of-marketing-bangla-edition-cover.webp"]')).toBeVisible();
+    await expect(bangla).toContainText("এম্পায়ার অব মার্কেটিং");
+    await expect(bangla.locator('a[href^="https://wa.me/966510356264"]')).toBeVisible();
+  });
+
   test("A–Z grid has 26 chapters and the journey has 9 steps", async ({ page }) => {
     const tiles = page.getByTestId("az-grid").getByRole("button");
     await expect(tiles).toHaveCount(26);
