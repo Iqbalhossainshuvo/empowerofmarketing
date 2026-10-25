@@ -2,11 +2,11 @@ import { useTranslations } from "next-intl";
 import { ArrowRight, Compass, Globe2, Layers, Workflow } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { services } from "@/content/services";
-import { book } from "@/content/book";
 import { Accordion } from "@/components/ui/Accordion";
 import { GlowLink } from "@/components/ui/GlowButton";
 import { Reveal } from "@/components/ui/Reveal";
 import { IconTile, SectionHeading } from "@/components/ui/primitives";
+import { Illustration } from "@/components/ui/Illustration";
 import { BookCover, covers } from "@/components/pages/BookMockup";
 import { WhichOneAreYou } from "./WhichOneAreYou";
 
@@ -44,14 +44,21 @@ export function ServicesGrid() {
             <Reveal as="li" key={slug} variant="blur" delay={(i % 3) * 90}>
               <Link
                 href={`/services/${slug}`}
-                className="glass glow-edge group flex h-full flex-col rounded-3xl p-7 transition-transform duration-500 ease-out-expo hover:-translate-y-1.5"
+                className="glass glow-edge group flex h-full flex-col overflow-hidden rounded-3xl transition-transform duration-500 ease-out-expo hover:-translate-y-1.5"
               >
-                <IconTile icon={icon} />
-                <h3 className="mt-6 text-xl font-semibold text-white">{tS(`${slug}.title`)}</h3>
+                <span className="block overflow-hidden border-b border-white/10">
+                  <Illustration kind="services" slug={slug} alt={tS(`${slug}.imageAlt`)} className="transition-transform duration-700 ease-out-expo group-hover:scale-[1.04]" />
+                </span>
+                <span className="flex flex-1 flex-col p-7">
+                <span className="flex items-center gap-3">
+                  <IconTile icon={icon} />
+                  <h3 className="text-xl font-semibold text-white">{tS(`${slug}.title`)}</h3>
+                </span>
                 <p className="mt-2.5 flex-1 text-muted">{tS(`${slug}.short`)}</p>
                 <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-mint">
                   {tc("learnMore")}
                   <ArrowRight aria-hidden className="flip-rtl size-4 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1" />
+                </span>
                 </span>
               </Link>
             </Reveal>

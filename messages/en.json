@@ -279,7 +279,8 @@
           "q": "How long does SEO take?",
           "a": "SEO builds over time. Technical fixes help quickly; strong rankings usually take several months of steady work."
         }
-      ]
+      ],
+      "imageAlt": "Digital marketing illustration: Google, Meta and TikTok ads dashboard with growing results, SEO search and audience targeting"
     },
     "traditional-marketing": {
       "title": "Traditional Marketing",
@@ -351,7 +352,8 @@
           "q": "How do you measure offline results?",
           "a": "With QR codes, unique offer codes, call tracking and simple in-store counts."
         }
-      ]
+      ],
+      "imageAlt": "Traditional marketing illustration: billboard, shop front, posters, megaphone and QR code offer for local customers"
     },
     "business-growth": {
       "title": "Business Growth",
@@ -423,7 +425,8 @@
           "q": "How fast will sales improve?",
           "a": "Fixing the offer and follow-up often shows results within weeks. Lasting growth comes from steady work over a few months."
         }
-      ]
+      ],
+      "imageAlt": "Business growth illustration: rising sales chart, sales funnel and organised operations system"
     },
     "business-setup": {
       "title": "Business Setup",
@@ -495,7 +498,8 @@
           "q": "Do you stay involved after the launch?",
           "a": "If you want. Many clients continue with our growth or marketing packages."
         }
-      ]
+      ],
+      "imageAlt": "Business setup illustration: rocket launching along a step-by-step roadmap to the first customers"
     },
     "ai-automation": {
       "title": "AI Setup & Automation",
@@ -567,7 +571,8 @@
           "q": "Is my customer data safe?",
           "a": "We design automations with privacy in mind, use reputable tools and only connect the data each workflow needs."
         }
-      ]
+      ],
+      "imageAlt": "AI automation illustration: AI assistant connected to business workflows, lead replies and reports"
     },
     "video-editing": {
       "title": "Marketing Video Editing",
@@ -639,7 +644,8 @@
           "q": "How many revisions do I get?",
           "a": "Each package includes revisions so you're happy with the final result."
         }
-      ]
+      ],
+      "imageAlt": "Marketing video editing illustration: video player, editing timeline and vertical social media reel"
     }
   },
   "SolutionsIndex": {
@@ -703,7 +709,8 @@
           "q": "Can you redesign my current website?",
           "a": "Yes. We keep what works, fix what doesn't and improve speed and conversions."
         }
-      ]
+      ],
+      "imageAlt": "Website development illustration: responsive business website on desktop and mobile with clean code"
     },
     "ui-ux-design": {
       "title": "UI/UX Design",
@@ -745,7 +752,8 @@
           "q": "Can you also build the design?",
           "a": "Yes — see our Website Development solution."
         }
-      ]
+      ],
+      "imageAlt": "UI/UX design illustration: mobile app screens, user flow and design colour palette"
     },
     "graphic-design": {
       "title": "Graphic Design",
@@ -787,7 +795,8 @@
           "q": "How many revisions are included?",
           "a": "Each project includes revision rounds agreed before we start."
         }
-      ]
+      ],
+      "imageAlt": "Graphic design illustration: pen tool curve, logo shapes and brand colour palette"
     },
     "documents": {
       "title": "Document Services",
@@ -829,7 +838,8 @@
           "q": "Is my information kept private?",
           "a": "Yes. We use your documents only for your project and don't share them."
         }
-      ]
+      ],
+      "imageAlt": "Document services illustration: company profile, business proposal and CV documents with approval seal"
     },
     "travel-ticketing": {
       "title": "Travel & Ticketing",
@@ -871,7 +881,8 @@
           "q": "Can you help groups and companies?",
           "a": "Yes. We can coordinate travel for teams, families and groups."
         }
-      ]
+      ],
+      "imageAlt": "Travel and ticketing illustration: aeroplane route over the globe, boarding pass and hotel booking"
     },
     "training": {
       "title": "Training",
@@ -913,7 +924,8 @@
           "q": "Can training be customized for my team?",
           "a": "Yes. We build each program around your goals and your team's level."
         }
-      ]
+      ],
+      "imageAlt": "Training illustration: marketing and sales workshop with presentation chart and attendees"
     },
     "manpower": {
       "title": "Manpower Services",
@@ -955,7 +967,8 @@
           "q": "Can you set up staff management systems?",
           "a": "Yes. We can organize employee, timesheet and payroll records in simple tools your team can use."
         }
-      ]
+      ],
+      "imageAlt": "Manpower services illustration: staff team, employee ID badge and weekly work roster"
     }
   },
   "Pricing": {

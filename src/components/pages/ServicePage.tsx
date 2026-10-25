@@ -10,7 +10,9 @@ import { CtaBand } from "@/components/layout/CtaBand";
 import { Faq, ProcessSteps } from "@/components/home/sections";
 import { whatsappUrl } from "@/lib/contact";
 import { PageHero } from "./PageHero";
-import { HeroPanel } from "./HeroPanel";
+import { Illustration, illustrationSrc } from "@/components/ui/Illustration";
+import { JsonLd } from "@/components/JsonLd";
+import { site } from "@/content/site";
 import { Related } from "./Related";
 
 // Which services naturally go together (shown as "You may also need").
@@ -28,7 +30,6 @@ export function ServicePage({ slug }: { slug: ServiceSlug }) {
   const tS = useTranslations("Service");
   const tp = useTranslations("ServicePage");
   const tc = useTranslations("Common");
-  const icon = services.find((s) => s.slug === slug)!.icon;
 
   const pains = t.raw("pains") as string[];
   const deliverables = t.raw("deliverables") as { title: string; text: string }[];
@@ -56,7 +57,14 @@ export function ServicePage({ slug }: { slug: ServiceSlug }) {
             </GlowAnchor>
           </>
         }
-        visual={<HeroPanel icon={icon} title={tp("includedTitle")} items={deliverables.map((d) => d.title)} />}
+        visual={
+          <div className="relative mx-auto w-full max-w-xl">
+            <div aria-hidden className="absolute inset-[8%] rounded-full bg-blue/30 blur-3xl" />
+            <div className="glow-edge relative overflow-hidden rounded-[2rem] border border-white/10 shadow-[0_40px_90px_-30px_rgb(0_0_0/0.9)]">
+              <Illustration kind="services" slug={slug} alt={t("imageAlt")} priority />
+            </div>
+          </div>
+        }
       />
 
       {/* Pains */}
@@ -148,6 +156,19 @@ export function ServicePage({ slug }: { slug: ServiceSlug }) {
 
       <Faq namespace="ServicePage.faq" items={faq} />
       <CtaBand />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          name: t("title"),
+          serviceType: t("title"),
+          description: t("short"),
+          image: `${site.url}${illustrationSrc("services", slug)}`,
+          provider: { "@type": "ProfessionalService", name: site.name, url: site.url },
+          areaServed: ["US", "CA", "EU", "SA", "JP"],
+          offers: { "@type": "Offer", url: site.calendlyUrl, description: tc("callNote") },
+        }}
+      />
       <Related
         items={relatedMap[slug].map((s) => ({
           href: `/services/${s}`,

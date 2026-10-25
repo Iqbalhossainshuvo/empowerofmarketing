@@ -19,7 +19,7 @@ export default function ServicesIndexPage() {
       <section aria-label={t("eyebrow")} className="pb-8">
         <div className="container-x">
           <IndexGrid
-            items={services.map(({ slug, icon }) => ({ href: `/services/${slug}`, title: tS(`${slug}.title`), short: tS(`${slug}.short`), icon }))}
+            items={services.map(({ slug, icon }) => ({ href: `/services/${slug}`, title: tS(`${slug}.title`), short: tS(`${slug}.short`), icon, image: { kind: "services" as const, slug, alt: tS(`${slug}.imageAlt`) } }))}
           />
         </div>
       </section>

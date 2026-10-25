@@ -3,9 +3,14 @@ import { ArrowRight, type LucideIcon } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/Reveal";
 import { IconTile } from "@/components/ui/primitives";
+import { Illustration } from "@/components/ui/Illustration";
 
 /** Large linked cards for the Services and Solutions overview pages. */
-export function IndexGrid({ items }: { items: { href: string; title: string; short: string; icon: LucideIcon }[] }) {
+export function IndexGrid({
+  items,
+}: {
+  items: { href: string; title: string; short: string; icon: LucideIcon; image: { kind: "services" | "solutions"; slug: string; alt: string } }[];
+}) {
   const tc = useTranslations("Common");
   return (
     <ul className="grid gap-4 md:grid-cols-2">
@@ -13,9 +18,13 @@ export function IndexGrid({ items }: { items: { href: string; title: string; sho
         <Reveal as="li" key={it.href} variant={i % 2 ? "slide" : "rise"} delay={(i % 2) * 100}>
           <Link
             href={it.href}
-            className="glass glow-edge group flex h-full flex-col gap-6 rounded-[2rem] p-8 transition-transform duration-500 ease-out-expo hover:-translate-y-1.5 sm:flex-row sm:items-start md:p-10"
+            className="glass glow-edge group flex h-full flex-col overflow-hidden rounded-[2rem] transition-transform duration-500 ease-out-expo hover:-translate-y-1.5"
           >
-            <IconTile icon={it.icon} size="lg" />
+            <span className="block overflow-hidden border-b border-white/10">
+              <Illustration {...it.image} className="transition-transform duration-700 ease-out-expo group-hover:scale-[1.04]" />
+            </span>
+            <span className="flex flex-1 items-start gap-5 p-7 md:p-8">
+            <IconTile icon={it.icon} />
             <span className="flex-1">
               <span className="block text-2xl font-semibold text-white">{it.title}</span>
               <span className="mt-3 block text-muted">{it.short}</span>
@@ -23,6 +32,7 @@ export function IndexGrid({ items }: { items: { href: string; title: string; sho
                 {tc("explore")}
                 <ArrowRight aria-hidden className="flip-rtl size-4 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1" />
               </span>
+            </span>
             </span>
           </Link>
         </Reveal>

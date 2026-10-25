@@ -10,7 +10,9 @@ import { CtaBand } from "@/components/layout/CtaBand";
 import { Faq } from "@/components/home/sections";
 import { whatsappUrl } from "@/lib/contact";
 import { PageHero } from "./PageHero";
-import { HeroPanel } from "./HeroPanel";
+import { Illustration, illustrationSrc } from "@/components/ui/Illustration";
+import { JsonLd } from "@/components/JsonLd";
+import { site } from "@/content/site";
 import { Related } from "./Related";
 import { SolutionSteps } from "./SolutionSteps";
 
@@ -28,9 +30,7 @@ export function SolutionPage({ slug }: { slug: SolutionSlug }) {
   const t = useTranslations(`Solution.${slug}`);
   const tSo = useTranslations("Solution");
   const tp = useTranslations("SolutionPage");
-  const tsp = useTranslations("ServicePage");
   const tc = useTranslations("Common");
-  const icon = solutions.find((s) => s.slug === slug)!.icon;
   const offer = t.raw("offer") as { title: string; text: string }[];
   const why = t.raw("why") as string[];
   const faq = t.raw("faq") as { q: string; a: string }[];
@@ -55,7 +55,14 @@ export function SolutionPage({ slug }: { slug: SolutionSlug }) {
             <BookCallButton variant="ghost" packageId={slug} />
           </>
         }
-        visual={<HeroPanel icon={icon} title={tsp("includedTitle")} items={offer.map((o) => o.title)} />}
+        visual={
+          <div className="relative mx-auto w-full max-w-xl">
+            <div aria-hidden className="absolute inset-[8%] rounded-full bg-blue/30 blur-3xl" />
+            <div className="glow-edge relative overflow-hidden rounded-[2rem] border border-white/10 shadow-[0_40px_90px_-30px_rgb(0_0_0/0.9)]">
+              <Illustration kind="solutions" slug={slug} alt={t("imageAlt")} priority />
+            </div>
+          </div>
+        }
       />
 
       <section aria-labelledby="offer-title" className="section !pt-8">
@@ -95,6 +102,18 @@ export function SolutionPage({ slug }: { slug: SolutionSlug }) {
       <SolutionSteps />
       <Faq namespace="SolutionPage.faq" items={faq} />
       <CtaBand />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          name: t("title"),
+          serviceType: t("title"),
+          description: t("short"),
+          image: `${site.url}${illustrationSrc("solutions", slug)}`,
+          provider: { "@type": "ProfessionalService", name: site.name, url: site.url },
+          areaServed: ["US", "CA", "EU", "SA", "JP"],
+        }}
+      />
       <Related
         items={relatedMap[slug].map((s) => ({
           href: `/solutions/${s}`,

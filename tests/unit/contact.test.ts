@@ -29,3 +29,18 @@ test("site holds the spec's contact values", () => {
   assert.equal(site.amazonUrl, "https://www.amazon.com/dp/B0H71PC4QF");
   assert.equal(site.social.x, null);
 });
+
+test("every illustration is valid XML (browsers refuse to show broken SVG in <img>)", async () => {
+  const { readdirSync, readFileSync } = await import("node:fs");
+  for (const dir of ["services", "solutions"]) {
+    for (const f of readdirSync(`public/images/${dir}`)) {
+      const xml = readFileSync(`public/images/${dir}/${f}`, "utf8");
+      // duplicate attributes are the classic hand-written SVG mistake
+      for (const tag of xml.match(/<[a-zA-Z][^>]*>/g) ?? []) {
+        const names = [...tag.matchAll(/\s([a-zA-Z:-]+)=/g)].map((m) => m[1]);
+        assert.equal(new Set(names).size, names.length, `${dir}/${f}: duplicate attribute in ${tag.slice(0, 80)}`);
+      }
+      assert.ok(xml.trimStart().startsWith("<svg") && xml.trimEnd().endsWith("</svg>"), `${dir}/${f}: not a complete SVG`);
+    }
+  }
+});

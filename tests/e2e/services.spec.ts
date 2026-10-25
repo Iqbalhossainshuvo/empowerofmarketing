@@ -18,6 +18,27 @@ for (const [base, slugs] of [["services", serviceSlugs], ["solutions", solutionS
   }
 }
 
+for (const [base, slugs] of [["services", serviceSlugs], ["solutions", solutionSlugs]] as const) {
+  test(`every ${base} page shows its own illustration with descriptive alt text and Service schema`, async ({ page }) => {
+    for (const slug of slugs) {
+      await page.goto(`/en/${base}/${slug}/`);
+      const img = page.locator(`main img[src="/images/${base}/${slug}.svg"]`).first();
+      await expect(img, slug).toBeVisible();
+      expect((await img.getAttribute("alt"))?.length ?? 0, slug).toBeGreaterThan(30);
+      await expect.poll(() => img.evaluate((el: HTMLImageElement) => el.complete && el.naturalWidth), { message: slug }).toBeGreaterThan(0);
+      const ld = (await page.locator('script[type="application/ld+json"]').allTextContents()).map((s) => JSON.parse(s));
+      const svc = ld.find((d) => d["@type"] === "Service");
+      expect(svc?.image, slug).toContain(`/images/${base}/${slug}.svg`);
+    }
+  });
+}
+
+test("Arabic illustrations use Arabic alt text", async ({ page }) => {
+  await page.goto("/ar/services/ai-automation/");
+  const alt = await page.locator('main img[src="/images/services/ai-automation.svg"]').first().getAttribute("alt");
+  expect(alt).toMatch(/[؀-ۿ]/);
+});
+
 test("services index lists six services", async ({ page }) => {
   await page.goto("/en/services/");
   await expect(page.locator("h1")).toHaveCount(1);

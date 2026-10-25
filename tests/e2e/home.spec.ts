@@ -50,6 +50,7 @@ test("'Which one are you?' supports arrow keys", async ({ page }) => {
 test("six service cards, four process steps, FAQ accordion", async ({ page }) => {
   const services = page.getByTestId("services-grid");
   await expect(services.locator('a[href^="/en/services/"]')).toHaveCount(6);
+  await expect(services.locator('img[src^="/images/services/"]')).toHaveCount(6);
   await expect(page.getByTestId("process").locator("li")).toHaveCount(4);
   const faq = page.getByTestId("faq");
   const second = faq.getByRole("button").nth(1);
