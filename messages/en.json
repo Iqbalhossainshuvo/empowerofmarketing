@@ -119,7 +119,8 @@
     "servicesSection": {
       "eyebrow": "Growth services",
       "title": "Everything your business needs to grow — under one roof.",
-      "subtitle": "Digital and traditional marketing, business strategy, AI and video. One team, one plan, one direction."
+      "subtitle": "Digital and traditional marketing, business strategy, AI and video. One team, one plan, one direction.",
+      "includes": "Includes"
     },
     "process": {
       "eyebrow": "How it works",
@@ -201,6 +202,112 @@
           "a": "Just tell us about your business, your goal and what you've tried so far. If you have numbers like sales or ad spend, bring them — they help us give better advice."
         }
       ]
+    },
+    "success": {
+      "eyebrow": "What success can look like",
+      "title": "Your path from stuck to growing.",
+      "subtitle": "Every business is different, but good growth follows a pattern. Here is how a typical journey with us unfolds, step by step.",
+      "note": "Typical milestones from our roadmaps, shown as goals, not promises. Real results depend on your market, offer, budget and how fast we can act together.",
+      "resultLabel": "Where you can be",
+      "journeys": [
+        {
+          "title": "From idea to first customers",
+          "who": "Starting a business",
+          "steps": [
+            {
+              "when": "Week 1–2",
+              "text": "Idea tested with real buyers before big spending."
+            },
+            {
+              "when": "Month 1",
+              "text": "Brand, offer and launch plan ready."
+            },
+            {
+              "when": "Month 2–3",
+              "text": "Launch online and offline; first paying customers."
+            },
+            {
+              "when": "Month 6",
+              "text": "Repeatable way to win customers every week."
+            }
+          ],
+          "result": "A real business with customers, not just an idea."
+        },
+        {
+          "title": "From no sales to steady sales",
+          "who": "Business with no sales",
+          "steps": [
+            {
+              "when": "Week 1–2",
+              "text": "Clear diagnosis: why people aren't buying."
+            },
+            {
+              "when": "Month 1",
+              "text": "Sharper offer, message and landing page live."
+            },
+            {
+              "when": "Month 2–3",
+              "text": "Ads and follow-ups bring in qualified leads."
+            },
+            {
+              "when": "Month 6",
+              "text": "Predictable pipeline and known cost per sale."
+            }
+          ],
+          "result": "Sales you can forecast instead of hope for."
+        },
+        {
+          "title": "From chaos to a business that runs",
+          "who": "Disorganised business",
+          "steps": [
+            {
+              "when": "Week 1–2",
+              "text": "Bottlenecks, roles and numbers mapped."
+            },
+            {
+              "when": "Month 1",
+              "text": "Simple routines, checklists and a weekly KPI board."
+            },
+            {
+              "when": "Month 2–3",
+              "text": "Team follows the system; fewer daily fires."
+            },
+            {
+              "when": "Month 6",
+              "text": "Owner time freed up to plan growth."
+            }
+          ],
+          "result": "A business that keeps running when you step away."
+        },
+        {
+          "title": "From manual work to smart automation",
+          "who": "Wants AI automation",
+          "steps": [
+            {
+              "when": "Week 1–2",
+              "text": "AI audit: the tasks to automate first."
+            },
+            {
+              "when": "Month 1",
+              "text": "Instant lead replies and follow-ups live."
+            },
+            {
+              "when": "Month 2–3",
+              "text": "Reports, content and data flows automated."
+            },
+            {
+              "when": "Month 6",
+              "text": "Team saves hours every week, no lead waits."
+            }
+          ],
+          "result": "More done with the same team — faster and calmer."
+        }
+      ]
+    },
+    "solutionsSection": {
+      "eyebrow": "Solutions",
+      "title": "Everyday business services, done right.",
+      "subtitle": "Beyond marketing: websites, design, documents, travel, training and manpower — one trusted partner for the work your business needs."
     }
   },
   "ServicesIndex": {

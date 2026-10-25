@@ -215,7 +215,7 @@ export default function ProfilePage() {
                 </div>
                 <p className="mt-8 text-sm text-muted">{t("publication")}</p>
                 <Link href="/book" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-mint hover:underline">
-                  {tc("learnMore")}
+                  {tb("hero.eyebrow")}: Empire of Marketing
                   <ArrowUpRight aria-hidden className="flip-rtl size-4" />
                 </Link>
               </div>

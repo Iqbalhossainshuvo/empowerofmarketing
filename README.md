@@ -12,7 +12,7 @@ Multilingual (English · العربية · 日本語) marketing site for **Empow
 | Pricing | `/en/pricing/` |
 | About us | `/en/about/` |
 | Book — *Empire of Marketing* | `/en/book/` |
-| Founder (footer only) | `/en/founder/` |
+| Professional profile (footer only, for job applications) | `/en/profile/` |
 | Privacy policy / Terms | `/en/privacy/`, `/en/terms/` |
 
 Arabic and Japanese live at `/ar/…` and `/ja/…`. The bare `/` sends visitors to their browser's language. Unknown URLs show a branded 404 page.
@@ -38,6 +38,8 @@ npm run build      # writes the finished site to out/
 | Book facts | `src/content/book.ts` (+ `Book` in the message files) |
 | Colours and fonts | `src/app/globals.css` (`@theme` block) and `src/lib/fonts.ts` |
 | Social share images | `npm run og` regenerates `public/og/{en,ar,ja}.png` from the hero headline |
+| Service illustrations | `node scripts/make-illustrations.mjs` regenerates `public/images/services/*.svg` and `public/images/solutions/*.svg` |
+| Photos and book covers | `public/images/profile/`, `public/images/book/` (keep the same file names to swap them) |
 
 After changing text, run `npm test` — it fails if a language is missing a key or still has untranslated English.
 
@@ -47,7 +49,7 @@ After changing text, run `npm test` — it fails if a language is missing a key 
 
 ### Vercel (current plan)
 1. On vercel.com choose **Add New → Project** and import `Iqbalhossainshuvo/empowerofmarketing`.
-2. Framework preset: **Next.js** (detected automatically). No settings to change.
+2. Name the project **empowerofmarket** (the site then lives at `https://empowerofmarket.vercel.app`). Framework preset: **Next.js** (detected automatically). No other settings to change.
 3. Optional: add the environment variable `NEXT_PUBLIC_SITE_URL` = your final address (e.g. `https://empowerofmarketing.com`) so links in Google and social previews use your domain. Without it they use `https://empowerofmarket.vercel.app`.
 4. Every push to `main` redeploys.
 
@@ -68,7 +70,7 @@ The browser tests cover every page in all three languages: menus, language switc
 
 ## Still needed from Iqbal
 
-- Book cover image and a founder photo (the site currently shows a designed book mockup and an "IH" monogram).
+- More professional photos (e.g. from LinkedIn) for the profile page gallery.
 - X (Twitter) profile URL.
 - Confirm or change package names and prices, and the legal line "Iqbal Hossain, operating as Empower of Marketing, Dammam, Saudi Arabia".
 - Have a native Arabic and a native Japanese speaker read the copy before running paid ads in those languages.

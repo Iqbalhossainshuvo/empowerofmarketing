@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import { ArrowRight, Compass, Globe2, Layers, Workflow } from "lucide-react";
+import { ArrowRight, Check, Compass, Flag, Globe2, Layers, Workflow } from "lucide-react";
+import { solutions } from "@/content/solutions";
 import { Link } from "@/i18n/navigation";
 import { services } from "@/content/services";
 import { Accordion } from "@/components/ui/Accordion";
@@ -54,7 +55,15 @@ export function ServicesGrid() {
                   <IconTile icon={icon} />
                   <h3 className="text-xl font-semibold text-white">{tS(`${slug}.title`)}</h3>
                 </span>
-                <p className="mt-2.5 flex-1 text-muted">{tS(`${slug}.short`)}</p>
+                <p className="mt-3 text-muted">{tS(`${slug}.short`)}</p>
+                <ul className="mt-4 flex-1 space-y-1.5" aria-label={t("includes")}>
+                  {(tS.raw(`${slug}.deliverables`) as { title: string }[]).slice(0, 3).map((d) => (
+                    <li key={d.title} className="flex items-center gap-2 text-sm text-fg">
+                      <Check aria-hidden className="size-3.5 shrink-0 text-mint" />
+                      {d.title}
+                    </li>
+                  ))}
+                </ul>
                 <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-mint">
                   {tc("learnMore")}
                   <ArrowRight aria-hidden className="flip-rtl size-4 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1" />
@@ -173,6 +182,87 @@ export function Faq({ namespace = "Home.faq", items: override }: { namespace?: s
         <Reveal>
           <Accordion items={items} />
         </Reveal>
+      </div>
+    </section>
+  );
+}
+
+export function SuccessPaths() {
+  const t = useTranslations("Home.success");
+  const journeys = t.raw("journeys") as { title: string; who: string; steps: { when: string; text: string }[]; result: string }[];
+  const accents = ["from-mint/25", "from-sky/25", "from-violet/25", "from-blue/25"];
+  return (
+    <section data-testid="success" aria-labelledby="success-title" className="section relative isolate overflow-x-clip">
+      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
+        <div className="aura top-1/4 end-[-12%] size-[30rem] bg-mint/10" />
+      </div>
+      <div className="container-x">
+        <div id="success-title">
+          <SectionHeading eyebrow={t("eyebrow")} title={t("title")} subtitle={t("subtitle")} />
+        </div>
+        <ul className="mt-14 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          {journeys.map((j, i) => (
+            <Reveal as="li" key={j.title} variant="rise" delay={i * 100}>
+              <article className={`glass glow-edge flex h-full flex-col rounded-3xl bg-gradient-to-b ${accents[i]} to-transparent p-6`}>
+                <p className="text-xs font-semibold text-mint">{j.who}</p>
+                <h3 className="mt-2 text-lg font-semibold text-white">{j.title}</h3>
+                <ol className="relative mt-6 flex-1 space-y-5 border-s border-white/15 ps-5">
+                  {j.steps.map((s, k) => (
+                    <li key={k} className="relative">
+                      <span aria-hidden className={`absolute -start-[1.65rem] top-1 size-3 rounded-full ring-4 ring-ink-950 ${k === j.steps.length - 1 ? "bg-mint" : "bg-sky"}`} />
+                      <p className="text-xs font-semibold text-muted">{s.when}</p>
+                      <p className="mt-0.5 text-[0.93rem] text-fg">{s.text}</p>
+                    </li>
+                  ))}
+                </ol>
+                <div className="mt-6 rounded-2xl border border-mint/30 bg-mint/[0.07] p-4">
+                  <p className="flex items-center gap-1.5 text-xs font-semibold text-mint">
+                    <Flag aria-hidden className="size-3.5" />
+                    {t("resultLabel")}
+                  </p>
+                  <p className="mt-1 text-sm font-semibold text-white">{j.result}</p>
+                </div>
+              </article>
+            </Reveal>
+          ))}
+        </ul>
+        <p className="mt-8 max-w-3xl text-sm text-muted">{t("note")}</p>
+      </div>
+    </section>
+  );
+}
+
+export function SolutionsShowcase() {
+  const t = useTranslations("Home.solutionsSection");
+  const tSo = useTranslations("Solution");
+  const tc = useTranslations("Common");
+  return (
+    <section data-testid="solutions-home" aria-labelledby="solutions-home-title" className="section bg-ink-900/60">
+      <div className="container-x">
+        <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+          <div id="solutions-home-title">
+            <SectionHeading eyebrow={t("eyebrow")} title={t("title")} subtitle={t("subtitle")} />
+          </div>
+          <Link href="/solutions" className="inline-flex shrink-0 items-center gap-1.5 font-semibold text-mint hover:underline">
+            {tc("viewAll")}
+            <ArrowRight aria-hidden className="flip-rtl size-4" />
+          </Link>
+        </div>
+        <ul className="mt-12 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+          {solutions.map(({ slug }, i) => (
+            <Reveal as="li" key={slug} variant="scale" delay={(i % 4) * 70} className={i === 0 ? "col-span-2 row-span-2" : i >= 5 ? "col-span-2" : ""}>
+              <Link href={`/solutions/${slug}`} className="glass glow-edge group flex h-full flex-col overflow-hidden rounded-3xl">
+                <span className={`block overflow-hidden ${i >= 5 ? "aspect-[8/3]" : ""}`}>
+                  <Illustration kind="solutions" slug={slug} alt={tSo(`${slug}.imageAlt`)} className={`transition-transform duration-700 ease-out-expo group-hover:scale-[1.05] ${i >= 5 ? "h-full object-cover" : ""}`} />
+                </span>
+                <span className="flex flex-1 flex-col border-t border-white/10 p-4 md:p-5">
+                  <span className={`font-semibold text-white ${i === 0 ? "text-xl" : "text-[0.95rem]"}`}>{tSo(`${slug}.title`)}</span>
+                  {i === 0 ? <span className="mt-2 text-muted">{tSo(`${slug}.short`)}</span> : null}
+                </span>
+              </Link>
+            </Reveal>
+          ))}
+        </ul>
       </div>
     </section>
   );

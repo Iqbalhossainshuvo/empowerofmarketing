@@ -59,6 +59,31 @@ test("six service cards, four process steps, FAQ accordion", async ({ page }) =>
   await expect(second).toHaveAttribute("aria-expanded", "true");
 });
 
+test("service cards list what each service includes", async ({ page }) => {
+  const cards = page.getByTestId("services-grid").locator(":scope > li");
+  await expect(cards).toHaveCount(6);
+  for (let i = 0; i < 6; i++) await expect(cards.nth(i).locator("ul li")).toHaveCount(3);
+});
+
+test("success section shows four journeys with milestones and an honest note", async ({ page }) => {
+  const success = page.getByTestId("success");
+  await expect(success.locator("article")).toHaveCount(4);
+  for (let i = 0; i < 4; i++) await expect(success.locator("article").nth(i).locator("ol li")).toHaveCount(4);
+  await expect(success).toContainText(/not promises/i);
+});
+
+test("solutions showcase links all seven solutions with illustrations", async ({ page }) => {
+  const sol = page.getByTestId("solutions-home");
+  await expect(sol.locator('a[href^="/en/solutions/"][href$="/"]').filter({ has: page.locator("img") })).toHaveCount(7);
+  await expect(sol.locator('a[href="/en/solutions/"]')).toBeVisible();
+});
+
+test("book teaser shows both real covers", async ({ page }) => {
+  const teaser = page.getByTestId("book-teaser");
+  await expect(teaser.locator('img[src*="english-edition"]')).toHaveCount(1);
+  await expect(teaser.locator('img[src*="bangla-edition"]')).toHaveCount(1);
+});
+
 test("book teaser links to the book page", async ({ page }) => {
   await expect(page.getByTestId("book-teaser").locator('a[href="/en/book/"]')).toBeVisible();
 });
