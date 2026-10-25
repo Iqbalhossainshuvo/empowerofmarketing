@@ -45,7 +45,7 @@ for (const locale of ["en", "ar", "ja"] as const) {
 }
 
 // Brand names and other text that legitimately stays the same in every language.
-const sameEverywhere = new Set(["Empower of Marketing", "Md. Iqbal Hossain"]);
+const sameEverywhere = new Set(["Empower of Marketing", "Md. Iqbal Hossain", "GA4 · GTM · Looker Studio"]);
 
 for (const locale of ["ar", "ja"] as const) {
   test(`${locale} copy is actually translated`, () => {

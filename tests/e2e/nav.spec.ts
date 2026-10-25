@@ -26,7 +26,7 @@ test("Services dropdown lists the six services, Solutions the seven solutions", 
 test("footer has Founder, Privacy and Terms links", async ({ page }) => {
   await page.goto("/en/");
   const footer = page.getByRole("contentinfo");
-  await expect(footer.locator('a[href="/en/founder/"]')).toBeVisible();
+  await expect(footer.locator('a[href="/en/profile/"]')).toBeVisible();
   await expect(footer.locator('a[href="/en/privacy/"]')).toBeVisible();
   await expect(footer.locator('a[href="/en/terms/"]')).toBeVisible();
 });

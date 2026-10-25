@@ -57,18 +57,39 @@ test.describe("book", () => {
   });
 });
 
-test.describe("founder", () => {
-  test("links to LinkedIn and Medium, hides X until provided", async ({ page }) => {
-    await page.goto("/en/founder/");
+test.describe("profile", () => {
+  test.beforeEach(async ({ page }) => page.goto("/en/profile/"));
+
+  test("is a professional profile with photo, never calls him founder", async ({ page }) => {
     await expect(page.locator("h1")).toContainText("Md. Iqbal Hossain");
-    await expect(page.locator('main a[href="https://www.linkedin.com/in/mdiqbalhossainmarketingspecialist"]')).toBeVisible();
-    await expect(page.locator('main a[href="https://medium.com/@mdiqbalhossain203050"]')).toBeVisible();
+    await expect(page.locator("main")).toContainText("Digital Marketing Specialist");
+    const photo = page.locator('main img[src="/images/profile/md-iqbal-hossain-digital-marketing-specialist.webp"]');
+    await expect(photo).toBeVisible();
+    expect(await photo.getAttribute("alt")).toMatch(/Iqbal Hossain/);
+    expect((await page.locator("main").innerText()).toLowerCase()).not.toContain("founder");
+    expect((await page.title()).toLowerCase()).not.toContain("founder");
+  });
+
+  test("shows CV sections: skills, tools, experience, training, publication, services", async ({ page }) => {
+    for (const id of ["summary", "skills", "tools", "experience", "training", "publication", "profile-services"]) {
+      await expect(page.getByTestId(id), id).toBeVisible();
+    }
+    await expect(page.getByTestId("tools")).toContainText("Google Analytics 4");
+    await expect(page.getByTestId("training")).toContainText("Amadeus GDS");
+    await expect(page.getByTestId("profile-services").locator('img[src^="/images/services/"]')).toHaveCount(6);
+    await expect(page.getByTestId("publication").locator("img")).toHaveCount(2);
+  });
+
+  test("links to LinkedIn, Medium and email; hides X until provided", async ({ page }) => {
+    await expect(page.locator('main a[href="https://www.linkedin.com/in/mdiqbalhossainmarketingspecialist"]').first()).toBeVisible();
+    await expect(page.locator('main a[href="https://medium.com/@mdiqbalhossain203050"]').first()).toBeVisible();
+    await expect(page.locator('main a[href^="mailto:empireofmarketing4@gmail.com"]').first()).toBeVisible();
     await expect(page.locator('main a[href*="x.com"], main a[href*="twitter.com"]')).toHaveCount(0);
   });
 
-  test("is not linked from the header", async ({ page }) => {
-    await page.goto("/en/founder/");
-    await expect(page.getByRole("banner").locator('a[href="/en/founder/"]')).toHaveCount(0);
+  test("is not linked from the header, only the footer", async ({ page }) => {
+    await expect(page.getByRole("banner").locator('a[href="/en/profile/"]')).toHaveCount(0);
+    await expect(page.getByRole("contentinfo").locator('a[href="/en/profile/"]')).toBeVisible();
   });
 });
 

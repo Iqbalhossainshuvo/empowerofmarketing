@@ -44,12 +44,12 @@
     "solutionsTitle": "Solutions",
     "companyTitle": "Company",
     "contactTitle": "Contact",
-    "founder": "Founder",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "location": "Dammam, Saudi Arabia · Serving clients worldwide",
     "rights": "All rights reserved.",
-    "followUs": "Follow us"
+    "followUs": "Follow us",
+    "profile": "Profile: Md. Iqbal Hossain"
   },
   "CtaBand": {
     "eyebrow": "Your next step",
@@ -1192,46 +1192,6 @@
       "alt": "Empire of Marketing Bangla edition book cover (এম্পায়ার অব মার্কেটিং) by Md. Iqbal Hossain"
     }
   },
-  "Founder": {
-    "hero": {
-      "eyebrow": "Founder",
-      "name": "Md. Iqbal Hossain",
-      "role": "Founder, Empower of Marketing · Author of Empire of Marketing",
-      "intro": "A marketer who believes growth comes from connected systems — not lucky campaigns."
-    },
-    "about": [
-      "Iqbal has more than six years of experience across digital and traditional marketing, helping more than fifty clients around the world grow their businesses.",
-      "He specializes in performance marketing and paid advertising on Google, Meta and TikTok, SEO, analytics and conversion optimization — and he coaches founders who want to launch new businesses with a clear, step-by-step roadmap.",
-      "His career spans Bangladesh and Saudi Arabia, with hands-on experience in operations, administration and IT support that shapes his practical, systems-first approach. He is the author of Empire of Marketing, a practical A–Z marketing field guide."
-    ],
-    "expertiseTitle": "Expertise",
-    "expertise": [
-      "Performance marketing",
-      "Google, Meta & TikTok Ads",
-      "SEO",
-      "GA4, GTM & Looker Studio",
-      "Tableau dashboards",
-      "Conversion optimization",
-      "Business launch coaching",
-      "Traditional & field marketing"
-    ],
-    "factsTitle": "At a glance",
-    "facts": [
-      {
-        "value": "6+",
-        "label": "years in marketing"
-      },
-      {
-        "value": "50+",
-        "label": "global clients"
-      },
-      {
-        "value": "1",
-        "label": "published book"
-      }
-    ],
-    "linksTitle": "Connect"
-  },
   "Privacy": {
     "title": "Privacy Policy",
     "updated": "Last updated: 22 October 2026",
@@ -1349,10 +1309,6 @@
       "title": "Empire of Marketing — The Book",
       "description": "Empire of Marketing by Md. Iqbal Hossain: the practical A–Z marketing field guide. Available on Amazon in Kindle, paperback and hardcover."
     },
-    "founder": {
-      "title": "Md. Iqbal Hossain — Founder",
-      "description": "Meet Md. Iqbal Hossain, founder of Empower of Marketing and author of Empire of Marketing, with 6+ years in digital and traditional marketing."
-    },
     "privacy": {
       "title": "Privacy Policy",
       "description": "How Empower of Marketing handles your information."
@@ -1364,6 +1320,10 @@
     "notFound": {
       "title": "Page not found",
       "description": "This page doesn't exist."
+    },
+    "profile": {
+      "title": "Md. Iqbal Hossain — Digital Marketing Specialist",
+      "description": "Professional profile of Md. Iqbal Hossain: digital marketing specialist with 6+ years in performance marketing, Google/Meta/TikTok ads, SEO, analytics and CRO. 50+ global clients. Based in Dammam, Saudi Arabia."
     }
   },
   "ServicePage": {
@@ -1389,5 +1349,111 @@
       "eyebrow": "Questions",
       "title": "Common questions"
     }
+  },
+  "Profile": {
+    "hero": {
+      "eyebrow": "Professional profile",
+      "name": "Md. Iqbal Hossain",
+      "role": "Digital Marketing Specialist · Performance Marketing, SEO & Growth",
+      "intro": "I help businesses turn marketing spend into measurable customers — with paid ads, SEO, analytics and conversion systems that connect.",
+      "location": "Dammam, Saudi Arabia",
+      "open": "Open to full-time roles and consulting projects",
+      "photoAlt": "Md. Iqbal Hossain, digital marketing specialist, in a navy suit",
+      "email": "Email me",
+      "chip1": "Google · Meta · TikTok Ads",
+      "chip2": "GA4 · GTM · Looker Studio"
+    },
+    "facts": [
+      {
+        "value": "6+",
+        "label": "years in marketing"
+      },
+      {
+        "value": "50+",
+        "label": "global clients"
+      },
+      {
+        "value": "2",
+        "label": "book editions published"
+      }
+    ],
+    "factsTitle": "At a glance",
+    "summaryTitle": "Summary",
+    "summary": [
+      "Digital marketing specialist with more than six years of experience across digital and traditional marketing, working with more than fifty clients around the world.",
+      "Specialised in performance marketing and paid advertising on Google, Meta and TikTok, search engine optimisation, analytics and conversion-rate optimisation — building tracking, reporting and funnels so every campaign can be measured and improved.",
+      "Career experience spans Bangladesh and Saudi Arabia, including operations, office administration and IT support, which shapes a practical, systems-first way of working. Author of Empire of Marketing, a practical A–Z marketing field guide published in English and Bangla."
+    ],
+    "skillsTitle": "Core skills",
+    "skills": [
+      {
+        "title": "Performance marketing",
+        "text": "Paid campaigns on Google, Meta and TikTok planned around cost per lead, cost per sale and return on ad spend."
+      },
+      {
+        "title": "SEO",
+        "text": "Technical, on-page and local SEO, keyword research and content that earns search traffic."
+      },
+      {
+        "title": "Analytics & tracking",
+        "text": "GA4, Google Tag Manager, Looker Studio and Tableau dashboards that show where results come from."
+      },
+      {
+        "title": "Conversion optimisation",
+        "text": "Landing pages, funnels and testing that turn more visitors into leads and customers."
+      },
+      {
+        "title": "Traditional & field marketing",
+        "text": "Print, outdoor, local and WhatsApp campaigns for businesses that sell in the real world."
+      },
+      {
+        "title": "AI-assisted creative & video",
+        "text": "AI tools, automation and video editing to produce marketing content faster."
+      }
+    ],
+    "toolsTitle": "Tools",
+    "tools": [
+      "Google Ads",
+      "Meta Ads Manager",
+      "TikTok Ads",
+      "Google Analytics 4",
+      "Google Tag Manager",
+      "Looker Studio",
+      "Tableau",
+      "Search Console",
+      "Amadeus GDS"
+    ],
+    "experienceTitle": "Experience",
+    "experience": [
+      {
+        "role": "Digital Marketing Specialist — Freelance",
+        "where": "Remote · Global clients",
+        "points": [
+          "Planned and managed paid advertising on Google, Meta and TikTok for more than fifty clients.",
+          "Set up analytics, tag management and reporting dashboards to track leads and sales.",
+          "Improved websites and landing pages for SEO and conversions.",
+          "Guided new business owners through launches with step-by-step roadmaps."
+        ]
+      },
+      {
+        "role": "Operations, Administration & IT Support",
+        "where": "Saudi Arabia · Bangladesh",
+        "points": [
+          "Supported Hajj and Umrah operations.",
+          "Handled office administration and IT support.",
+          "Worked in warehouse and cargo handling operations."
+        ]
+      }
+    ],
+    "certTitle": "Training",
+    "certs": [
+      "Amadeus GDS — air ticketing and reservations course"
+    ],
+    "publicationsTitle": "Publication",
+    "publication": "Empire of Marketing — The Practical A–Z Marketing Field Guide (English and Bangla editions, 2026).",
+    "servicesTitle": "What I deliver",
+    "servicesSubtitle": "The same skills, packaged as services for businesses.",
+    "contactTitle": "Let's work together",
+    "contactText": "Hiring for a marketing role, or need help growing a business? Reach out — I reply quickly."
   }
 }

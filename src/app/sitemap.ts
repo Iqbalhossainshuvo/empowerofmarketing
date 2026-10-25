@@ -15,7 +15,7 @@ const paths = [
   "pricing/",
   "about/",
   "book/",
-  "founder/",
+  "profile/",
   "privacy/",
   "terms/",
 ];

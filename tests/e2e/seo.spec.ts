@@ -8,7 +8,7 @@ const paths = [
   ...["digital-marketing", "traditional-marketing", "business-growth", "business-setup", "ai-automation", "video-editing"].map((s) => `services/${s}/`),
   "solutions/",
   ...["web-development", "ui-ux-design", "graphic-design", "documents", "travel-ticketing", "training", "manpower"].map((s) => `solutions/${s}/`),
-  "pricing/", "about/", "book/", "founder/", "privacy/", "terms/",
+  "pricing/", "about/", "book/", "profile/", "privacy/", "terms/",
 ];
 
 test("every page has a unique title, description, canonical and hreflang alternates", async ({ page }) => {
@@ -53,6 +53,9 @@ test("structured data: organization everywhere, book and person on their pages",
   expect((await ld()).some((d) => d["@type"] === "ProfessionalService" && d.name === "Empower of Marketing")).toBe(true);
   await page.goto("/en/book/");
   expect((await ld()).some((d) => d["@type"] === "Book" && d.author?.name === "Md. Iqbal Hossain")).toBe(true);
-  await page.goto("/en/founder/");
-  expect((await ld()).some((d) => d["@type"] === "Person" && d.name === "Md. Iqbal Hossain")).toBe(true);
+  await page.goto("/en/profile/");
+  const person = (await ld()).find((d) => d["@type"] === "Person");
+  expect(person?.name).toBe("Md. Iqbal Hossain");
+  expect(person?.jobTitle).toBe("Digital Marketing Specialist");
+  expect(person?.image).toContain("/images/profile/");
 });

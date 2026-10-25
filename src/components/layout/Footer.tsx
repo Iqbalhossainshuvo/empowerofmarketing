@@ -76,7 +76,7 @@ export function Footer() {
             <li><Link href="/about" className={lnk}>{tn("about")}</Link></li>
             <li><Link href="/pricing" className={lnk}>{tn("pricing")}</Link></li>
             <li><Link href="/book" className={lnk}>{tn("book")}</Link></li>
-            <li><Link href="/founder" className={lnk}>{t("founder")}</Link></li>
+            <li><Link href="/profile" className={lnk}>{t("profile")}</Link></li>
             <li><Link href="/privacy" className={lnk}>{t("privacy")}</Link></li>
             <li><Link href="/terms" className={lnk}>{t("terms")}</Link></li>
           </ul>

@@ -38,7 +38,7 @@ export function pageMetadata(locale: Locale, path: string, title: string, descri
   };
 }
 
-type MetaKey = "home" | "services" | "solutions" | "pricing" | "about" | "book" | "founder" | "privacy" | "terms";
+type MetaKey = "home" | "services" | "solutions" | "pricing" | "about" | "book" | "profile" | "privacy" | "terms";
 
 /** Metadata for pages whose copy lives under Meta.<key>. */
 export async function metaFor(paramsPromise: Promise<{ locale: string }>, key: MetaKey, path: string): Promise<Metadata> {

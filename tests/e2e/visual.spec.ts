@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-const pages = ["", "services/business-growth/", "solutions/web-development/", "pricing/", "book/", "about/", "founder/"];
+const pages = ["", "services/business-growth/", "solutions/web-development/", "pricing/", "book/", "about/", "profile/"];
 
 for (const width of [390, 1440]) {
   for (const locale of ["en", "ar", "ja"]) {

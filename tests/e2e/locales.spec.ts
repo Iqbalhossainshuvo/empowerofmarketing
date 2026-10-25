@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 const paths = [
   "", "services/", "services/business-growth/", "services/ai-automation/", "solutions/", "solutions/travel-ticketing/",
-  "pricing/", "about/", "book/", "founder/", "privacy/", "terms/",
+  "pricing/", "about/", "book/", "profile/", "privacy/", "terms/",
 ];
 
 for (const locale of ["ar", "ja"] as const) {

@@ -35,7 +35,7 @@ export default function AboutPage() {
               </Reveal>
             ))}
             <Reveal delay={300}>
-              <GlowLink href="/founder" variant="ghost">{tf("founder")}: Md. Iqbal Hossain</GlowLink>
+              <GlowLink href="/profile" variant="ghost">{tf("profile")}</GlowLink>
             </Reveal>
           </div>
         </div>

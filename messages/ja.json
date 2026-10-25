@@ -44,12 +44,12 @@
     "solutionsTitle": "ソリューション",
     "companyTitle": "会社情報",
     "contactTitle": "お問い合わせ",
-    "founder": "創業者",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "location": "サウジアラビア・ダンマーム · 世界中のお客様に対応",
     "rights": "All rights reserved.",
-    "followUs": "フォローする"
+    "followUs": "フォローする",
+    "profile": "プロフィール：Md. Iqbal Hossain"
   },
   "CtaBand": {
     "eyebrow": "次のステップ",
@@ -1192,46 +1192,6 @@
       "alt": "書籍『Empire of Marketing』ベンガル語版の表紙（এম্পায়ার অব মার্কেটিং）Md. Iqbal Hossain著"
     }
   },
-  "Founder": {
-    "hero": {
-      "eyebrow": "創業者",
-      "name": "Md. Iqbal Hossain",
-      "role": "Empower of Marketing創業者 · 『Empire of Marketing』著者",
-      "intro": "成長は幸運なキャンペーンではなく、つながった仕組みから生まれる——そう信じるマーケターです。"
-    },
-    "about": [
-      "Iqbalはデジタルと従来型のマーケティングで6年以上の経験を持ち、世界中の50社以上のクライアントのビジネス成長を支援してきました。",
-      "専門はパフォーマンスマーケティング、Google・Meta・TikTokの広告運用、SEO、データ分析、コンバージョン改善。新たに事業を立ち上げたい創業者を、明確なステップごとのロードマップで指導しています。",
-      "キャリアはバングラデシュとサウジアラビアにまたがり、業務運営、事務管理、ITサポートの実務経験が、仕組みを重視する実践的なアプローチを形づくっています。A〜Zの実践マーケティングガイド『Empire of Marketing』の著者でもあります。"
-    ],
-    "expertiseTitle": "専門分野",
-    "expertise": [
-      "パフォーマンスマーケティング",
-      "Google・Meta・TikTok広告",
-      "SEO",
-      "GA4・GTM・Looker Studio",
-      "Tableauダッシュボード",
-      "コンバージョン改善",
-      "起業支援コーチング",
-      "従来型・フィールドマーケティング"
-    ],
-    "factsTitle": "ひと目で分かる実績",
-    "facts": [
-      {
-        "value": "6+",
-        "label": "年のマーケティング経験"
-      },
-      {
-        "value": "50+",
-        "label": "社の海外クライアント"
-      },
-      {
-        "value": "1",
-        "label": "冊の著書"
-      }
-    ],
-    "linksTitle": "つながる"
-  },
   "Privacy": {
     "title": "プライバシーポリシー",
     "updated": "最終更新日：2026年10月22日",
@@ -1373,10 +1333,6 @@
       "title": "書籍『Empire of Marketing』",
       "description": "Md. Iqbal Hossain著『Empire of Marketing』——A〜Zで学ぶ実践マーケティング・フィールドガイド。AmazonでKindle、ペーパーバック、ハードカバーを販売中。"
     },
-    "founder": {
-      "title": "Md. Iqbal Hossain — 創業者",
-      "description": "Empower of Marketing創業者であり『Empire of Marketing』著者のMd. Iqbal Hossain。デジタル・従来型マーケティングで6年以上の経験。"
-    },
     "privacy": {
       "title": "プライバシーポリシー",
       "description": "Empower of Marketingにおける情報の取扱いについて。"
@@ -1388,6 +1344,116 @@
     "notFound": {
       "title": "ページが見つかりません",
       "description": "このページは存在しません。"
+    },
+    "profile": {
+      "title": "Md. Iqbal Hossain — デジタルマーケティングスペシャリスト",
+      "description": "Md. Iqbal Hossainのプロフィール：パフォーマンスマーケティング、Google・Meta・TikTok広告、SEO、分析、CROで6年以上の経験を持つデジタルマーケティングスペシャリスト。海外クライアント50社以上。サウジアラビア・ダンマーム在住。"
     }
+  },
+  "Profile": {
+    "hero": {
+      "eyebrow": "プロフェッショナル・プロフィール",
+      "name": "Md. Iqbal Hossain",
+      "role": "デジタルマーケティングスペシャリスト · パフォーマンスマーケティング、SEO、グロース",
+      "intro": "広告運用、SEO、データ分析、コンバージョンの仕組みをつなげ、マーケティング予算を測定できる顧客獲得へと変えるお手伝いをしています。",
+      "location": "サウジアラビア・ダンマーム",
+      "open": "正社員のポジション・コンサルティング案件を受付中",
+      "photoAlt": "紺のスーツを着たデジタルマーケティングスペシャリストのMd. Iqbal Hossain",
+      "email": "メールを送る",
+      "chip1": "Google · Meta · TikTok広告",
+      "chip2": "GA4 · GTM · Looker Studio"
+    },
+    "facts": [
+      {
+        "value": "6+",
+        "label": "年のマーケティング経験"
+      },
+      {
+        "value": "50+",
+        "label": "社の海外クライアント"
+      },
+      {
+        "value": "2",
+        "label": "言語で出版した著書"
+      }
+    ],
+    "factsTitle": "ひと目で分かる実績",
+    "summaryTitle": "概要",
+    "summary": [
+      "デジタルと従来型のマーケティングで6年以上の経験を持ち、世界中の50社以上のクライアントと仕事をしてきたデジタルマーケティングスペシャリスト。",
+      "専門はパフォーマンスマーケティング、Google・Meta・TikTokの広告運用、SEO、データ分析、コンバージョン改善。すべての施策を計測・改善できるよう、トラッキング、レポート、ファネルを構築します。",
+      "バングラデシュとサウジアラビアで、業務運営、事務管理、ITサポートを含むキャリアを積み、仕組みを重視する実践的な働き方を身につけました。英語版とベンガル語版で出版した実践マーケティングガイド『Empire of Marketing』の著者です。"
+    ],
+    "skillsTitle": "主なスキル",
+    "skills": [
+      {
+        "title": "パフォーマンスマーケティング",
+        "text": "獲得単価、販売単価、広告費用対効果を軸に計画するGoogle・Meta・TikTok広告。"
+      },
+      {
+        "title": "SEO",
+        "text": "テクニカル・内部・ローカルSEO、キーワード調査、検索流入を生むコンテンツ。"
+      },
+      {
+        "title": "分析・トラッキング",
+        "text": "成果の発生源が分かるGA4、Googleタグマネージャー、Looker Studio、Tableauのダッシュボード。"
+      },
+      {
+        "title": "コンバージョン改善",
+        "text": "より多くの訪問者を見込み客・顧客に変えるランディングページ、ファネル、テスト。"
+      },
+      {
+        "title": "従来型・フィールドマーケティング",
+        "text": "実店舗で販売するビジネスのための印刷物、屋外広告、地域、WhatsAppキャンペーン。"
+      },
+      {
+        "title": "AIを活用したクリエイティブと動画",
+        "text": "AIツール、自動化、動画編集でマーケティングコンテンツをより速く制作。"
+      }
+    ],
+    "toolsTitle": "ツール",
+    "tools": [
+      "Google Ads",
+      "Meta Ads Manager",
+      "TikTok Ads",
+      "Google Analytics 4",
+      "Google Tag Manager",
+      "Looker Studio",
+      "Tableau",
+      "Search Console",
+      "Amadeus GDS"
+    ],
+    "experienceTitle": "経歴",
+    "experience": [
+      {
+        "role": "デジタルマーケティングスペシャリスト（フリーランス）",
+        "where": "リモート · 海外クライアント",
+        "points": [
+          "50社以上のクライアントのGoogle・Meta・TikTok広告を企画・運用。",
+          "見込み客と売上を追跡するための分析、タグ管理、レポートダッシュボードを構築。",
+          "SEOとコンバージョンのためにウェブサイトとランディングページを改善。",
+          "ステップごとのロードマップで新規事業オーナーの立ち上げを支援。"
+        ]
+      },
+      {
+        "role": "業務運営・事務管理・ITサポート",
+        "where": "サウジアラビア · バングラデシュ",
+        "points": [
+          "ハッジ・ウムラ巡礼の業務を支援。",
+          "事務管理とITサポートを担当。",
+          "倉庫・貨物取扱業務に従事。"
+        ]
+      }
+    ],
+    "certTitle": "研修",
+    "certs": [
+      "Amadeus GDS — 航空券発券・予約コース"
+    ],
+    "publicationsTitle": "著書",
+    "publication": "『Empire of Marketing — A〜Zで学ぶ実践マーケティング・フィールドガイド』（英語版・ベンガル語版、2026年）",
+    "servicesTitle": "提供できること",
+    "servicesSubtitle": "同じスキルを、企業向けのサービスとして。",
+    "contactTitle": "一緒に仕事をしましょう",
+    "contactText": "マーケティング職の採用をご検討中の方も、事業の成長でお困りの方も、お気軽にご連絡ください。すぐに返信します。"
   }
 }
