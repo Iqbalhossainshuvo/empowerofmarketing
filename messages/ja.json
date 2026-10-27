@@ -1662,6 +1662,94 @@
       "フィンテック",
       "iGaming",
       "デジタルサービス"
-    ]
+    ],
+    "portfolio": {
+      "cta": "ポートフォリオ",
+      "eyebrow": "ポートフォリオ",
+      "title": "実績紹介",
+      "subtitle": "私が構築・運用してきた戦略、監査、広告アカウントの実例です。各ケーススタディから資料全体をご覧いただけます。",
+      "casesTitle": "ケーススタディと計画書",
+      "view": "ケーススタディを見る",
+      "proofsTitle": "プラットフォーム運用実績",
+      "proofsSubtitle": "私が設定・運用している実際のアカウントのスクリーンショットです。画像をクリックすると拡大表示されます。",
+      "open": "画像を開く",
+      "close": "閉じる",
+      "prev": "前へ",
+      "next": "次へ",
+      "cases": {
+        "tekla": {
+          "tag": "戦略",
+          "title": "Tekla — デジタルマーケティング戦略",
+          "text": "B2Bソフトウェアブランド向けのフルファネル・デジタルマーケティング戦略とケーススタディ。"
+        },
+        "budget": {
+          "tag": "メディアプラン",
+          "title": "デジタルマーケティング予算計画",
+          "text": "Facebook広告の予算シナリオ（$2K・$5K・$10K）とCPC、コンバージョン、CPA、利益の予測。"
+        },
+        "seoAudit": {
+          "tag": "SEO",
+          "title": "テクニカルSEO監査",
+          "text": "トラフィック、権威性、信頼性、インデックス、サイトマップ、Search Console設定を網羅したSEO監査。"
+        },
+        "henrys": {
+          "tag": "コンテンツ",
+          "title": "Henry's — コンテンツマーケティング計画",
+          "text": "カナダのカメラ専門店Henry'sのためのコンテンツ計画：ターゲット、チャネル、編集カレンダー。"
+        },
+        "britishCouncil": {
+          "tag": "監査と計画",
+          "title": "British Council IELTS — 監査と計画",
+          "text": "IELTS受験申込を増やすためのデジタルマーケティング監査と成長計画。"
+        },
+        "homeward": {
+          "tag": "監査と計画",
+          "title": "Homeward Agencies — 監査と計画",
+          "text": "不動産会社向けの検索・SNS・広告にわたるデジタルマーケティング監査と計画。"
+        }
+      },
+      "proofs": {
+        "ga4": {
+          "title": "Google アナリティクス 4",
+          "caption": "レポート、コンバージョン、リアルタイム計測"
+        },
+        "googleAds": {
+          "title": "Google 広告",
+          "caption": "広告グループ、入札、コンバージョン率"
+        },
+        "merchant": {
+          "title": "Google Merchant Center",
+          "caption": "有効商品2,173件、フィード診断"
+        },
+        "searchConsole": {
+          "title": "Google Search Console",
+          "caption": "クリック2.82K・表示回数342K"
+        },
+        "pixel": {
+          "title": "Facebook ピクセル・イベント・CAPI",
+          "caption": "268キャンペーン・92万回以上の表示"
+        },
+        "gtm": {
+          "title": "Google タグマネージャー",
+          "caption": "GA4、広告コンバージョン、リマーケティングタグ"
+        },
+        "maps": {
+          "title": "Google ビジネスプロフィール",
+          "caption": "ローカル掲載、口コミ、マップでの露出"
+        },
+        "email": {
+          "title": "メールマーケティング",
+          "caption": "配信率98.55%・開封率50.37%・クリック率12.87%"
+        },
+        "facebookAds": {
+          "title": "Facebook 広告",
+          "caption": "メッセージ、エンゲージメント、販売キャンペーン"
+        },
+        "shopify": {
+          "title": "Shopify ストア＋GA4",
+          "caption": "EC購入と売上のトラッキング"
+        }
+      }
+    }
   }
 }

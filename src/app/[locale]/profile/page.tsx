@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import {
   ArrowUpRight,
   Award,
+  FolderOpen,
   BarChart3,
   Bot,
   BriefcaseBusiness,
@@ -27,6 +28,8 @@ import { Illustration } from "@/components/ui/Illustration";
 import { BookCover, covers } from "@/components/pages/BookMockup";
 import { WhatsAppIcon } from "@/components/layout/WhatsAppIcon";
 import { JsonLd } from "@/components/JsonLd";
+import { ProofGallery } from "@/components/pages/ProofGallery";
+import { caseStudies, platformProofs, portfolioImage } from "@/content/portfolio";
 
 export function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   return metaFor(params, "profile", "profile/");
@@ -48,6 +51,14 @@ export default function ProfilePage() {
   const certs = t.raw("certs") as string[];
   const langs = t.raw("languages") as { name: string; level: string }[];
   const industries = t.raw("industries") as string[];
+  const tp = (k: string) => t(`portfolio.${k}`);
+  const proofs = platformProofs.map((p) => ({
+    image: portfolioImage(p.image),
+    w: p.w,
+    h: p.h,
+    title: tp(`proofs.${p.slug}.title`),
+    caption: tp(`proofs.${p.slug}.caption`),
+  }));
   const skillIcons = [Target, Search, BarChart3, MousePointerClick, Store, Bot];
   const links = [
     { label: "LinkedIn", href: site.social.linkedin },
@@ -102,6 +113,9 @@ export default function ProfilePage() {
             <Reveal immediate delay={320} className="mt-8 flex flex-wrap gap-3">
               <GlowAnchor href={mailtoUrl(t("contactTitle"))} icon={<Mail aria-hidden className="size-4" />}>
                 {t("hero.email")}
+              </GlowAnchor>
+              <GlowAnchor variant="ghost" href="#portfolio" icon={<FolderOpen aria-hidden className="size-4" />}>
+                {tp("cta")}
               </GlowAnchor>
               {links.map((l) => (
                 <GlowAnchor key={l.label} variant="ghost" href={l.href} target="_blank" rel="noopener" icon={<ArrowUpRight aria-hidden className="size-4" />}>
@@ -167,6 +181,40 @@ export default function ProfilePage() {
               </Reveal>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* Portfolio: case studies + platform proof */}
+      <section id="portfolio" aria-labelledby="portfolio-title" className="section scroll-mt-24">
+        <div className="container-x" data-testid="portfolio">
+          <div id="portfolio-title"><SectionHeading eyebrow={tp("eyebrow")} title={tp("title")} subtitle={tp("subtitle")} /></div>
+
+          <h3 className="mt-14 text-xl font-semibold text-white">{tp("casesTitle")}</h3>
+          <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3" data-testid="case-studies">
+            {caseStudies.map((c, i) => (
+              <Reveal as="li" key={c.slug} variant="rise" delay={(i % 3) * 90}>
+                <a href={c.href} target="_blank" rel="noopener" className="glass glow-edge group flex h-full flex-col overflow-hidden rounded-3xl">
+                  <span className="relative block aspect-[16/10] overflow-hidden bg-white">
+                    {/* eslint-disable-next-line @next/next/no-img-element -- static export, pre-sized */}
+                    <img src={portfolioImage(c.image)} alt={tp(`cases.${c.slug}.title`)} width={c.w} height={c.h} loading="lazy" decoding="async" className="size-full object-cover object-left-top transition-transform duration-700 ease-out-expo group-hover:scale-[1.05]" />
+                    <span className="absolute start-4 top-4 rounded-full bg-ink-950/85 px-3 py-1 text-xs font-semibold text-mint backdrop-blur">{tp(`cases.${c.slug}.tag`)}</span>
+                  </span>
+                  <span className="flex flex-1 flex-col border-t border-white/10 p-6">
+                    <span className="text-lg font-semibold text-white">{tp(`cases.${c.slug}.title`)}</span>
+                    <span className="mt-2 flex-1 text-sm text-muted">{tp(`cases.${c.slug}.text`)}</span>
+                    <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-mint group-hover:underline">
+                      {tp("view")}
+                      <ArrowUpRight aria-hidden className="flip-rtl size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                    </span>
+                  </span>
+                </a>
+              </Reveal>
+            ))}
+          </ul>
+
+          <h3 className="mt-20 text-xl font-semibold text-white">{tp("proofsTitle")}</h3>
+          <p className="mt-2 max-w-2xl text-muted">{tp("proofsSubtitle")}</p>
+          <ProofGallery items={proofs} labels={{ open: tp("open"), close: tp("close"), prev: tp("prev"), next: tp("next") }} />
         </div>
       </section>
 

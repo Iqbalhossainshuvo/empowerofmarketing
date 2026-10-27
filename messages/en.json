@@ -1662,6 +1662,94 @@
       "FinTech",
       "iGaming",
       "Digital services"
-    ]
+    ],
+    "portfolio": {
+      "cta": "Portfolio",
+      "eyebrow": "Portfolio",
+      "title": "Selected work",
+      "subtitle": "Real strategies, audits and campaign accounts I have built and managed — open any case study to see the full document.",
+      "casesTitle": "Case studies & plans",
+      "view": "View case study",
+      "proofsTitle": "Hands-on platform work",
+      "proofsSubtitle": "Screenshots from live accounts I set up and manage. Click any image to see it full size.",
+      "open": "Open image",
+      "close": "Close",
+      "prev": "Previous",
+      "next": "Next",
+      "cases": {
+        "tekla": {
+          "tag": "Strategy",
+          "title": "Tekla — Digital Marketing Strategy",
+          "text": "Full-funnel digital marketing strategy and case study for a B2B software brand."
+        },
+        "budget": {
+          "tag": "Media planning",
+          "title": "Digital Marketing Budget Plan",
+          "text": "Facebook Ads budget scenarios ($2K, $5K, $10K) with CPC, conversions, CPA and profit forecasts."
+        },
+        "seoAudit": {
+          "tag": "SEO",
+          "title": "SEO Technical Audit",
+          "text": "Technical SEO audit covering traffic, authority, trust, indexing, sitemap, robots.txt and Search Console setup."
+        },
+        "henrys": {
+          "tag": "Content",
+          "title": "Henry's — Content Marketing Plan",
+          "text": "Content marketing plan for Henry's, Canada's camera retailer: audiences, channels and editorial calendar."
+        },
+        "britishCouncil": {
+          "tag": "Audit & plan",
+          "title": "British Council IELTS — Audit & Plan",
+          "text": "Digital marketing audit and growth plan to drive IELTS test registrations."
+        },
+        "homeward": {
+          "tag": "Audit & plan",
+          "title": "Homeward Agencies — Audit & Plan",
+          "text": "Digital marketing audit and plan for a real-estate agency across search, social and ads."
+        }
+      },
+      "proofs": {
+        "ga4": {
+          "title": "Google Analytics 4",
+          "caption": "Reports, conversions and real-time tracking"
+        },
+        "googleAds": {
+          "title": "Google Ads",
+          "caption": "Ad groups, bidding and conversion rates"
+        },
+        "merchant": {
+          "title": "Google Merchant Center",
+          "caption": "2,173 active products, feed diagnostics"
+        },
+        "searchConsole": {
+          "title": "Google Search Console",
+          "caption": "2.82K clicks · 342K impressions"
+        },
+        "pixel": {
+          "title": "Facebook Pixel, Events & CAPI",
+          "caption": "268 campaigns · 920K+ impressions"
+        },
+        "gtm": {
+          "title": "Google Tag Manager",
+          "caption": "GA4, Ads conversion and remarketing tags"
+        },
+        "maps": {
+          "title": "Google Business Profile",
+          "caption": "Local listing, reviews and Maps visibility"
+        },
+        "email": {
+          "title": "Email Marketing",
+          "caption": "98.55% delivery · 50.37% open · 12.87% click"
+        },
+        "facebookAds": {
+          "title": "Facebook Ads",
+          "caption": "Messaging, engagement and sales campaigns"
+        },
+        "shopify": {
+          "title": "Shopify Store + GA4",
+          "caption": "E-commerce purchases and revenue tracking"
+        }
+      }
+    }
   }
 }

@@ -47,7 +47,7 @@ for (const locale of ["en", "ar", "ja"] as const) {
 // Brand names and other text that legitimately stays the same in every language.
 // Product names, company names and official certificate titles stay in their original form.
 const keepsOriginal = /^Profile\.(tools|certs|experience\[\d+\]\.org)/;
-const sameEverywhere = new Set(["Empower of Marketing", "Md. Iqbal Hossain", "GA4 · GTM · Looker Studio"]);
+const sameEverywhere = new Set(["Empower of Marketing", "Md. Iqbal Hossain", "GA4 · GTM · Looker Studio", "Google Merchant Center", "Google Search Console"]);
 
 for (const locale of ["ar", "ja"] as const) {
   test(`${locale} copy is actually translated`, () => {
